@@ -2485,6 +2485,16 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       return `<span class="arabic-inline-bracketed" style="display: inline !important; unicode-bidi: isolate !important; color: var(--gold-light, #fde047) !important; font-family: 'Amiri', serif !important; font-size: 1.15em !important; font-style: normal !important; white-space: nowrap !important;">(<span dir="rtl" style="unicode-bidi: isolate;">${cleanAr}</span>)</span>`;
     });
+    // Balut sebarang teks Arab bebas di luar tag HTML dengan font Amiri Gold
+    const tokens = out.split(/(<[^>]+>)/g);
+    const arRegex = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u064B-\u0652]+(?:\s+[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u064B-\u0652]+)*/g;
+    out = tokens.map(token => {
+      if (token.startsWith('<') && token.endsWith('>')) return token;
+      return token.replace(arRegex, function (ar) {
+        if (!/[\u0600-\u06FF]/.test(ar)) return ar;
+        return `<span class="arabic-inline arabic-text-amiri-gold" dir="rtl" style="font-family: 'Amiri', serif !important; color: var(--gold-light, #fde047) !important; font-style: normal !important; font-size: 1.18em !important; unicode-bidi: isolate;">${ar.trim()}</span>`;
+      });
+    }).join('');
     return out;
   }
 
