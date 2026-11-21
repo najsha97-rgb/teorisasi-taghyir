@@ -1,12 +1,12 @@
-﻿const CACHE_NAME = 'tanzir-v100-edisi-sempurna-210-topik';
+const CACHE_NAME = 'tanzir-v200-force-update-fresh';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html',
+  './index.html?v=20261121_v200',
   './manifest.json',
-  './css/style.css',
-  './js/app.js',
-  './data/tanzir_data.js',
-  './data/tanzir_quotes.js',
+  './css/style.css?v=20261121_v200',
+  './js/app.js?v=20261121_v200',
+  './data/tanzir_data.js?v=20261121_v200',
+  './data/tanzir_quotes.js?v=20261121_v200',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
@@ -15,10 +15,10 @@ const ASSETS_TO_CACHE = [
 ];
 
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS_TO_CACHE))
   );
-  self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
@@ -27,15 +27,12 @@ self.addEventListener('activate', (event) => {
       return Promise.all(
         keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
       );
-    })
+    }).then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      return cachedResponse || fetch(event.request);
-    })
+    fetch(event.request).catch(() => caches.match(event.request))
   );
 });
