@@ -1,17 +1,19 @@
-﻿const CACHE_NAME = 'tanzir-v240-modal-complete';
+const CACHE_NAME = 'tanzir-v250-imej2-exact';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v240_modal_complete',
+  './index.html?v=20261121_v250_imej2_exact',
   './manifest.json',
-  './css/style.css?v=20261121_v240_modal_complete',
-  './js/app.js?v=20261121_v240_modal_complete',
-  './data/tanzir_data.js?v=20261121_v240_modal_complete',
-  './data/tanzir_quotes.js?v=20261121_v240_modal_complete',
+  './css/style.css?v=20261121_v250_imej2_exact',
+  './js/app.js?v=20261121_v250_imej2_exact',
+  './data/tanzir_data.js?v=20261121_v250_imej2_exact',
+  './data/tanzir_quotes.js?v=20261121_v250_imej2_exact',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './images/cover_revitalized_vibrant_tanzir.jpg',
-  './images/divider_illustration_tanzir.jpg'
+  './images/divider_illustration_tanzir.jpg',
+  './Gagasan_Ummah_Fadhilah_Kuasa_Nasional_dan_Tetralogi_Al-Rasyid.pdf',
+  './Sumbangan_Tanzir_Al_Taghyir_Dalam_Ummah_Fadhilah_Kuasa_Nasional_dan_PBI.pdf'
 ];
 
 self.addEventListener('install', (event) => {

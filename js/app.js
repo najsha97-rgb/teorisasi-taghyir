@@ -1,12 +1,12 @@
 // === Global Early Modal Trigger Helpers ===
-window.openPeradabanModal = window.openPeradabanModal || function() {
+window.openPeradabanModal = window.openPeradabanModal || function () {
   const m = document.getElementById('modalPeradabanSpotlight');
   if (m) {
     m.style.display = 'flex';
     document.body.style.overflow = 'hidden';
   }
 };
-window.togglePeradabanModal = window.togglePeradabanModal || function(show) {
+window.togglePeradabanModal = window.togglePeradabanModal || function (show) {
   const m = document.getElementById('modalPeradabanSpotlight');
   if (m) {
     m.style.display = show ? 'flex' : 'none';
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const heroCard = document.getElementById('heroCard');
   const readerContainer = document.getElementById('readerContainer');
   const contentBody = document.getElementById('contentBody');
-  
+
   const layerBtnLengkap = document.getElementById('btnLayerLengkap');
   const layerBtnRingkasan = document.getElementById('btnLayerRingkasan');
   const layerBtnHikmah = document.getElementById('btnLayerHikmah');
@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Chapter Header Button
       const headerBtn = document.createElement('button');
       headerBtn.className = 'chapter-header-btn';
-      
+
       let badgeHtml = ch.number.replace('BAB ', '').replace('Bab ', 'B');
       let displayTitle = ch.title;
       if (ch.number.includes('EPILOG') || ch.number.includes('EPIGRAF')) {
@@ -289,7 +289,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const subLi = document.createElement('li');
         const subBtn = document.createElement('button');
         subBtn.className = `subtopic-nav-btn ${chIdx === state.currentChapter && sIdx === state.currentSubtopic ? 'active-sub' : ''}`;
-        
+
         // Bersihkan sebarang bullet atau simbol awalan agar baris kedua selari dengan baris pertama
         let cleanTitleForMenu = (sub.menu_title || sub.title || '')
           .replace(/^[•\*\-\s]+/, '')
@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (currentNavItem) {
       currentNavItem.classList.add('open');
     }
-  }  
+  }
   // Global Event Delegation for Interactive Jump Links (e.g. Prolog <-> Keterangan)
   document.addEventListener('click', (e) => {
     const jumpBtn = e.target.closest('[data-jump-ch]');
@@ -361,7 +361,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // 5. Navigate to Chapter and Subtopic
-  window.navigateTo = function(chIdx, sIdx, targetLayer = null) { return navigateTo(chIdx, sIdx, targetLayer); };
+  window.navigateTo = function (chIdx, sIdx, targetLayer = null) { return navigateTo(chIdx, sIdx, targetLayer); };
   function navigateTo(chIdx, sIdx, targetLayer = null) {
     state.currentChapter = chIdx;
     state.currentSubtopic = sIdx;
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btnChModeRingkasan.classList.toggle('active', state.layer === 'layer2');
       btnChModeLengkap.setAttribute('aria-selected', state.layer === 'layer1');
       btnChModeRingkasan.setAttribute('aria-selected', state.layer === 'layer2');
-      
+
       const ringkasanLabelEl = btnChModeRingkasan.querySelector('.mode-label');
       if (ringkasanLabelEl) {
         ringkasanLabelEl.textContent = 'Ringkasan Subtajuk';
@@ -482,7 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
       cleanSubTitleForBadge = 'Pengenalan & Permulaan Bab';
     }
     const shortBadgeSubTitle = cleanSubTitleForBadge.length > 32 ? cleanSubTitleForBadge.substring(0, 30) + '...' : cleanSubTitleForBadge;
-    
+
     if (state.layer === 'layer1') {
       modeBadge.textContent = `Versi Lengkap (${sub.paragraphs ? sub.paragraphs.length : 0} Perenggan${subFnCount > 0 ? ` & ${subFnCount} Nota Kaki` : ''})`;
     } else {
@@ -574,7 +574,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
 
           const p = document.createElement('p');
-          
+
           // Check if contains Arabic
           const arabicChars = (para.match(/[\u0600-\u06FF]/g) || []).length;
           const latinChars = (para.match(/[a-zA-Z]/g) || []).length;
@@ -656,15 +656,15 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="footnotes-list-box">
               ${sub.footnotes.map(fn => {
-                const fId = (typeof fn === 'object' && fn !== null) ? fn.id : fn;
-                let fText = (typeof fn === 'object' && fn !== null) ? (fn.text || '') : '';
-                if (!fText && ch.footnotes) {
-                  const found = ch.footnotes.find(f => (typeof f === 'object' ? f.id : f) == fId);
-                  if (found) fText = (typeof found === 'object') ? found.text : found;
-                }
-                const bolded = fText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-                const formattedBody = formatSmartItalicHtml(bolded);
-                return `
+            const fId = (typeof fn === 'object' && fn !== null) ? fn.id : fn;
+            let fText = (typeof fn === 'object' && fn !== null) ? (fn.text || '') : '';
+            if (!fText && ch.footnotes) {
+              const found = ch.footnotes.find(f => (typeof f === 'object' ? f.id : f) == fId);
+              if (found) fText = (typeof found === 'object') ? found.text : found;
+            }
+            const bolded = fText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            const formattedBody = formatSmartItalicHtml(bolded);
+            return `
                 <div id="fn-item-${fId}" class="footnote-card">
                   <div class="fn-card-topbar">
                     <button type="button" class="fn-card-badge-btn" data-fn-id="${fId}" aria-label="Kembali ke perenggan [${fId}] untuk sambung bacaan" title="Kembali ke perenggan [${fId}] (Klik untuk sambung bacaan)">
@@ -679,7 +679,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="fn-card-body">${formattedBody}</div>
                 </div>
               `;
-              }).join('')}
+          }).join('')}
             </div>
           `;
 
@@ -766,12 +766,12 @@ document.addEventListener('DOMContentLoaded', () => {
       let summaryRaw = '';
 
       if (isSubScope) {
-        summaryRaw = (sub && sub.summary && sub.summary.trim() !== '') 
-          ? sub.summary 
+        summaryRaw = (sub && sub.summary && sub.summary.trim() !== '')
+          ? sub.summary
           : (ch && ch.summary && ch.summary.trim() !== '' ? ch.summary : '');
       } else {
-        summaryRaw = (ch && ch.summary && ch.summary.trim() !== '') 
-          ? ch.summary 
+        summaryRaw = (ch && ch.summary && ch.summary.trim() !== '')
+          ? ch.summary
           : (sub && sub.summary && sub.summary.trim() !== '' ? sub.summary : '');
       }
 
@@ -801,7 +801,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Helper: Format hanya perkataan Arab dengan Amiri Gold tanpa membuang jarak perkataan Latin
         const formatArabicInlineAmiri = (str, fontSize = '1.25em') => {
           const arRegex = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u064B-\u0652]+(?:\s+[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u064B-\u0652]+)*/g;
-          return str.replace(arRegex, function(ar) {
+          return str.replace(arRegex, function (ar) {
             if (!/[\u0600-\u06FF]/.test(ar)) return ar;
             return `<span class="arabic-text-amiri-gold" dir="rtl" style="font-family: 'Amiri', serif !important; color: var(--gold-light, #fde047) !important; font-style: normal !important; font-weight: 700 !important; font-size: ${fontSize} !important; display: inline-block;">${ar.trim()}</span>`;
           });
@@ -809,13 +809,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Format subheaders bertanda ### *(Tajuk Transliterasi - Teks Arab)*
         // Asingkan teks Arab supaya fon Amiri Gold, TEGAK (tidak condong/italic)
-        html = html.replace(/^###\s*\*?\((.*?)\)\*?\s*$/gm, function(match, inner) {
+        html = html.replace(/^###\s*\*?\((.*?)\)\*?\s*$/gm, function (match, inner) {
           let cleanInner = inner.replace(/[ \t]*\|[ \t]*Halaman\s+Asal[ \t\d–—\-]+/gi, '');
           let formattedInner = formatArabicInlineAmiri(cleanInner, '1.25em');
           return `<div class="summary-subheading-banner"><span class="subheading-banner-icon">🎯</span> <span class="subheading-banner-text">${formattedInner}</span></div>`;
         });
 
-        html = html.replace(/^###\s*(.*?)$/gm, function(match, inner) {
+        html = html.replace(/^###\s*(.*?)$/gm, function (match, inner) {
           let cleanInner = inner.replace(/[ \t]*\|[ \t]*Halaman\s+Asal[ \t\d–—\-]+/gi, '');
           let formattedInner = formatArabicInlineAmiri(cleanInner, '1.25em');
           return '<h4 style="color: var(--gold-light, #fde047); margin-top: 1.2rem; margin-bottom: 0.4rem; font-size: 1.05rem; font-weight: 700;">' + formattedInner + '</h4>';
@@ -825,7 +825,7 @@ document.addEventListener('DOMContentLoaded', () => {
         html = html.replace(/\*\*(.*?)\*\*/g, '<strong style="color: var(--gold-light);">$1</strong>');
 
         // Format italic sambil melindungi teks Arab agar TIDAK menjadi condong dan TIDAK memakan bullet '*' di pangkal baris
-        html = html.replace(/(?<!\*)\*(?!\s)([^\*\r\n]+?)(?<!\s)\*(?!\*)/g, function(match, p1) {
+        html = html.replace(/(?<!\*)\*(?!\s)([^\*\r\n]+?)(?<!\s)\*(?!\*)/g, function (match, p1) {
           if (/[\u0600-\u06FF]/.test(p1)) {
             return formatArabicInlineAmiri(p1, '1.15em');
           }
@@ -1049,7 +1049,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Paparan Jalur Mutiara Hikmah Bab / Bahagian Ini (jika ada mutiara hikmah berkaitan)
-    const currentSubQuotes = allHikmahQuotes.filter(q => 
+    const currentSubQuotes = allHikmahQuotes.filter(q =>
       (q.subtopicId && q.subtopicId === sub.id) ||
       (q.chapterIndex === state.currentChapter && q.subtopicIndex === state.currentSubtopic)
     );
@@ -1141,7 +1141,7 @@ document.addEventListener('DOMContentLoaded', () => {
       element,
       NodeFilter.SHOW_TEXT,
       {
-        acceptNode: function(node) {
+        acceptNode: function (node) {
           if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
           const parent = node.parentElement;
           if (parent && (
@@ -1368,7 +1368,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const names = [
       'Imam Hasan al-Banna', 'Hasan al-Banna', 'Sayid Qutb',
       'Umar bin al-Khattab', 'Abu al-Dardak', "Abu ad-Darda'",
-      'Ibn al-Qayyim', 'Ibnu Taimiyah', 
+      'Ibn al-Qayyim', 'Ibnu Taimiyah',
       "Yahya bin Mu'az", 'Abdullah bin Wahab', 'al-Ma’mun',
       'Rasulullah SAW', 'Nabi SAW',
       'Iqbal', 'Muhammad Iqbal', 'Hasan al-Hudhaibi'
@@ -1419,7 +1419,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const ch = data.chapters[state.currentChapter];
-    
+
     // Check Previous
     if (state.currentSubtopic > 0) {
       prevSubBtn.disabled = false;
@@ -2014,7 +2014,7 @@ document.addEventListener('DOMContentLoaded', () => {
     filtered.forEach(item => {
       const card = document.createElement('div');
       card.className = 'hikmah-card';
-      
+
       const chIdx = (typeof item.chapterIndex === 'number') ? item.chapterIndex : (Math.max(0, (item.chapter_id || 1) - 1));
       const sIdx = (typeof item.subtopicIndex === 'number') ? item.subtopicIndex : 0;
       const chNum = item.chapterNumber || (data.chapters[chIdx] ? data.chapters[chIdx].number : 'Bab');
@@ -2181,7 +2181,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let out = str.replace(/\*(.*?)\*/g, (match, p1) => {
       if (/[\u0600-\u06FF]/.test(p1)) {
         const arWordRegex = /[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u064B-\u0652]+(?:\s+[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\u064B-\u0652]+)*/g;
-        return p1.replace(arWordRegex, function(ar) {
+        return p1.replace(arWordRegex, function (ar) {
           if (!/[\u0600-\u06FF]/.test(ar)) return ar;
           return `<span class="arabic-text-amiri-gold" dir="rtl" style="font-family: 'Amiri', serif !important; color: var(--gold-light, #fde047) !important; font-style: normal !important; font-weight: 700 !important; font-size: 1.15em !important; display: inline-block;">${ar.trim()}</span>`;
         });
@@ -2200,7 +2200,7 @@ document.addEventListener('DOMContentLoaded', () => {
   navigateTo(0, 0);
 
 
-  
+
 
   // === Open / Close Peradaban Spotlight Modal (Ummah Fadhilah & PBI) ===
   function togglePeradabanModal(show) {
