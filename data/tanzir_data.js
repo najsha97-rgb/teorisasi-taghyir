@@ -3885,66 +3885,32 @@ window.tanzirData = {
           "id": "c10_s6",
           "title": "📌 4. ANALISIS KELOMPONGAN DAN JURANG REALITI LAPANGAN (*GAPS ANALYSIS: 2012 VS 2026*)",
           "paragraphs": [
-            "Meskipun teori Syeikh al-Rasyid amat cemerlang di atas kertas, perjalanan sejarah dari tahun 2012 hingga 2026 telah mendedahkan beberapa **kelompongan (*gaps*)** dan jurang pemisah antara idealisme teori dengan realiti lapangan yang amat getir:"
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c10_s7",
-          "title": "1. Kelompongan Menjinakkan Institusi Tentera & *Deep State*",
-          "paragraphs": [
+            "Meskipun teori Syeikh al-Rasyid amat cemerlang di atas kertas, perjalanan sejarah dari tahun 2012 hingga 2026 telah mendedahkan beberapa **kelompongan (*gaps*)** dan jurang pemisah antara idealisme teori dengan realiti lapangan yang amat getir:",
+            "### 1. Menjinakkan Institusi Tentera & *Deep State*",
             "* **Teori 2012:** Syeikh mengandaikan bahawa pihak tentera boleh dineutralkan (*tahyīd al-jaysh*) dengan diplomasi yang bijak, membatasi peranan mereka hanya kepada keselamatan sempadan, dan sekiranya berlaku rampasan kuasa, gelombang demonstrasi jalanan rakyat akan membatalkannya.",
             "* **Realiti 2013–2026:** Tragedi kudeta Mesir 2013, pembunuhan beramai-ramai di Medan Rabaa, serta perang di Sudan membuktikan bahawa aparatus keselamatan dan *deep state* tidak pernah tunduk kepada demonstrasi damai. Kasta tentera sanggup membantai ribuan rakyat dan memenjarakan puluhan ribu kader demi mempertahankan kepentingan ekonomi dan monopoli kuasa mereka.",
-            "* **Kelompongan:** Teori *Tanẓīr* tidak menyediakan **doktrin sekuriti balas (*counter-security doctrine*)** dan instrumen pencegahan (*deterrence*) yang kukuh sekiranya musuh menggunakan kekerasan melampau di luar lunas perlembagaan."
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c10_s8",
-          "title": "2. Kelompongan Kenaifan Diplomasi dengan Imperialisme Barat",
-          "paragraphs": [
+            "* **Jurang Realiti:** Teori *Tanẓīr* tidak menyediakan **doktrin sekuriti balas (*counter-security doctrine*)** dan instrumen pencegahan (*deterrence*) yang kukuh sekiranya musuh menggunakan kekerasan melampau di luar lunas perlembagaan.",
+            "### 2. Kenaifan Diplomasi dengan Imperialisme Barat",
             "* **Teori 2012:** Syeikh optimis bahawa Amerika dan Eropah boleh diyakinkan bahawa gerakan Islam tidak mengancam kepentingan minyak mereka dan komited menolak terorisme, lalu kuasa Barat akan menerima peralihan demokrasi di dunia Arab.",
             "* **Realiti 2013–2026:** Peristiwa rampasan kuasa Mesir yang direstui Barat, dan kemuncaknya genosid Gaza (2023–2026) pasca-Taufan al-Aqsa, membongkar hakikat sebenar: bahawa kuasa imperialis Barat tidak akan sesekali membenarkan sebuah kerajaan Islam berdaulat tegak di Timur Tengah, walau sebersih mana sekalipun mereka memenangi pilihan raya demokrasi.",
-            "* **Kelompongan:** Mengharapkan ihsan atau diplomasi damai dengan kuasa unipolar Barat tanpa membina benteng pakatan multipolar dan keupayaan pertahanan mandiri adalah suatu kenaifan strategi."
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c10_s9",
-          "title": "3. Kelompongan Pergeseran Geopolitik Multipolar & De-Dolarisasi (2026)",
-          "paragraphs": [
+            "* **Jurang Realiti:** Mengharapkan ihsan atau diplomasi damai dengan kuasa unipolar Barat tanpa membina benteng pakatan multipolar dan keupayaan pertahanan mandiri adalah suatu kenaifan strategi.",
+            "### 3. Pergeseran Geopolitik Multipolar & De-Dolarisasi (2026)",
             "* **Teori 2012:** Ditulis dalam suasana hegemoni tunggal Amerika (*unipolar world*), di mana penjualan minyak kepada Barat masih dianggap instrumen penenang diplomasi.",
             "* **Realiti 2026:** Dunia hari ini telah berganjak ke era **multipolar**. Kebangkitan pakatan BRICS, pergeseran kuasa ekonomi ke Asia Timur, kejatuhan dominasi petrodolar, serta kemerosotan pengaruh ketenteraan Barat membuka ruang pakatan baharu yang tidak pernah wujud pada tahun 2012.",
-            "* **Kelompongan:** Teori *Tanẓīr* belum merangkumi strategi memanfaatkan ruang persaingan multipolar (China, Rusia, Global South) bagi mengimbangi sekatan ekonomi dan embargo antarabangsa."
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c10_s10",
-          "title": "4. Kelompongan Medan Siber: Dari Revolusi Media Sosial 2011 ke Era AI Generatif 2026",
-          "paragraphs": [
+            "* **Jurang Realiti:** Teori *Tanẓīr* belum merangkumi strategi memanfaatkan ruang persaingan multipolar (China, Rusia, Global South) bagi mengimbangi sekatan ekonomi dan embargo antarabangsa.",
+            "### 4. Medan Siber: Dari Revolusi Media Sosial 2011 ke Era AI Generatif 2026",
             "* **Teori 2012:** Syeikh menekankan televisyen satelit, akhbar harian, dan platform laman web (Facebook/Twitter) yang dipimpin oleh ratusan anak muda jalanan.",
             "* **Realiti 2026:** Media sosial arus perdana kini menjadi zon perang algoritma yang dikawal ketat oleh konglomerat teknologi pro-zionis (*shadowban*, penyekatan capaian, dan penapisan digital). Lebih dahsyat, era 2026 didominasi oleh **Kecerdasan Buatan (Generative AI), pemalsuan mendalam (*deepfake*), pengawasan biometrik satelit, dan perang kognitif automatik**.",
-            "* **Kelompongan:** Ketiadaan doktrin **Kedaulatan Data (*Data Sovereignty*)** dan pembangunan teknologi perisikan kecerdasan buatan (*Sovereign AI*) yang berdikari daripada platform hegemoni musuh."
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c10_s11",
-          "title": "5. Kelompongan Pengurusan Sektarianisme vs Tuntutan Fiqh Pakatan (*Tahaluf*)",
-          "paragraphs": [
+            "* **Jurang Realiti:** Ketiadaan doktrin **Kedaulatan Data (*Data Sovereignty*)** dan pembangunan teknologi perisikan kecerdasan buatan (*Sovereign AI*) yang berdikari daripada platform hegemoni musuh.",
+            "### 5. Pengurusan Sektarianisme vs Tuntutan Fiqh Pakatan (*Tahaluf*)",
             "* **Teori 2012:** Mengambil pendirian menolak sekeras-kerasnya sebarang bentuk kerjasama dengan Iran berikutan trauma perang saudara di Iraq dan krisis Syria pasca-2011.",
             "* **Realiti 2026:** Pasca-Taufan al-Aqsa 2023–2026, medan pertempuran sebenar telah memaksa terbentuknya pakatan taktikal pertahanan (*Tahaluf Siyasi wa 'Askari*) menentang hegemoni zionis-Amerika. Walaupun jurang aqidah Ahli Sunnah Wal Jamaah kekal terpelihara, keengganan berdialog secara strategik dalam isu pembebasan Palestin boleh melemahkan barisan hadapan umat.",
-            "* **Kelompongan:** Memerlukan fiqh keutamaan (*Fiqh al-Awlawiyyāt*) yang lebih anjal: membezakan antara pertahanan aqidah di medan tarbiah dengan pakatan geostrategik di medan pertembungan antarabangsa.",
+            "* **Jurang Realiti:** Memerlukan fiqh keutamaan (*Fiqh al-Awlawiyyāt*) yang lebih anjal: membezakan antara pertahanan aqidah di medan tarbiah dengan pakatan geostrategik di medan pertembungan antarabangsa.",
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "",
+          "content": "Meskipun teori Syeikh al-Rasyid amat cemerlang di atas kertas, perjalanan sejarah dari tahun 2012 hingga 2026 telah mendedahkan beberapa **kelompongan (*gaps*)** dan jurang pemisah antara idealisme teori dengan realiti lapangan yang amat getir:\n\n### 1. Menjinakkan Institusi Tentera & *Deep State*\n\n* **Teori 2012:** Syeikh mengandaikan bahawa pihak tentera boleh dineutralkan (*tahyīd al-jaysh*) dengan diplomasi yang bijak, membatasi peranan mereka hanya kepada keselamatan sempadan, dan sekiranya berlaku rampasan kuasa, gelombang demonstrasi jalanan rakyat akan membatalkannya.\n\n* **Realiti 2013–2026:** Tragedi kudeta Mesir 2013, pembunuhan beramai-ramai di Medan Rabaa, serta perang di Sudan membuktikan bahawa aparatus keselamatan dan *deep state* tidak pernah tunduk kepada demonstrasi damai. Kasta tentera sanggup membantai ribuan rakyat dan memenjarakan puluhan ribu kader demi mempertahankan kepentingan ekonomi dan monopoli kuasa mereka.\n\n* **Jurang Realiti:** Teori *Tanẓīr* tidak menyediakan **doktrin sekuriti balas (*counter-security doctrine*)** dan instrumen pencegahan (*deterrence*) yang kukuh sekiranya musuh menggunakan kekerasan melampau di luar lunas perlembagaan.\n\n### 2. Kenaifan Diplomasi dengan Imperialisme Barat\n\n* **Teori 2012:** Syeikh optimis bahawa Amerika dan Eropah boleh diyakinkan bahawa gerakan Islam tidak mengancam kepentingan minyak mereka dan komited menolak terorisme, lalu kuasa Barat akan menerima peralihan demokrasi di dunia Arab.\n\n* **Realiti 2013–2026:** Peristiwa rampasan kuasa Mesir yang direstui Barat, dan kemuncaknya genosid Gaza (2023–2026) pasca-Taufan al-Aqsa, membongkar hakikat sebenar: bahawa kuasa imperialis Barat tidak akan sesekali membenarkan sebuah kerajaan Islam berdaulat tegak di Timur Tengah, walau sebersih mana sekalipun mereka memenangi pilihan raya demokrasi.\n\n* **Jurang Realiti:** Mengharapkan ihsan atau diplomasi damai dengan kuasa unipolar Barat tanpa membina benteng pakatan multipolar dan keupayaan pertahanan mandiri adalah suatu kenaifan strategi.\n\n### 3. Pergeseran Geopolitik Multipolar & De-Dolarisasi (2026)\n\n* **Teori 2012:** Ditulis dalam suasana hegemoni tunggal Amerika (*unipolar world*), di mana penjualan minyak kepada Barat masih dianggap instrumen penenang diplomasi.\n\n* **Realiti 2026:** Dunia hari ini telah berganjak ke era **multipolar**. Kebangkitan pakatan BRICS, pergeseran kuasa ekonomi ke Asia Timur, kejatuhan dominasi petrodolar, serta kemerosotan pengaruh ketenteraan Barat membuka ruang pakatan baharu yang tidak pernah wujud pada tahun 2012.\n\n* **Jurang Realiti:** Teori *Tanẓīr* belum merangkumi strategi memanfaatkan ruang persaingan multipolar (China, Rusia, Global South) bagi mengimbangi sekatan ekonomi dan embargo antarabangsa.\n\n### 4. Medan Siber: Dari Revolusi Media Sosial 2011 ke Era AI Generatif 2026\n\n* **Teori 2012:** Syeikh menekankan televisyen satelit, akhbar harian, dan platform laman web (Facebook/Twitter) yang dipimpin oleh ratusan anak muda jalanan.\n\n* **Realiti 2026:** Media sosial arus perdana kini menjadi zon perang algoritma yang dikawal ketat oleh konglomerat teknologi pro-zionis (*shadowban*, penyekatan capaian, dan penapisan digital). Lebih dahsyat, era 2026 didominasi oleh **Kecerdasan Buatan (Generative AI), pemalsuan mendalam (*deepfake*), pengawasan biometrik satelit, dan perang kognitif automatik**.\n\n* **Jurang Realiti:** Ketiadaan doktrin **Kedaulatan Data (*Data Sovereignty*)** dan pembangunan teknologi perisikan kecerdasan buatan (*Sovereign AI*) yang berdikari daripada platform hegemoni musuh.\n\n### 5. Pengurusan Sektarianisme vs Tuntutan Fiqh Pakatan (*Tahaluf*)\n\n* **Teori 2012:** Mengambil pendirian menolak sekeras-kerasnya sebarang bentuk kerjasama dengan Iran berikutan trauma perang saudara di Iraq dan krisis Syria pasca-2011.\n\n* **Realiti 2026:** Pasca-Taufan al-Aqsa 2023–2026, medan pertempuran sebenar telah memaksa terbentuknya pakatan taktikal pertahanan (*Tahaluf Siyasi wa 'Askari*) menentang hegemoni zionis-Amerika. Walaupun jurang aqidah Ahli Sunnah Wal Jamaah kekal terpelihara, keengganan berdialog secara strategik dalam isu pembebasan Palestin boleh melemahkan barisan hadapan umat.\n\n* **Jurang Realiti:** Memerlukan fiqh keutamaan (*Fiqh al-Awlawiyyāt*) yang lebih anjal: membezakan antara pertahanan aqidah di medan tarbiah dengan pakatan geostrategik di medan pertembungan antarabangsa.\n\n---"
         },
         {
           "id": "c10_s12",
