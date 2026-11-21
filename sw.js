@@ -1,4 +1,4 @@
-const CACHE_NAME = 'v378_epilog_sub6_riddah_analisis';
+const CACHE_NAME = 'v379_khatimah_peradaban_sidebar_badges';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',

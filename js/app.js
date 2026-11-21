@@ -246,6 +246,12 @@ document.addEventListener('DOMContentLoaded', () => {
         displayTitle = 'Epilog: ' + ch.title;
       } else if (ch.number === 'MUKADIMAH') {
         badgeHtml = 'M';
+      } else if (ch.number.includes('KHATIMAH') || chIdx === 8) {
+        badgeHtml = '📜';
+        displayTitle = 'Khatimah';
+      } else if (ch.number.includes('PERADABAN') || chIdx === 10) {
+        badgeHtml = '🏛️';
+        displayTitle = 'Sumbangan Tanẓīr al-Taghyīr dalam Pembinaan Ummah Fadhilah & Kuasa Nasional';
       }
 
       headerBtn.innerHTML = `
@@ -441,7 +447,17 @@ document.addEventListener('DOMContentLoaded', () => {
     if (readerContainer) readerContainer.style.display = 'block';
 
     // Banner metadata
-    document.getElementById('chBadgePill').textContent = ch.number;
+    if (ch.number.includes('PERADABAN') || chIdx === 10) {
+      document.getElementById('chBadgePill').textContent = '🏛️ SUMBANGAN STRATEGIK';
+    } else if (ch.number.includes('KHATIMAH') || chIdx === 8) {
+      document.getElementById('chBadgePill').textContent = '📜 KHATIMAH';
+    } else if (ch.number.includes('EPILOG')) {
+      document.getElementById('chBadgePill').textContent = '🧭 EPILOG';
+    } else if (ch.number.includes('EPIGRAF')) {
+      document.getElementById('chBadgePill').textContent = '🎨 EPIGRAF';
+    } else {
+      document.getElementById('chBadgePill').textContent = ch.number;
+    }
     const arTitleEl = document.getElementById('chArabicTitle');
     if (arTitleEl) {
       if (ch.title_ar && ch.title_ar.trim() !== '') {
