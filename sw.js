@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v320-bab3-syarat-empirikal';
+const CACHE_NAME = 'tanzir-v330-bab4-pergerakan-kehidupan';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v320_bab3_syarat_empirikal',
+  './index.html?v=20261121_v330_bab4_pergerakan_kehidupan',
   './manifest.json',
-  './css/style.css?v=20261121_v320_bab3_syarat_empirikal',
-  './js/app.js?v=20261121_v320_bab3_syarat_empirikal',
-  './data/tanzir_data.js?v=20261121_v320_bab3_syarat_empirikal',
-  './data/tanzir_quotes.js?v=20261121_v320_bab3_syarat_empirikal',
+  './css/style.css?v=20261121_v330_bab4_pergerakan_kehidupan',
+  './js/app.js?v=20261121_v330_bab4_pergerakan_kehidupan',
+  './data/tanzir_data.js?v=20261121_v330_bab4_pergerakan_kehidupan',
+  './data/tanzir_quotes.js?v=20261121_v330_bab4_pergerakan_kehidupan',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
