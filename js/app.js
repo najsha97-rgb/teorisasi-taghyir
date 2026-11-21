@@ -644,9 +644,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const cleanHeader = para.replace(/^###\s*/, '').replace(/^\*\*/, '').replace(/\*\*$/, '').trim();
             p.innerHTML = `<span class="subheading-accent" aria-hidden="true"></span><span class="subheading-title">${cleanHeader}</span>`;
           } else if (para.trim().startsWith('>') || para.startsWith('«')) {
+            const cleanQuote = para.split('\n').map(l => l.replace(/^[>\s]+/, '').trim()).filter(Boolean).join('<br>');
+            if (!cleanQuote) {
+              return; // Abaikan jika kotak quote kosong tanpa teks
+            }
             const pQuote = document.createElement('div');
             pQuote.className = 'quote-highlight-box';
-            const cleanQuote = para.split('\n').map(l => l.replace(/^[>\s]+/, '').trim()).filter(Boolean).join('<br>');
             pQuote.innerHTML = formatQuoteText(cleanQuote);
             container.appendChild(pQuote);
             return;

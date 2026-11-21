@@ -1,4 +1,4 @@
-const CACHE_NAME = 'v382_clean_paragraph_counts';
+const CACHE_NAME = 'v383_remove_empty_quote_boxes';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',
