@@ -6361,3 +6361,253 @@ i .arabic-text-amiri-gold,
 [data-theme="light"] .summary-rumi-quote-box .summary-quote-author {
   color: #8c6b00 !important;
 }
+
+
+/* ==========================================================================
+   INFOGRAFIK LAPAN (8) TONGGAK KUASA NASIONAL (BAB 10 / PERADABAN)
+   Pemetaan Hubungan Strategik Kitab Tanẓīr al-Taghyīr & Kedaulatan Negara
+   ========================================================================== */
+
+.tonggak-infographic-container {
+  margin: 2.2rem 0;
+  padding: 2.4rem 2rem;
+  background: radial-gradient(circle at 50% 0%, rgba(14, 165, 233, 0.14) 0%, rgba(6, 28, 22, 0.98) 80%);
+  border: 1px solid rgba(234, 179, 8, 0.35);
+  border-radius: 22px;
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.6), 0 0 30px rgba(14, 165, 233, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+.tonggak-infographic-container::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 10%; right: 10%; height: 2px;
+  background: linear-gradient(90deg, transparent, #38bdf8, #f59e0b, #10b981, transparent);
+}
+
+.tonggak-header {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.tonggak-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 18px;
+  border-radius: 30px;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  color: #7dd3fc;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.tonggak-ar-title {
+  font-family: 'Amiri', serif !important;
+  font-size: 2.3rem;
+  color: #fde047 !important;
+  margin: 6px 0 10px 0;
+  direction: rtl;
+  line-height: 1.4;
+  text-shadow: 0 2px 14px rgba(245, 158, 11, 0.35);
+}
+
+.tonggak-main-title {
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+  letter-spacing: -0.02em;
+}
+
+.tonggak-subtitle {
+  color: #94a3b8;
+  font-size: 0.96rem;
+  max-width: 760px;
+  margin: 0 auto;
+  line-height: 1.65;
+}
+
+/* Grid Lapan Tonggak: 2 Kolum Responsif */
+.tonggak-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 1.8rem;
+}
+
+@media (max-width: 860px) {
+  .tonggak-grid {
+    grid-template-columns: 1fr;
+  }
+  .tonggak-infographic-container {
+    padding: 1.8rem 1.2rem;
+  }
+  .tonggak-ar-title {
+    font-size: 1.8rem;
+  }
+}
+
+/* Kad Tonggak */
+.tonggak-card {
+  background: rgba(10, 25, 20, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-left: 4px solid var(--accent-color, #38bdf8);
+  border-radius: 14px;
+  padding: 1.35rem 1.35rem 1.2rem 1.35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+}
+
+.tonggak-card:hover {
+  transform: translateY(-3px);
+  background: rgba(15, 35, 28, 0.9);
+  border-color: rgba(253, 224, 71, 0.35);
+  border-left-color: var(--accent-color, #fde047);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 16px rgba(56, 189, 248, 0.2);
+}
+
+.tonggak-card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0.85rem;
+}
+
+.tonggak-num-badge {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.2), rgba(16, 185, 129, 0.25));
+  border: 1.5px solid var(--accent-color, #38bdf8);
+  color: #ffffff;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 800;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tonggak-card:hover .tonggak-num-badge {
+  background: linear-gradient(135deg, #f59e0b, #ca8a04);
+  border-color: #fde047;
+  color: #060e20;
+}
+
+.tonggak-card-title-wrap {
+  flex: 1;
+  min-width: 0;
+}
+
+.tonggak-card-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #f8fafc;
+  margin: 0;
+  line-height: 1.35;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tonggak-card-icon {
+  font-size: 1.25rem;
+}
+
+.tonggak-card-desc {
+  font-size: 0.93rem;
+  line-height: 1.65;
+  color: #cbd5e1;
+  margin: 0 0 1rem 0;
+  flex: 1;
+}
+
+.tonggak-card-desc strong {
+  color: #fde047;
+}
+
+.tonggak-card-desc em {
+  color: #7dd3fc;
+  font-style: italic;
+}
+
+/* Tags / Pills di bawah kad */
+.tonggak-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 0.65rem;
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.tonggak-tag {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  letter-spacing: 0.3px;
+  transition: all 0.2s ease;
+}
+
+.tonggak-card:hover .tonggak-tag {
+  background: rgba(56, 189, 248, 0.15);
+  border-color: rgba(56, 189, 248, 0.35);
+  color: #bae6fd;
+}
+
+/* Footer Kesimpulan */
+.tonggak-footer-summary {
+  background: linear-gradient(135deg, rgba(6, 78, 59, 0.45), rgba(15, 23, 42, 0.65));
+  border: 1px solid rgba(16, 185, 129, 0.35);
+  border-radius: 14px;
+  padding: 1.25rem 1.6rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3);
+}
+
+.tonggak-footer-icon {
+  font-size: 1.8rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.tonggak-footer-content {
+  flex: 1;
+}
+
+.tonggak-footer-heading {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #34d399;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 4px 0;
+}
+
+.tonggak-footer-text {
+  font-size: 0.94rem;
+  color: #e2e8f0;
+  line-height: 1.65;
+  margin: 0;
+  font-style: italic;
+}
