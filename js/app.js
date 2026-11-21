@@ -449,7 +449,11 @@ document.addEventListener('DOMContentLoaded', () => {
         arTitleEl.style.display = 'none';
       }
     }
-    document.getElementById('subtopicMainTitle').textContent = sub.title;
+    if (state.currentChapter === 0 && (state.currentSubtopic === 2 || state.currentSubtopic === 3)) {
+      document.getElementById('subtopicMainTitle').textContent = 'Teks Asal Bahasa Arab & Terjemahan Puitis Sastera Tinggi';
+    } else {
+      document.getElementById('subtopicMainTitle').textContent = sub.title;
+    }
 
     // Sync banner chapter mode tabs
     if (btnChModeLengkap && btnChModeRingkasan) {
@@ -484,7 +488,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const shortBadgeSubTitle = cleanSubTitleForBadge.length > 32 ? cleanSubTitleForBadge.substring(0, 30) + '...' : cleanSubTitleForBadge;
 
     if (state.layer === 'layer1') {
-      modeBadge.textContent = `Versi Lengkap (${sub.paragraphs ? sub.paragraphs.length : 0} Perenggan${subFnCount > 0 ? ` & ${subFnCount} Nota Kaki` : ''})`;
+      if (state.currentChapter === 0 && (state.currentSubtopic === 2 || state.currentSubtopic === 3)) {
+        modeBadge.textContent = 'Versi Dwi-Bahasa: Sebaris Arab di Atas + Terjemahan di Bawah (12 Bait Puisi)';
+      } else {
+        modeBadge.textContent = `Versi Lengkap (${sub.paragraphs ? sub.paragraphs.length : 0} Perenggan${subFnCount > 0 ? ` & ${subFnCount} Nota Kaki` : ''})`;
+      }
     } else {
       if (state.summaryScope === 'chapter') {
         modeBadge.textContent = `Ringkasan Penuh: ${ch.number} - ${ch.title}`;
@@ -673,37 +681,162 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // ==================== RENDER KANDUNGAN LAYER 1 ====================
       if (isArabicText && translationSub) {
-        // --- PAPARAN BILINGUAL GABUNGAN ---
-        // Panel 1: Teks Arab (kanan, RTL)
-        const arabicPanel = document.createElement('div');
-        arabicPanel.className = 'bilingual-arabic-panel';
-        arabicPanel.setAttribute('dir', 'rtl');
-        const arabicLabel = document.createElement('div');
-        arabicLabel.className = 'bilingual-panel-label bilingual-label-arabic';
-        arabicLabel.innerHTML = `<span class="bilingual-label-icon">📜</span><span class="bilingual-label-ar" dir="rtl">النَّصُّ الأَصْلِيُّ</span><span class="bilingual-label-ms">Teks Asal Bahasa Arab</span>`;
-        arabicPanel.appendChild(arabicLabel);
-        if (sub.paragraphs && sub.paragraphs.length > 0) {
-          renderParasInto(sub.paragraphs, arabicPanel);
-        }
-        contentBody.appendChild(arabicPanel);
+        // --- PAPARAN DWI-BAHASA INTERLINEAR (SEBARIS TEKS ARAB DI ATAS, TERJEMAHAN DI BAWAH) ---
+        const banner = document.createElement('div');
+        banner.className = 'bilingual-notice-card';
+        banner.innerHTML = `
+          <div class="bilingual-notice-icon">✨</div>
+          <div class="bilingual-notice-content">
+            <h4 class="bilingual-notice-title">Paparan Dwi-Bahasa Sebaris demi Sebaris (Sastera & Makna)</h4>
+            <p class="bilingual-notice-desc">Teks asal Bahasa Arab di baris atas (kanan) • Terjemahan puitis sastera tinggi tepat di bawahnya (kiri) untuk memudahkan perbandingan makna dan pemahaman segera.</p>
+          </div>
+        `;
+        contentBody.appendChild(banner);
 
-        // Pemisah bilingual
-        const divider = document.createElement('div');
-        divider.className = 'bilingual-divider';
-        divider.innerHTML = `<div class="bilingual-divider-line"></div><span class="bilingual-divider-gem">◆</span><div class="bilingual-divider-line"></div>`;
-        contentBody.appendChild(divider);
+        const listWrap = document.createElement('div');
+        listWrap.className = 'bilingual-interlinear-wrapper';
 
-        // Panel 2: Terjemahan (kiri, LTR)
-        const transPanel = document.createElement('div');
-        transPanel.className = 'bilingual-translation-panel';
-        const transLabel = document.createElement('div');
-        transLabel.className = 'bilingual-panel-label bilingual-label-translation';
-        transLabel.innerHTML = `<span class="bilingual-label-icon">🌿</span><span class="bilingual-label-ms">Terjemahan Puitis Sastera Tinggi</span>`;
-        transPanel.appendChild(transLabel);
-        if (translationSub.paragraphs && translationSub.paragraphs.length > 0) {
-          renderParasInto(translationSub.paragraphs, transPanel);
+        // Pasangan terjemahan baris ke baris bagi Epigraf / Falsafah Kulit Buku
+        const epigrafVerses = [
+          {
+            type: 'basmalah',
+            ar: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
+            ms: 'Dengan nama Allah, Maha Pemurah, Maha Penyayang.'
+          },
+          {
+            type: 'lead',
+            tag: 'Latar Belakang Karya',
+            ar: 'الغِلاَفُ مِنْ فَنِّ الرَّاشِد . . عَلَى خَلْفِيَّةٍ تَجْرِيدِيَّة',
+            ms: 'Rekaan kulit buku ini merupakan sentuhan seni ciptaan al-Rasyid . . berlatarbelakangkan kanvas abstrak,'
+          },
+          {
+            type: 'lead',
+            tag: 'Isyarat Perlambangan',
+            ar: 'وَالإِيمَاءُ يَكْمُنُ فِي أَنَّ :',
+            ms: 'Dan isyarat perlambangannya tersurat pada hakikat bahawa:'
+          },
+          {
+            num: 1,
+            tag: 'Bait 1',
+            ar: 'شَمْسَ الحُرِّيَّةِ تَرْتَفِعُ . .',
+            ms: 'Mentari kebebasan kian meninggi di ufuk nan luas . .'
+          },
+          {
+            num: 2,
+            tag: 'Bait 2',
+            ar: 'بَعْدَ أَنْ أَدَّتِ الثَّمَنَ الأَحْمَرَ . .',
+            ms: 'Sesudah dilunaskan tebusan merah darah pengorbanan . .'
+          },
+          {
+            num: 3,
+            tag: 'Bait 3',
+            ar: 'فَبَدَتْ بَهْجَةُ الغَدِ الأَخْضَرِ . .',
+            ms: 'Maka merekahlah keindahan hari esok yang menghijau mekar . .'
+          },
+          {
+            num: 4,
+            tag: 'Bait 4',
+            ar: 'تُنْسِينَا أَيَّامَ القَاعِ الدَّاكِنِ . .',
+            ms: 'Memadamkan ingatan derita hari-hari kelam di dasar jurang kezaliman . .'
+          },
+          {
+            num: 5,
+            tag: 'Bait 5',
+            ar: 'وَحُشُودُ الشَّبَابِ الحُرِّ تَدْفَعُ قَدَرَ السُّوءِ بِقَدَرِ الخَيْرِ . .',
+            ms: 'Dan gelombang angkatan pemuda yang merdeka, mara menolak takdir keburukan dengan takdir kebaikan . .'
+          },
+          {
+            num: 6,
+            tag: 'Bait 6',
+            ar: 'وَمُفْرَدَاتٌ كَثِيرَةٌ أَظْهَرَهَا الزَّمَانُ أَوِ المَكَانُ تَشَابَكَتْ . .',
+            ms: 'Serta himpunan faktor yang dizahirkan oleh putaran masa dan ruang saling bertaut padu . .'
+          },
+          {
+            num: 7,
+            tag: 'Bait 7',
+            ar: 'فَكَانَتِ العَاصِفَةُ . . وَمَا تَزَالُ مُسْتَمِرَّةً',
+            ms: 'Maka meletuslah taufan kebangkitan . . yang badainya masih terus bergelora!'
+          },
+          {
+            num: 8,
+            tag: 'Bait 8',
+            ar: 'وَالحَاكِمُ الفَاشِلُ يَجْلِسُ عَلَى كُرْسِيٍّ انْكَسَرَتْ قَوَائِمُهُ غَيْرَ وَاحِدَةٍ . .',
+            ms: 'Sedang sang penguasa yang gagal, masih terduduk kaku di atas takhta yang telah patah kakinya, bukan hanya satu . .'
+          },
+          {
+            num: 9,
+            tag: 'Bait 9',
+            ar: 'فَهُوَ يَتَشَبَّثُ ، وَكَانَ قَدْ عَتَّمَ نَوَافِذَهُ لَا يُرِيدُ أَنْ يَرَى الوَاقِعَ . .',
+            ms: 'Dia terus berpaut cemas dalam ketakutan, padahal dialah dahulu yang sengaja menggelapkan jendela istananya, kerana enggan menatap kenyataan realiti . .'
+          },
+          {
+            num: 10,
+            tag: 'Bait 10',
+            ar: 'فَفَجَأَهُ ارْتِفَاعُ البَدْرِ وَالفَرَاشَاتُ السِّلْمِيَّةُ . .',
+            ms: 'Lalu tiba-tiba dia dikejutkan oleh terbitnya purnama gemilang, dan kepakan lembut rama-rama putih kedamaian . .'
+          },
+          {
+            num: 11,
+            tag: 'Bait 11',
+            ar: 'وَسَطَعَ النَّجْمُ . .',
+            ms: 'Serta benderangnya sinaran bintang kejora di langit malam . .'
+          },
+          {
+            num: 12,
+            tag: 'Bait 12',
+            ar: 'فَفَغَرَ الخَاسِرُ فَاهُ . . وَلَاتَ سَاعَةَ مَنْدَمٍ',
+            ms: 'Maka terngangalah mulut sang pecundang dalam kekufuran dan kelu . . tatkala saat itu sudah bukan lagi masa untuk menyesal!'
+          }
+        ];
+
+        epigrafVerses.forEach(item => {
+          const card = document.createElement('div');
+          card.className = `bilingual-verse-card ${item.type ? item.type + '-card' : ''}`;
+
+          let tagHtml = '';
+          if (item.tag) {
+            tagHtml = `<div class="bilingual-verse-badge-row"><span class="bilingual-verse-badge">${item.tag}</span></div>`;
+          }
+
+          card.innerHTML = `
+            ${tagHtml}
+            <div class="bilingual-arabic-row" dir="rtl">
+              <span class="bilingual-lang-tag ar-tag">AR</span>
+              <p class="bilingual-text-arabic">${item.ar}</p>
+            </div>
+            <div class="bilingual-interlinear-divider"></div>
+            <div class="bilingual-malay-row">
+              <span class="bilingual-lang-tag ms-tag">BM</span>
+              <p class="bilingual-text-malay">${item.ms}</p>
+            </div>
+          `;
+          listWrap.appendChild(card);
+        });
+
+        contentBody.appendChild(listWrap);
+
+        // Kad Navigasi ke Huraian Falsafah Simbolisme
+        const nextNavCard = document.createElement('div');
+        nextNavCard.className = 'bilingual-next-jump-card';
+        nextNavCard.innerHTML = `
+          <div class="next-jump-info">
+            <span class="next-jump-label">Seterusnya Dalam Bab Ini</span>
+            <h4 class="next-jump-title">5. [Huraian Makna & Falsafah Simbolisme Epigraf]</h4>
+            <p class="next-jump-desc">Ketahui 8 perlambangan falsafah mendalam di sebalik Fajar Kebebasan, Rama-rama Putih, dan Runtuhnya Takhta Taghut.</p>
+          </div>
+          <button type="button" class="next-jump-btn" id="btnJumpToFalsafah">
+            <span>Buka Huraian Falsafah</span>
+            <span class="jump-arrow">→</span>
+          </button>
+        `;
+        contentBody.appendChild(nextNavCard);
+
+        const btnJump = nextNavCard.querySelector('#btnJumpToFalsafah');
+        if (btnJump) {
+          btnJump.addEventListener('click', () => {
+            navigateTo(0, 4); // Subtopic 5 (index 4)
+          });
         }
-        contentBody.appendChild(transPanel);
 
       } else {
         // --- PAPARAN BIASA (bukan bilingual) ---

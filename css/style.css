@@ -5125,3 +5125,271 @@ i .arabic-text-amiri-gold,
   direction: ltr !important;
   text-align: left !important;
 }
+
+/* ============================================================
+   BILINGUAL INTERLINEAR: Sebaris Arab di Atas, Terjemahan di Bawah
+   v270_interlinear_pairs
+   ============================================================ */
+
+/* Kad maklumat pembuka */
+.bilingual-notice-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(135deg, rgba(253, 224, 71, 0.08) 0%, rgba(15, 23, 42, 0.75) 100%);
+  border: 1px solid rgba(253, 224, 71, 0.28);
+  border-radius: 14px;
+  padding: 1.15rem 1.4rem;
+  margin-bottom: 1.6rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.bilingual-notice-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.bilingual-notice-title {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--gold-light, #fde047);
+  letter-spacing: -0.01em;
+}
+
+.bilingual-notice-desc {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* Bekas Interlinear (Kad demi Kad) */
+.bilingual-interlinear-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Setiap Kad Ayat / Bait */
+.bilingual-verse-card {
+  position: relative;
+  background: linear-gradient(145deg, rgba(26, 36, 54, 0.6) 0%, rgba(15, 23, 42, 0.78) 100%);
+  border: 1px solid rgba(253, 224, 71, 0.16);
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
+  transition: all 0.22s ease-in-out;
+}
+
+.bilingual-verse-card:hover {
+  border-color: rgba(253, 224, 71, 0.38);
+  box-shadow: 0 6px 24px rgba(253, 224, 71, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Variasi Kad Basmalah */
+.bilingual-verse-card.basmalah-card {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(253, 224, 71, 0.12) 0%, rgba(16, 24, 40, 0.8) 100%);
+  border: 1.5px solid rgba(253, 224, 71, 0.35);
+  padding: 1.6rem 1.2rem;
+}
+
+.bilingual-verse-card.basmalah-card .bilingual-arabic-row {
+  justify-content: center;
+}
+
+.bilingual-verse-card.basmalah-card .bilingual-text-arabic {
+  font-size: 1.7rem !important;
+  text-align: center !important;
+}
+
+.bilingual-verse-card.basmalah-card .bilingual-malay-row {
+  justify-content: center;
+}
+
+.bilingual-verse-card.basmalah-card .bilingual-text-malay {
+  text-align: center !important;
+  font-size: 1.1rem;
+}
+
+/* Variasi Kad Tajuk/Pengenalan */
+.bilingual-verse-card.lead-card {
+  border-left: 4px solid var(--sapphire-light, #38bdf8);
+}
+
+/* Baris Tag / Nombor Bait */
+.bilingual-verse-badge-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.bilingual-verse-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.18rem 0.65rem;
+  border-radius: 9999px;
+  background: rgba(253, 224, 71, 0.12);
+  color: var(--gold-light, #fde047);
+  border: 1px solid rgba(253, 224, 71, 0.28);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Baris Atas: Teks Arab */
+.bilingual-arabic-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  direction: rtl;
+}
+
+.bilingual-text-arabic {
+  margin: 0;
+  font-family: 'Amiri', serif !important;
+  font-size: 1.45rem !important;
+  line-height: 2.3 !important;
+  color: var(--gold-light, #fde047) !important;
+  text-align: right !important;
+  font-weight: 600;
+  word-spacing: 0.12em;
+  letter-spacing: 0.01em;
+  flex: 1;
+}
+
+/* Pemisah antara baris Arab dan Terjemahan */
+.bilingual-interlinear-divider {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(253, 224, 71, 0.3) 0%, rgba(56, 189, 248, 0.25) 50%, transparent 100%);
+  margin: 0.85rem 0 0.95rem 0;
+}
+
+.bilingual-verse-card.basmalah-card .bilingual-interlinear-divider {
+  width: 90px;
+  margin: 0.7rem auto 0.9rem auto;
+  background: rgba(253, 224, 71, 0.4);
+}
+
+/* Baris Bawah: Terjemahan */
+.bilingual-malay-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  direction: ltr;
+}
+
+.bilingual-text-malay {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.78;
+  color: #f1f5f9;
+  font-style: italic;
+  text-align: left;
+  flex: 1;
+}
+
+/* Tag bahasa AR / BM */
+.bilingual-lang-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 0.45rem;
+  letter-spacing: 0.04em;
+}
+
+.bilingual-lang-tag.ar-tag {
+  background: rgba(253, 224, 71, 0.15);
+  color: var(--gold-light, #fde047);
+  border: 1px solid rgba(253, 224, 71, 0.3);
+}
+
+.bilingual-lang-tag.ms-tag {
+  background: rgba(56, 189, 248, 0.15);
+  color: var(--sapphire-light, #38bdf8);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+/* Kad Lompatan Seterusnya (Huraian Falsafah Simbolisme) */
+.bilingual-next-jump-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.08) 0%, rgba(15, 23, 42, 0.85) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  border-radius: 14px;
+  padding: 1.4rem 1.6rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.next-jump-info {
+  flex: 1;
+  min-width: 260px;
+}
+
+.next-jump-label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #34d399;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3rem;
+}
+
+.next-jump-title {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.next-jump-desc {
+  margin: 0;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.5;
+}
+
+.next-jump-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  color: #fff;
+  border: 1px solid rgba(52, 211, 153, 0.4);
+  padding: 0.75rem 1.3rem;
+  border-radius: 10px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+}
+
+.next-jump-btn:hover {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(5, 150, 105, 0.45);
+}
+
+.next-jump-btn .jump-arrow {
+  font-size: 1.1rem;
+  transition: transform 0.2s ease;
+}
+
+.next-jump-btn:hover .jump-arrow {
+  transform: translateX(4px);
+}
