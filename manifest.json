@@ -1,0 +1,22 @@
+﻿{
+  "name": "Tanẓīr al-Taghyīr (تنظير التغيير) - Teori Integrasi Perubahan Politik Islam",
+  "short_name": "Tanẓīr al-Taghyīr",
+  "description": "Aplikasi Web Progresif (PWA) Tanẓīr al-Taghyīr (تنظير التغيير: النظرية التكاملية للتغيير السياسي الإسلامي) karya Asy-Syeikh Muhammad Ahmad ar-Rasyid rahimahullah. Lengkap 210 Topik, 120 Mutiara Kata, 65 Nota Kaki & Mod Luar Talian.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#061712",
+  "theme_color": "#061712",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

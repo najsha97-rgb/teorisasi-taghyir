@@ -1,0 +1,759 @@
+﻿<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="theme-color" content="#052e16">
+  <meta name="description" content="Aplikasi Web Progresif (PWA) Tanáº“Ä«r al-TaghyÄ«r (ØªÙ†Ø¸ÙŠØ± Ø§Ù„ØªØºÙŠÙŠØ±: Ø§Ù„Ù†Ø¸Ø±ÙŠØ© Ø§Ù„ØªÙƒØ§Ù…Ù„ÙŠØ© Ù„Ù„ØªØºÙŠÙŠØ± Ø§Ù„Ø³ÙŠØ§Ø³ÙŠ Ø§Ù„Ø¥Ø³Ù„Ø§Ù…ÙŠ) karya Asy-Syeikh Muhammad Ahmad ar-Rasyid rahimahullah.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Tanáº“Ä«r al-TaghyÄ«r | Teori Integrasi Perubahan Politik Islam</title>
+
+  <!-- Open Graph / Facebook / WhatsApp / Telegram Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://najsha97-rgb.github.io/teorisasi-taghyir/">
+  <meta property="og:title" content="Tanáº“Ä«r al-TaghyÄ«r | Teori Integrasi Perubahan Politik Islam">
+  <meta property="og:description" content="Aplikasi Web Progresif (PWA) Tanáº“Ä«r al-TaghyÄ«r (ØªÙ†Ø¸ÙŠØ± Ø§Ù„ØªØºÙŠÙŠØ±: Ø§Ù„Ù†Ø¸Ø±ÙŠØ© Ø§Ù„ØªÙƒØ§Ù…Ù„ÙŠØ© Ù„Ù„ØªØºÙŠÙŠØ± Ø§Ù„Ø³ÙŠØ§Ø³ÙŠ Ø§Ù„Ø¥Ø³Ù„Ø§Ù…ÙŠ) karya Asy-Syeikh Muhammad Ahmad ar-Rasyid rahimahullah.">
+  <meta property="og:image" content="https://najsha97-rgb.github.io/teorisasi-taghyir/images/cover_revitalized_vibrant_tanzir.jpg">
+
+  <!-- Twitter / X Card Preview -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://najsha97-rgb.github.io/teorisasi-taghyir/">
+  <meta name="twitter:title" content="Tanáº“Ä«r al-TaghyÄ«r | Teori Integrasi Perubahan Politik Islam">
+  <meta name="twitter:description" content="Aplikasi Web Progresif (PWA) Tanáº“Ä«r al-TaghyÄ«r (ØªÙ†Ø¸ÙŠØ± Ø§Ù„ØªØºÙŠÙŠØ±: Ø§Ù„Ù†Ø¸Ø±ÙŠØ© Ø§Ù„ØªÙƒØ§Ù…Ù„ÙŠØ© Ù„Ù„ØªØºÙŠÙŠØ± Ø§Ù„Ø³ÙŠØ§Ø³ÙŠ Ø§Ù„Ø¥Ø³Ù„Ø§Ù…ÙŠ) karya Asy-Syeikh Muhammad Ahmad ar-Rasyid rahimahullah.">
+  <meta name="twitter:image" content="https://najsha97-rgb.github.io/teorisasi-taghyir/images/cover_revitalized_vibrant_tanzir.jpg">
+  
+  <link rel="icon" type="image/jpeg" href="./images/cover_revitalized_vibrant_tanzir.jpg">
+  <link rel="apple-touch-icon" href="./images/cover_revitalized_vibrant_tanzir.jpg">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="stylesheet" href="./css/style.css?v=20261112_v100_edisi_sempurna_210_topik">
+
+  <!-- Google Fonts: Premium Manuscript Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Curved Pill Button & Capsule Styles - Tanáº“Ä«r al-TaghyÄ«r Royal Sapphire Theme */
+    .hikmah-action-btn {
+      border-radius: 9999px !important;
+      padding: 10px 24px !important;
+      font-family: 'Outfit', sans-serif !important;
+      font-weight: 700 !important;
+      cursor: pointer !important;
+      outline: none !important;
+      border: 1px solid rgba(251, 113, 133, 0.45) !important;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) !important;
+      user-select: none !important;
+    }
+
+    .hikmah-btn-primary {
+      background: linear-gradient(135deg, var(--gold-primary), var(--gold-dark)) !important;
+      color: #060e20 !important;
+      border-color: var(--gold-light) !important;
+    }
+
+    .hikmah-btn-primary:hover {
+      background: linear-gradient(135deg, #fef08a, var(--gold-primary)) !important;
+      color: #000000 !important;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(234, 179, 8, 0.45) !important;
+    }
+
+    .hikmah-btn-secondary {
+      background: linear-gradient(135deg, rgba(234, 179, 8, 0.16) 0%, rgba(190, 18, 60, 0.35) 100%) !important;
+      color: var(--gold-light) !important;
+      border-color: rgba(251, 113, 133, 0.45) !important;
+    }
+
+    .hikmah-btn-secondary:hover {
+      background: linear-gradient(135deg, rgba(234, 179, 8, 0.28) 0%, rgba(190, 18, 60, 0.55) 100%) !important;
+      border-color: var(--sapphire-light) !important;
+      color: #ffffff !important;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(190, 18, 60, 0.4) !important;
+    }
+
+    .hikmah-btn-emerald {
+      background: linear-gradient(135deg, rgba(190, 18, 60, 0.25) 0%, rgba(14, 30, 64, 0.6) 100%) !important;
+      color: #38bdf8 !important;
+      border-color: rgba(251, 113, 133, 0.5) !important;
+    }
+
+    .hikmah-btn-emerald:hover {
+      background: linear-gradient(135deg, #be123c, #881337) !important;
+      color: #ffffff !important;
+      border-color: #7dd3fc !important;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(190, 18, 60, 0.45) !important;
+    }
+
+    /* Kotak Carian Melengkung - Sapphire Focus Glow */
+    .hikmah-search-input {
+      width: 100% !important;
+      padding: 12px 20px 12px 46px !important;
+      border-radius: 25px !important;
+      border: 1px solid rgba(251, 113, 133, 0.4) !important;
+      background: linear-gradient(135deg, rgba(14, 28, 58, 0.95) 0%, rgba(6, 14, 32, 0.98) 100%) !important;
+      color: var(--text-main) !important;
+      font-size: 0.95rem !important;
+      font-family: 'Plus Jakarta Sans', sans-serif !important;
+      outline: none !important;
+      transition: all 0.25s ease !important;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25) !important;
+    }
+
+    [data-theme="light"] .hikmah-search-input {
+      background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%) !important;
+      border-color: rgba(190, 18, 60, 0.4) !important;
+      color: #0b172a !important;
+    }
+
+    .hikmah-search-input:focus {
+      border-color: var(--sapphire-light) !important;
+      box-shadow: 0 0 0 3px rgba(251, 113, 133, 0.25), 0 0 15px rgba(190, 18, 60, 0.25) !important;
+    }
+
+    /* Butang Cip Penapis - Sapphire & Amber */
+    .hikmah-chip-btn {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 6px !important;
+      padding: 7px 18px !important;
+      min-height: 34px !important;
+      border-radius: 22px !important;
+      border: 1px solid rgba(251, 113, 133, 0.35) !important;
+      background: linear-gradient(135deg, rgba(234, 179, 8, 0.1) 0%, rgba(190, 18, 60, 0.22) 100%) !important;
+      color: var(--text-muted) !important;
+      font-size: 0.84rem !important;
+      font-weight: 600 !important;
+      cursor: pointer !important;
+      white-space: nowrap !important;
+      transition: all 0.25s ease !important;
+      font-family: 'Outfit', sans-serif !important;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+    }
+
+    .hikmah-chip-btn:hover {
+      border-color: var(--sapphire-light) !important;
+      color: var(--sapphire-light) !important;
+      transform: translateY(-1.5px);
+      background: linear-gradient(135deg, rgba(234, 179, 8, 0.18) 0%, rgba(190, 18, 60, 0.38) 100%) !important;
+    }
+
+    .hikmah-chip-btn.active {
+      background: linear-gradient(135deg, rgba(190, 18, 60, 0.4) 0%, rgba(37, 99, 235, 0.45) 100%) !important;
+      border-color: var(--sapphire-light) !important;
+      color: #ffffff !important;
+      font-weight: 700 !important;
+      box-shadow: 0 3px 12px rgba(190, 18, 60, 0.38), 0 0 10px rgba(251, 113, 133, 0.3) !important;
+      transform: translateY(-1.5px);
+    }
+
+    /* Butang Salin dan Bab dalam Kad Grid */
+    .hikmah-card-btn {
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 6px !important;
+      padding: 5px 14px !important;
+      min-height: 32px !important;
+      border-radius: 20px !important;
+      font-size: 0.82rem !important;
+      font-family: 'Outfit', sans-serif !important;
+      font-weight: 700 !important;
+      letter-spacing: 0.3px !important;
+      cursor: pointer !important;
+      outline: none !important;
+      border: 1px solid rgba(251, 113, 133, 0.4) !important;
+      background: linear-gradient(135deg, rgba(234, 179, 8, 0.14) 0%, rgba(190, 18, 60, 0.28) 100%) !important;
+      color: var(--gold-light) !important;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2) !important;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      user-select: none !important;
+    }
+
+    .hikmah-card-btn:hover {
+      background: linear-gradient(135deg, #be123c 0%, #881337 100%) !important;
+      border-color: var(--sapphire-light) !important;
+      color: #ffffff !important;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(190, 18, 60, 0.45) !important;
+    }
+
+    .hikmah-card-btn:active {
+      transform: translateY(0) scale(0.96);
+    }
+
+    [data-theme="light"] .hikmah-card-btn {
+      background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%) !important;
+      border: 1px solid rgba(190, 18, 60, 0.35) !important;
+      color: #881337 !important;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05) !important;
+    }
+
+    [data-theme="light"] .hikmah-card-btn:hover {
+      background: #be123c !important;
+      color: #ffffff !important;
+      border-color: #881337 !important;
+    }
+
+    /* Rujukan Bab Pill */
+    .hikmah-card-chapter {
+      display: inline-flex !important;
+      align-items: center !important;
+      gap: 5px !important;
+      font-size: 0.78rem !important;
+      color: var(--sapphire-light) !important;
+      font-weight: 700 !important;
+      text-decoration: none !important;
+      cursor: pointer !important;
+      padding: 4px 12px !important;
+      border-radius: 16px !important;
+      background: rgba(190, 18, 60, 0.15) !important;
+      border: 1px solid rgba(251, 113, 133, 0.35) !important;
+      transition: all 0.2s ease !important;
+    }
+
+    .hikmah-card-chapter:hover {
+      background: rgba(190, 18, 60, 0.28) !important;
+      border-color: var(--sapphire-light) !important;
+      transform: translateY(-1px);
+    }
+  </style>
+<script>
+window.openPeradabanModal = function() {
+  var m = document.getElementById('modalPeradabanSpotlight');
+  if (m) {
+    m.classList.add('show');
+    m.style.setProperty('display', 'flex', 'important');
+    document.body.style.overflow = 'hidden';
+    var b = m.querySelector('.peradaban-modal-body, .tarbiah-modal-body');
+    if (b) b.scrollTop = 0;
+  }
+};
+window.closePeradabanModal = function() {
+  var m = document.getElementById('modalPeradabanSpotlight');
+  if (m) {
+    m.classList.remove('show');
+    m.style.setProperty('display', 'none', 'important');
+    document.body.style.overflow = '';
+  }
+};
+window.togglePeradabanModal = function(show) {
+  if (show) window.openPeradabanModal();
+  else window.closePeradabanModal();
+};
+</script>
+</head>
+<body>
+
+  <!-- ================= APP HEADER ================= -->
+  <header class="app-header">
+    <div class="brand-wrapper" id="brandHomeBtn">
+      <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Buka Menu Kandungan Tanáº“Ä«r al-TaghyÄ«r" title="Buka Menu Kandungan (13 Bab & Subtajuk)">
+        <svg class="menu-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+      <img src="./images/cover_revitalized_vibrant_tanzir.jpg" alt="Logo Tanáº“Ä«r al-TaghyÄ«r" class="brand-logo">
+      <div class="brand-text">
+        <h1>AL-RAQÄ€'IQ <span class="ar-badge">Ø§Ù„Ø±Ù‘ÙŽÙ‚ÙŽÙ€Ø§Ø¦ÙÙ‚</span></h1>
+        <div class="brand-subtitle">Membina Teori Integrasi Perubahan Politik Islam</div>
+      </div>
+    </div>
+
+    <!-- Header Actions & Layer Switcher -->
+    <div class="header-actions">
+      <div class="layer-switcher" role="tablist">
+        <button class="layer-btn active" id="btnLayerLengkap" role="tab" aria-selected="true">
+          ðŸ“– <span>Versi Penuh</span>
+        </button>
+        <button class="layer-btn" id="btnLayerRingkasan" role="tab" aria-selected="false">
+          âš¡ <span>Ringkasan</span>
+        </button>
+        <button class="layer-btn" id="btnLayerHikmah" role="tab" aria-selected="false">
+          ðŸ’Ž <span>Mutiara Hikmah</span>
+        </button>
+        <button class="layer-btn" id="btnHeaderPeradaban" role="tab" aria-selected="false" title="Wawasan Ummah Fadhilah &amp; PBI" onclick="openPeradabanModal()">
+          ðŸŒ <span>Ummah &amp; PBI</span>
+        </button>
+      </div>
+
+      <button class="icon-btn" id="themeToggleBtn" title="Tukar Tema (Gelap/Cerah)" aria-label="Tukar Tema">
+        â˜€ï¸
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= MAIN CONTAINER ================= -->
+  <div class="app-container">
+    
+    <!-- Sidebar / Drawer -->
+    <aside class="app-sidebar" id="appSidebar">
+      <!-- Search Input -->
+      <div class="search-box-wrap">
+        <div class="search-input-group">
+          <span class="search-icon">ðŸ”</span>
+          <input type="text" id="searchInput" class="search-input" placeholder="Cari topik, dalil, tokoh..." autocomplete="off">
+        </div>
+      </div>
+
+      <!-- Quick Access: Mutiara Hikmah Dakwah -->
+      <div class="sidebar-hikmah-promo" id="sidebarHikmahBtn" role="button" tabindex="0" title="Buka Koleksi Mutiara Hikmah Dakwah">
+        <div class="hikmah-promo-icon">ðŸ’Ž</div>
+        <div class="hikmah-promo-info">
+          <span class="hikmah-promo-title">Mutiara Kata Hikmah</span>
+          <span class="hikmah-promo-sub">(Hadis Nabi SAW + Tokoh & Da'i)</span>
+        </div>
+        <span class="hikmah-promo-badge">Rawak</span>
+      </div>
+
+      <!-- Quick Access: Sekilas Tonggak Amalan Tarbiah -->
+      <div class="sidebar-tarbiah-promo" id="sidebarTarbiahBtn" role="button" tabindex="0" title="Buka Sekilas Tonggak Amalan Tarbiah">
+        <div class="tarbiah-promo-icon">ðŸŒ±</div>
+        <div class="tarbiah-promo-info">
+          <span class="tarbiah-promo-title">Tonggak Amalan Tarbiah</span>
+          <span class="tarbiah-promo-sub">(Tilawah, Puasa Sunat &amp; Infaq)</span>
+        </div>
+        <span class="tarbiah-promo-badge">3 Tonggak</span>
+      </div>
+
+      <!-- Quick Access: Ummah Fadhilah & PBI (Sumbangan al-RaqÄ'iq) -->
+      <div class="sidebar-peradaban-promo" id="sidebarPeradabanBtn" role="button" tabindex="0" title="Buka Wawasan Ummah Fadhilah &amp; Peradaban Baru Islam (PBI)" onclick="openPeradabanModal()">
+        <div class="peradaban-promo-icon">ðŸŒ</div>
+        <div class="peradaban-promo-info">
+          <span class="peradaban-promo-title">Ummah Fadhilah &amp; PBI</span>
+          <span class="peradaban-promo-sub">(Sumbangan al-RaqÄ'iq)</span>
+        </div>
+        <span class="peradaban-promo-badge">Wawasan</span>
+      </div>
+
+      <!-- Navigation Tree -->
+      <ul class="chapter-nav-list" id="chapterNavList">
+        <!-- Generated Dynamically -->
+      </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="app-content" id="mainContent">
+
+      <!-- Hero / Introduction Card -->
+      <div class="hero-card" id="heroCard">
+        <span class="hero-badge">â€” SIRI IHYA' FIQH AL-DA'WAH (Tazkiyah & Tarbiah Harakiah) â€”</span>
+        <h2 class="hero-title">AL-RAQÄ€'IQ <span class="hero-ar-title">(Ø§Ù„Ø±Ù‘ÙŽÙ‚ÙŽÙ€Ø§Ø¦ÙÙ‚)</span></h2>
+        <div style="font-size: 1.15rem; font-weight: 700; color: var(--gold-light); margin: -4px 0 10px 0; letter-spacing: 0.5px;">Membina Teori Integrasi Perubahan Politik Islam</div>
+        <p class="hero-desc">
+          Karya agung As-Syeikh Muhammad Ahmad ar-Rasyid (Ø±Ø­Ù…Ù‡ Ø§Ù„Ù„Ù‡) yang menyuburkan kelembutan jiwa dengan zikir, tilawah, tahajud, dan ukhuwah fillah serta mengingati kematian dan Hari Akhirat sebagai bekalan rohani peneguh langkah para pejuang di medan amal Islami.
+        </p>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span>ðŸ“š Bahagian:</span> <strong>11 Bahagian Lengkap (Epigraf, Mukadimah, Bab 1-6 & Khatimah)</strong>
+          </div>
+          <div class="stat-item">
+            <span>ðŸ“‘ Sub-Tajuk:</span> <strong id="heroSubtopicsStat">210 Topik Lengkap</strong>
+          </div>
+          <div class="stat-item">
+            <span>ðŸ“ Nota Kaki:</span> <strong>65 Nota Kaki Ilmiah</strong>
+          </div>
+          <div class="stat-item">
+            <span>ðŸ’Ž Mutiara:</span> <strong>120 Mutiara Kata</strong>
+          </div>
+          <div class="stat-item">
+            <span>ðŸŒ Status:</span> <strong style="color: var(--emerald-primary);">Luar Talian (Offline-First)</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reader Container -->
+      <article class="reader-container" id="readerContainer">
+        
+        <!-- Chapter & Subtopic Header -->
+        <div class="chapter-heading-banner">
+          <div class="ch-badge-meta">
+            <button class="ch-pill" id="chBadgePill" title="Klik untuk pilih pilihan versi bacaan bab ini (Versi Penuh atau Ringkasan)">MUKADIMAH</button>
+            <span class="ch-ar-title" id="chArabicTitle" dir="rtl" style="display: none;"></span>
+          </div>
+          <h2 class="subtopic-main-title" id="subtopicMainTitle">Memuatkan kandungan...</h2>
+
+          <!-- Interactive Mode Switcher on Chapter Title -->
+          <div class="chapter-mode-tabs" id="chapterModeTabs" role="tablist" aria-label="Mod Bacaan Bab">
+            <button class="ch-mode-tab active" id="btnChModeLengkap" role="tab" aria-selected="true" title="Buka Versi Penuh Bab Ini">
+              <span class="mode-icon">ðŸ“–</span>
+              <span class="mode-label">Versi Penuh</span>
+            </button>
+            <button class="ch-mode-tab" id="btnChModeRingkasan" role="tab" aria-selected="false" title="Buka Ringkasan &amp; Fiqh Haraki Subtajuk Ini">
+              <span class="mode-icon">âš¡</span>
+              <span class="mode-label">Ringkasan Subtajuk</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Sticky Reading Toolbar -->
+        <div class="reading-toolbar">
+          <div class="mode-indicator">
+            <span id="activeModeBadge">Versi Lengkap (Terjemahan Penuh)</span>
+          </div>
+
+          <div class="tools-group">
+            <button class="tool-btn" id="fontDecBtn" title="Kecilkan Fon">A-</button>
+            <button class="tool-btn" id="fontResetBtn" title="Set Semula Saiz Fon">A</button>
+            <button class="tool-btn" id="fontIncBtn" title="Besarkan Fon">A+</button>
+            <button class="tool-btn" id="bookmarkBtn" title="Tanda Bahagian Ini">â˜† Tanda Buku</button>
+          </div>
+        </div>
+
+        <!-- Text / Body Content -->
+        <div class="content-body" id="contentBody">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <!-- Bottom Navigation -->
+        <nav class="reader-bottom-nav">
+          <button class="nav-jump-btn" id="prevSubBtn" disabled>
+            â† Bahagian Sebelumnya
+          </button>
+          <button class="nav-jump-btn" id="nextSubBtn">
+            Bahagian Seterusnya â†’
+          </button>
+        </nav>
+      </article>
+
+    </main>
+  </div>
+
+  <!-- ================= SEARCH OVERLAY MODAL ================= -->
+  <div class="search-results-overlay" id="searchOverlay">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <div>
+          <h3 style="color: var(--gold-light);">Hasil Carian</h3>
+          <small id="searchCountBadge" style="color: var(--text-muted);"></small>
+        </div>
+        <button class="icon-btn" id="closeSearchBtn" style="font-size: 1.2rem;">âœ•</button>
+      </div>
+      <div class="search-results-list" id="searchResultsList">
+        <!-- Results appended here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= CHAPTER OPTION MODAL ================= -->
+  <div class="chapter-select-overlay" id="chapterSelectModal" style="display: none;">
+    <div class="chapter-select-modal-box">
+      <div class="ch-modal-header">
+        <div class="ch-modal-badge" id="chModalBadge">BAB 1</div>
+        <button class="icon-btn ch-modal-close" id="btnCloseChModal" aria-label="Tutup">âœ•</button>
+      </div>
+      <h3 class="ch-modal-title" id="chModalTitle">JIWA YANG BERIMAN</h3>
+      <div class="ch-modal-arabic" id="chModalArabic">Ø²ÙÙ…Ù’Ø±ÙŽØ©Ù Ø§Ù„Ù‚ÙŽÙ„Ù’Ø¨Ù Ø§Ù„ÙˆÙŽØ§Ø­ÙØ¯Ù</div>
+      <p class="ch-modal-desc">Sila pilih mod bacaan yang anda inginkan untuk bab ini:</p>
+      
+      <div class="ch-modal-actions">
+        <button class="ch-modal-btn btn-modal-lengkap" id="btnModalLengkap" type="button">
+          <div class="ch-modal-btn-icon">ðŸ“–</div>
+          <div class="ch-modal-btn-text">
+            <div class="ch-modal-btn-title">Versi Penuh (Terjemahan Lengkap)</div>
+            <div class="ch-modal-btn-sub">Teks terjemahan lengkap dengan ayat al-Quran, hadis, athar, dan nota kaki rujukan</div>
+          </div>
+        </button>
+
+        <button class="ch-modal-btn btn-modal-ringkasan" id="btnModalRingkasan" type="button">
+          <div class="ch-modal-btn-icon">âš¡</div>
+          <div class="ch-modal-btn-text">
+            <div class="ch-modal-btn-title">Ringkasan (Intisari &amp; Fiqh Haraki)</div>
+            <div class="ch-modal-btn-sub">Intipati padat, falsafah tarbiah, dan radar pengesan halangan dakwah</div>
+          </div>
+        </button>
+      </div>
+
+      <div class="ch-modal-footer">
+        <button class="ch-modal-subtopics-btn" id="btnModalExpandSubtopics" type="button">
+          <span>ðŸ“‘</span> <span>Lihat Senarai Subtajuk Bab</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toastNotice">
+    <span id="toastIcon">â„¹ï¸</span>
+    <span id="toastMsg">Notifikasi</span>
+  </div>
+
+  <!-- Data Scripts (Offline Direct Access) -->
+  <script src="./data/tanzir_quotes.js?v=20261121_v100_edisi_sempurna_210_topik?v=20261112_v100_edisi_sempurna_210_topik"></script>
+  <script src="./data/tanzir_data.js?v=20261121_v100_edisi_sempurna_210_topik?v=20261112_v100_edisi_sempurna_210_topik"></script>
+  <!-- Application Core Script -->
+  <script src="./js/app.js?v=20261112_v100_edisi_sempurna_210_topik"></script>
+
+  <!-- ================= SEKILAS TONGGAK AMALAN TARBIAH MODAL ================= -->
+  <div class="tarbiah-modal-overlay" id="modalTarbiahSpotlight" style="display: none;">
+    <div class="tarbiah-modal-box">
+      <div class="tarbiah-modal-header">
+        <div class="tarbiah-modal-badge">ðŸŒ± DISIPLIN ASAS RUHIYAH</div>
+        <button class="icon-btn tarbiah-modal-close" id="btnCloseTarbiahModal" aria-label="Tutup">âœ•</button>
+      </div>
+      <h3 class="tarbiah-modal-title">Sekilas Tonggak Amalan Tarbiah</h3>
+      <p class="tarbiah-modal-subtitle">Tiga Tonggak Pembinaan Jiwa Salafussoleh Prasyarat Kelembutan Hati dalam Kitab Al-RaqÄ'iq</p>
+
+      <div class="tarbiah-modal-body">
+        <!-- Tonggak 1: Tilawah al-Quran -->
+        <div class="tarbiah-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">ðŸ“–</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>1. Tilawah &amp; Bertahajud dengan Al-Quran</h4>
+              <span class="tarbiah-pillar-tag">Madrasah Malam &amp; Wirid Harian</span>
+            </div>
+          </div>
+          <div class="tarbiah-quote-box" dir="rtl">
+            <span class="arabic-text-amiri-gold">Ù„ÙŽÙ…Ù’ ÙŠÙŽØ¨Ù’Ù‚ÙŽ Ù…ÙÙ†Ù’ Ø±ÙŽÙˆÙ’Ø­Ù Ø§Ù„Ø¯Ù‘ÙÙ†Ù’ÙŠÙŽØ§ Ø¥ÙÙ„Ø§Ù‘ÙŽ Ø«ÙŽÙ„Ø§ÙŽØ«ÙŽØ©ÙŒ: Ù„ÙÙ‚ÙŽØ§Ø¡Ù Ø§Ù„Ø¥ÙØ®Ù’ÙˆÙŽØ§Ù†ÙØŒ ÙˆÙŽØ§Ù„ØªÙ‘ÙŽÙ‡ÙŽØ¬Ù‘ÙØ¯Ù Ø¨ÙØ§Ù„Ù‚ÙØ±Ù’Ø¢Ù†ÙØŒ ÙˆÙŽØ¨ÙŽÙŠÙ’ØªÙŒ Ø®ÙŽØ§Ù„Ù ÙŠÙØ°Ù’ÙƒÙŽØ±Ù Ø§Ù„Ù„Ù‡Ù ÙÙÙŠÙ‡Ù</span>
+          </div>
+          <p class="tarbiah-quote-trans"><em>â€œTidak berbaki lagi daripada ketenangan jiwa di dunia ini melainkan tiga perkara: bertemu saudara seakidah, bertahajud dengan al-Quran, dan berada di rumah yang sunyi di mana Allah diingati.â€</em> <small style="color: var(--gold-light);">(Malik bin Dinar rahimahullah, Bab 5)</small></p>
+          <ul class="tarbiah-checklist">
+            <li><strong>Wirid Harian:</strong> Melazimi pembacaan al-Quran sekurang-kurangnya 1 juzuk sehari.</li>
+            <li><strong>Tadabbur Malam:</strong> Menghidupkan ayat-ayat pelembut hati dalam solat tahajud dan qiamullail.</li>
+          </ul>
+        </div>
+
+        <!-- Tonggak 2: Puasa Sunat -->
+        <div class="tarbiah-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">ðŸŒ™</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>2. Puasa Sunat &amp; Menundukkan Syahwat</h4>
+              <span class="tarbiah-pillar-tag">Kekuatan Rohani Siang Hari</span>
+            </div>
+          </div>
+          <div class="tarbiah-quote-box" dir="rtl">
+            <span class="arabic-text-amiri-gold">Ø§Ø¹Ù’Ù„ÙŽÙ…Ù’ ÙŠÙŽØ§ Ø¹ÙÙ…ÙŽØ±Ù! Ø£ÙŽÙ†Ù‘ÙŽ Ù„ÙÙ„Ù‘ÙŽÙ‡Ù Ø­ÙŽÙ‚Ù‘Ø§Ù‹ Ø¨ÙØ§Ù„Ù„Ù‘ÙŽÙŠÙ’Ù„Ù Ù„ÙŽØ§ ÙŠÙŽÙ‚Ù’Ø¨ÙŽÙ„ÙÙ‡Ù Ø¨ÙØ§Ù„Ù†Ù‘ÙŽÙ‡ÙŽØ§Ø±ÙØŒ ÙˆÙŽØ¥ÙÙ†Ù‘ÙŽ Ù„ÙÙ„Ù‘ÙŽÙ‡Ù Ø­ÙŽÙ‚Ù‘Ø§Ù‹ Ø¨ÙØ§Ù„Ù†Ù‘ÙŽÙ‡ÙŽØ§Ø±Ù Ù„ÙŽØ§ ÙŠÙŽÙ‚Ù’Ø¨ÙŽÙ„ÙÙ‡Ù Ø¨ÙØ§Ù„Ù„Ù‘ÙŽÙŠÙ’Ù„Ù</span>
+          </div>
+          <p class="tarbiah-quote-trans"><em>â€œKetahuilah wahai Umar! Sesungguhnya Allah mempunyai hak pada waktu siang yang tidak diterima-Nya pada waktu malam, dan hak pada waktu malam yang tidak diterima-Nya pada waktu siang.â€</em> <small style="color: var(--gold-light);">(Wasiat Saidina Abu Bakar RA, Bab 12)</small></p>
+          <ul class="tarbiah-checklist">
+            <li><strong>Puasa Berkala:</strong> Melazimi puasa sunat Isnin &amp; Khamis atau Hari-Hari Putih (13, 14, 15 hijrah).</li>
+            <li><strong>Mengekang Hawa Nafsu:</strong> Menjaga kesederhanaan perut demi memelihara ketajaman fikiran dan kepekaan nurani.</li>
+          </ul>
+        </div>
+
+        <!-- Tonggak 3: Sedekah & Infaq -->
+        <div class="tarbiah-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">ðŸ’°</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>3. Sedekah, Infaq &amp; Mengutamakan Orang Lain (Al-I'tsar)</h4>
+              <span class="tarbiah-pillar-tag">Pembersih Jiwa &amp; Pengorbanan</span>
+            </div>
+          </div>
+          <div class="tarbiah-quote-box" dir="rtl">
+            <span class="arabic-text-amiri-gold">Ù…ÙŽØ§ Ù†ÙŽØ¹Ù’Ù„ÙŽÙ…Ù Ø¹ÙŽÙ…ÙŽÙ„Ø§Ù‹ Ø£ÙŽØ´ÙŽØ¯Ù‘ÙŽ Ù…ÙÙ†Ù’ Ù…ÙÙƒÙŽØ§Ø¨ÙŽØ¯ÙŽØ©Ù Ù‡ÙŽØ°ÙŽØ§ Ø§Ù„Ù„Ù‘ÙŽÙŠÙ’Ù„ÙØŒ ÙˆÙŽÙ†ÙŽÙÙŽÙ‚ÙŽØ©Ù Ù‡ÙŽØ°ÙŽØ§ Ø§Ù„Ù…ÙŽØ§Ù„Ù</span>
+          </div>
+          <p class="tarbiah-quote-trans"><em>â€œKami tidak mengetahui suatu amal pun yang lebih sukar dan berat ke atas jiwa melainkan bersungguh-sungguh mengharungi malam (qiamullail) dan menafkahkan harta ini.â€</em> <small style="color: var(--gold-light);">(Imam Hasan al-Basri rahimahullah, Bab 2)</small></p>
+          <ul class="tarbiah-checklist">
+            <li><strong>Infaq Istiqamah:</strong> Memperuntukkan sumbangan tetap bulanan untuk kebajikan dan aktiviti dakwah.</li>
+            <li><strong>Sifat Al-I'tsar:</strong> Mendahulukan keperluan saudara seiman yang memerlukan melebihi diri sendiri.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tarbiah-modal-footer">
+        <button class="tarbiah-modal-btn" id="btnTarbiahModalCloseFooter">Faham &amp; Hayati Amalan</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= MODAL UMMAH FADHILAH & PBI (SUMBANGAN AL-RAQAIQ) ================= -->
+  <div class="tarbiah-modal-overlay peradaban-modal-overlay" id="modalPeradabanSpotlight" style="display: none !important;" onclick="if(event.target===this)closePeradabanModal()">
+    <div class="tarbiah-modal-box peradaban-modal-box">
+      <div class="tarbiah-modal-header peradaban-modal-header">
+        <div class="peradaban-modal-badge">ðŸŒ WAWASAN 100 TAHUN KEDUA (PBI)</div>
+        <button class="icon-btn tarbiah-modal-close" id="btnClosePeradabanModal" onclick="closePeradabanModal()" aria-label="Tutup">âœ•</button>
+      </div>
+      <h3 class="tarbiah-modal-title peradaban-modal-title">Ummah Fadhilah &amp; Peradaban Baru Islam</h3>
+      <p class="tarbiah-modal-subtitle peradaban-modal-subtitle">Sumbangan Kitab Al-RaqÄ'iq (As-Syeikh Muhammad Ahmad al-Rasyid) Sebagai Enjin Ruhiyah &amp; Moral Membina Kuasa Watan</p>
+
+      <!-- Pautan Fail Dokumen Sedia Digunakan (Word & PDF) -->
+      <!-- Pautan Fail Dokumen PDF Sedia Digunakan (Satu Baris Sahaja) -->
+      <div class="peradaban-download-panel">
+        <div class="download-panel-title">ðŸ“• Pautan E-Buku PDF Rasmi (Format Sedia Cetak &amp; Baca):</div>
+        <div class="download-buttons-group">
+          <a href="./Gagasan_Ummah_Fadhilah_Kuasa_Nasional_dan_Tetralogi_Al-Rasyid.pdf" target="_blank" class="peradaban-doc-btn pdf-btn">
+            <span class="doc-icon">ðŸ“•</span>
+            <div class="doc-info">
+              <span class="doc-main-text">Dokumen Am PDF (.pdf)</span>
+              <span class="doc-sub-text">Gagasan Ummah Fadhilah (886 KB)</span>
+            </div>
+          </a>
+          <a href="./Sumbangan_Al_Raqaiq_Dalam_Ummah_Fadhilah_Kuasa_Nasional_dan_PBI.pdf" target="_blank" class="peradaban-doc-btn pdf-btn">
+            <span class="doc-icon">ðŸ“•</span>
+            <div class="doc-info">
+              <span class="doc-main-text">Dokumen Khas PDF (.pdf)</span>
+              <span class="doc-sub-text">Sumbangan Al-RaqÄ'iq (4.3 MB)</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="tarbiah-modal-body peradaban-modal-body">
+        <!-- 1. Kedudukan Strategik -->
+        <div class="peradaban-card-highlight">
+          <div class="peradaban-card-header">
+            <span class="peradaban-card-icon">ðŸ§­</span>
+            <div>
+              <h4 style="margin:0; font-size:1.05rem; color:var(--gold-light);">Kedudukan Al-RaqÄ'iq dalam Kitaran 100 Tahun Kedua</h4>
+              <span style="font-size:0.75rem; color:#93c5fd;">Jantung Rohani, Enjin Batin &amp; Benteng Moral</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Kitab <strong>Al-RaqÄ'iq</strong> (Pelembut-pelembut Hati) adalah <strong>enjin batin dan benteng moral</strong> kepada seluruh pembinaan Kuasa Nasional. Jika <em>Al-MasÄr</em> adalah seni bina perancangan fizikal negara, maka <em>Al-RaqÄ'iq</em> adalah roh dan perisian rohaniahnya.
+          </p>
+          <p class="peradaban-desc-text" style="color:#cbd5e1; margin-top:0.5rem;">
+            Ia merawat barah terbesar yang melumpuhkan gerakan Islam pada akhir 100 Tahun Pertama (1924â€“2024): <strong>kekeringan rohani dan mabuk kuasa (<em>ghuluw siasah</em>)</strong>. Al-RaqÄ'iq memastikan kedaulatan yang dibangunkan tidak menjadi rejim sekular baharu, sebaliknya menegakkan ubudiah mutlak kepada Allah SWT.
+          </p>
+        </div>
+
+        <!-- 2. Enam Pilar Tanáº“Ä«r al-TaghyÄ«r -->
+        <h4 style="color:var(--gold-light); margin:0.5rem 0 0.25rem 0; font-size:1rem; display:flex; align-items:center; gap:6px;">
+          <span>ðŸ“Œ</span> <span>Enam Teras Sumbangan Al-RaqÄ'iq dalam Kuasa Nasional</span>
+        </h4>
+
+        <!-- Pilar 1 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">ðŸ‘‘</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>1. Tasbih Mengukuhkan Kerajaan (Bab 1)</h4>
+              <span class="tarbiah-pillar-tag">Model Kepimpinan Kenabian: Nabi Daud AS</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Nabi Daud AS dianugerahkan kerajaan perkasa (<em>mulk</em>) dan industri besi yang melentur kerana baginda seorang hamba yang sentiasa merintih (<em>awwÄb</em>), bertahajud, dan bertasbih di mihrab. Kuasa Nasional Islam teguh di atas sujud dan istighfar, bukan sekadar kelicikan siasah semata-mata.
+          </p>
+        </div>
+
+        <!-- Pilar 2 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">ðŸŒ™</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>2. Madrasah Malam &amp; Minit-Minit Berharga (Bab 2)</h4>
+              <span class="tarbiah-pillar-tag">Sepertiga Malam Terakhir &amp; Menakluk Tidur</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Kemenangan dakwah di siang hari ditentukan oleh rintihan air mata para pejuang di keheningan malam. Da'i yang gagal menakluk selimut tidurnya tidak akan mampu memimpin pembebasan watan mahupun menerajui peradaban agung.
+          </p>
+        </div>
+
+        <!-- Pilar 3 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">ðŸ¤</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>3. Komuniti Akar Umbi &amp; Fiqh Al-I'tsÄr (Bab 5)</h4>
+              <span class="tarbiah-pillar-tag">Ukhuwah Takwa &amp; Menewaskan Individualisme</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Membina asas masyarakat harmoni yang menewaskan individualisme liberal. Melalui amalan berkata benar, menolak kepura-puraan (<em>takalluf</em>), membersihkan diri daripada ketamakan dunia, dan mengutamakan saudara seakidah (<em>al-i'tsÄr</em>).
+          </p>
+        </div>
+
+        <!-- Pilar 4 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">â›“ï¸</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>4. Memecahkan Belenggu Bumi (Bab 10)</h4>
+              <span class="tarbiah-pillar-tag">Pembebasan daripada Belenggu Harta &amp; Jawatan</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Membebaskan da'i daripada 'belenggu bumi' (<em>quyÅ«d al-ará¸</em>) seperti ketakutan kehilangan pendapatan, cinta kemewahan, dan kedudukan. Pemimpin yang terbelenggu dengan keselesaan dunia tidak akan memiliki keberanian untuk mempertahankan kedaulatan negara.
+          </p>
+        </div>
+
+        <!-- Pilar 5 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">ðŸ•Šï¸</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>5. Hamba yang Merdeka (Bab 11)</h4>
+              <span class="tarbiah-pillar-tag">Izzah Islam &amp; Meruntuhkan Rasa Rendah Diri</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Kemerdekaan sejati hanya lahir apabila seseorang menghambakan diri secara mutlak kepada Allah SWT. Ia melahirkan jiwa yang merdeka daripada rasa rendah diri (<em>inferiority complex</em>) terhadap kuasa hegemoni duniawi, meneladani keteguhan Rib'i bin 'Amir RA di hadapan Rustum.
+          </p>
+        </div>
+
+        <!-- Pilar 6 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">â³</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>6. Etos Kerja: "Lenyaplah Waktu Terluang!" (Bab 12)</h4>
+              <span class="tarbiah-pillar-tag">Wasiat Khalifah Umar bin Abdul Aziz</span>
+            </div>
+          </div>
+          <div class="tarbiah-quote-box" dir="rtl" style="margin: 0.5rem 0;">
+            <span class="arabic-text-amiri-gold">ÙˆÙŽØ£ÙŽÙŠÙ’Ù†ÙŽ Ø§Ù„ÙÙŽØ±ÙŽØ§ØºÙØŸ Ø°ÙŽÙ‡ÙŽØ¨ÙŽ Ø§Ù„ÙÙŽØ±ÙŽØ§ØºÙ ÙÙŽÙ„ÙŽØ§ ÙÙŽØ±ÙŽØ§ØºÙŽ Ø¥ÙÙ„Ø§Ù‘ÙŽ Ø¹ÙÙ†Ù’Ø¯ÙŽ Ø§Ù„Ù„Ù‡Ù!</span>
+          </div>
+          <p class="peradaban-desc-text">
+            <em>"Di manakah lagi adanya masa lapang? Telah lenyaplah masa lapang, maka tiada lagi kerehatan melainkan apabila bertemu Allah!"</em> â€” Menukar masyarakat daripada pengguna pasif kepada pencipta peradaban alternatif yang berdaya saing.
+          </p>
+        </div>
+
+        <!-- 3. Rantaian Simbiotik Segi Tiga -->
+        <div class="peradaban-card-highlight" style="border-color: rgba(245, 158, 11, 0.4); background: linear-gradient(135deg, rgba(30, 27, 75, 0.6) 0%, rgba(69, 26, 3, 0.4) 100%);">
+          <div class="peradaban-card-header">
+            <span class="peradaban-card-icon">ðŸ”„</span>
+            <div>
+              <h4 style="margin:0; font-size:1.05rem; color:var(--gold-light);">Hubungan Simbiotik Segi Tiga Peradaban</h4>
+              <span style="font-size:0.75rem; color:#fde047;">Rantaian Strategik Menuju 100 Tahun Kedua</span>
+            </div>
+          </div>
+          <div class="simbiotik-chain-grid">
+            <div class="chain-box">
+              <div class="chain-badge">1. ASAS &amp; JIWA</div>
+              <strong style="color:#7dd3fc; font-size:0.88rem;">Ummah Fadhilah</strong>
+              <p style="font-size:0.75rem; color:#cbd5e1; margin-top:4px;">Masyarakat bertakwa, berakhlak mulia, berukhuwah itsar, dan mandiri di akar umbi.</p>
+            </div>
+            <div class="chain-arrow">âž”</div>
+            <div class="chain-box">
+              <div class="chain-badge">2. KUASA &amp; STRUKTUR</div>
+              <strong style="color:#fde047; font-size:0.88rem;">Kuasa Nasional</strong>
+              <p style="font-size:0.75rem; color:#cbd5e1; margin-top:4px;">Kedaulatan politik, institusi berteraskan syura, dan keupayaan pertahanan watan.</p>
+            </div>
+            <div class="chain-arrow">âž”</div>
+            <div class="chain-box">
+              <div class="chain-badge">3. KEMUNCAK GLOBAL</div>
+              <strong style="color:#6ee7b7; font-size:0.88rem;">Peradaban Baru Islam</strong>
+              <p style="font-size:0.75rem; color:#cbd5e1; margin-top:4px;">Prototaip sistem alternatif sejagat yang adil, makmur, dan berkat untuk kemanusiaan.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Harmonisasi Tetralogi Syeikh Muhammad Ahmad al-Rasyid -->
+        <div class="tetralogi-summary-box">
+          <h4 style="margin:0 0 0.5rem 0; color:var(--gold-light); font-size:0.95rem;">ðŸ“š Harmonisasi 4 Karya Tetralogi Syeikh Muhammad Ahmad al-Rasyid:</h4>
+          <ul class="tetralogi-list">
+            <li><strong>Al-Muntalaq:</strong> Menetapkan titik mula kesedaran, memurnikan tauhid, dan membentuk minda dakwah komprehensif.</li>
+            <li><strong>Al-â€˜AwÄâ€™iq:</strong> Mengesan ranjau nafsu, halangan keperibadian, dan penyakit fitnah di jalan dakwah.</li>
+            <li><strong>Al-RaqÄ'iq:</strong> Menyiram roh pejuang dengan tazkiyah, ukhuwah, dan tawaduk demi mengelakkan ghuluw siasah.</li>
+            <li><strong>Al-MasÄr:</strong> Merangka seni bina perancangan, polisi pentadbiran, dan strategi peradaban watan.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tarbiah-modal-footer">
+        <button class="tarbiah-modal-btn peradaban-close-footer-btn" id="btnPeradabanModalCloseFooter" onclick="closePeradabanModal()">Tutup &amp; Hayati Wawasan</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
