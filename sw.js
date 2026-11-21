@@ -1,4 +1,4 @@
-const CACHE_NAME = 'v380_tonggak_kuasa_nasional_infographic';
+const CACHE_NAME = 'v381_fix_hang_load_render';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',

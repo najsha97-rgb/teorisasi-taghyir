@@ -447,9 +447,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (readerContainer) readerContainer.style.display = 'block';
 
     // Banner metadata
-    if (ch.number.includes('PERADABAN') || chIdx === 10) {
+    if (ch.number.includes('PERADABAN') || state.currentChapter === 10) {
       document.getElementById('chBadgePill').textContent = '🏛️ SUMBANGAN STRATEGIK';
-    } else if (ch.number.includes('KHATIMAH') || chIdx === 8) {
+    } else if (ch.number.includes('KHATIMAH') || state.currentChapter === 8) {
       document.getElementById('chBadgePill').textContent = '📜 KHATIMAH';
     } else if (ch.number.includes('EPILOG')) {
       document.getElementById('chBadgePill').textContent = '🧭 EPILOG';
