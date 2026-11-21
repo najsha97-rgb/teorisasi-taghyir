@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v331-bab4-perenggan-lengkap';
+const CACHE_NAME = 'tanzir-v340-bab5-mukjizat-pemuda';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v331_bab4_perenggan_lengkap',
+  './index.html?v=20261121_v340_bab5_mukjizat_pemuda',
   './manifest.json',
-  './css/style.css?v=20261121_v331_bab4_perenggan_lengkap',
-  './js/app.js?v=20261121_v331_bab4_perenggan_lengkap',
-  './data/tanzir_data.js?v=20261121_v331_bab4_perenggan_lengkap',
-  './data/tanzir_quotes.js?v=20261121_v331_bab4_perenggan_lengkap',
+  './css/style.css?v=20261121_v340_bab5_mukjizat_pemuda',
+  './js/app.js?v=20261121_v340_bab5_mukjizat_pemuda',
+  './data/tanzir_data.js?v=20261121_v340_bab5_mukjizat_pemuda',
+  './data/tanzir_quotes.js?v=20261121_v340_bab5_mukjizat_pemuda',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
