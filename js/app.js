@@ -526,7 +526,8 @@ document.addEventListener('DOMContentLoaded', () => {
           modeBadge.textContent = `Versi Lengkap (${sub.paragraphs ? sub.paragraphs.length : 0} Perenggan)`;
         }
       } else {
-        const subParas = (sub.paragraphs && sub.paragraphs.length > 0) ? sub.paragraphs : (sub.content ? sub.content.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean) : []);
+        const rawParas = (sub.paragraphs && sub.paragraphs.length > 0) ? sub.paragraphs : (sub.content ? sub.content.split(/\n\s*\n/) : []);
+        const subParas = rawParas.map(s => (typeof s === 'string' ? s.trim() : '')).filter(s => s && !/^[\*\-]{3,}$/.test(s));
         modeBadge.textContent = `Versi Lengkap (${subParas.length} Perenggan${subFnCount > 0 ? ` & ${subFnCount} Nota Kaki` : ''})`;
       }
     } else {
