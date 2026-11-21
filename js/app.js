@@ -172,12 +172,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const layerBtnRingkasan = document.getElementById('btnLayerRingkasan');
   const layerBtnHikmah = document.getElementById('btnLayerHikmah');
   const sidebarHikmahBtn = document.getElementById('sidebarHikmahBtn');
-  const sidebarTarbiahBtn = document.getElementById('sidebarTarbiahBtn');
+  const sidebarPeradabanBtn = document.getElementById('sidebarPeradabanBtn');
   const sidebarPeradabanBtn = document.getElementById('sidebarPeradabanBtn');
   const btnHeaderPeradaban = document.getElementById('btnHeaderPeradaban');
-  const modalTarbiahSpotlight = document.getElementById('modalTarbiahSpotlight');
   const modalPeradabanSpotlight = document.getElementById('modalPeradabanSpotlight');
-  const btnCloseTarbiahModal = document.getElementById('btnCloseTarbiahModal');
+  const modalPeradabanSpotlight = document.getElementById('modalPeradabanSpotlight');
+  const btnClosePeradabanModal = document.getElementById('btnClosePeradabanModal');
   const btnClosePeradabanModal = document.getElementById('btnClosePeradabanModal');
   const btnTarbiahModalCloseFooter = document.getElementById('btnTarbiahModalCloseFooter');
   const btnPeradabanModalCloseFooter = document.getElementById('btnPeradabanModalCloseFooter');
@@ -1530,26 +1530,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Open / Close Tarbiah Spotlight Modal
   function toggleTarbiahModal(show) {
-    if (!modalTarbiahSpotlight) return;
-    modalTarbiahSpotlight.style.display = show ? 'flex' : 'none';
+    if (!modalPeradabanSpotlight) return;
+    modalPeradabanSpotlight.style.display = show ? 'flex' : 'none';
     if (show && state.mobileNavOpen) {
       toggleMobileNav(false);
     }
   }
   window.openTarbiahSpotlightModal = () => toggleTarbiahModal(true);
 
-  if (sidebarTarbiahBtn) {
-    sidebarTarbiahBtn.addEventListener('click', () => toggleTarbiahModal(true));
+  if (sidebarPeradabanBtn) {
+    sidebarPeradabanBtn.addEventListener('click', () => toggleTarbiahModal(true));
   }
-  if (btnCloseTarbiahModal) {
-    btnCloseTarbiahModal.addEventListener('click', () => toggleTarbiahModal(false));
+  if (btnClosePeradabanModal) {
+    btnClosePeradabanModal.addEventListener('click', () => toggleTarbiahModal(false));
   }
   if (btnTarbiahModalCloseFooter) {
     btnTarbiahModalCloseFooter.addEventListener('click', () => toggleTarbiahModal(false));
   }
-  if (modalTarbiahSpotlight) {
-    modalTarbiahSpotlight.addEventListener('click', (e) => {
-      if (e.target === modalTarbiahSpotlight) toggleTarbiahModal(false);
+  if (modalPeradabanSpotlight) {
+    modalPeradabanSpotlight.addEventListener('click', (e) => {
+      if (e.target === modalPeradabanSpotlight) toggleTarbiahModal(false);
     });
   }
 
