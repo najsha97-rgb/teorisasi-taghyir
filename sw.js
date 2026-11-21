@@ -1,11 +1,11 @@
-const CACHE_NAME = 'v386_ringkasan_epilog_peradaban';
+const CACHE_NAME = 'v387_korpus_karya_perantara';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',
   './manifest.json',
-  './css/style.css?v=v386_ringkasan_epilog_peradaban',
-  './js/app.js?v=v386_ringkasan_epilog_peradaban',
-  './data/tanzir_data.js?v=v386_ringkasan_epilog_peradaban',
+  './css/style.css?v=v387_korpus_karya_perantara',
+  './js/app.js?v=v387_korpus_karya_perantara',
+  './data/tanzir_data.js?v=v387_korpus_karya_perantara',
   './data/tanzir_quotes.js?v=20261121_v370_epilog_penghormatan',
   './icons/favicon.png',
   './icons/icon-192.png',
