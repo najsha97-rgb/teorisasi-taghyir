@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v205-clean-syntax';
+const CACHE_NAME = 'tanzir-v210-perfect-render';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v205',
+  './index.html?v=20261121_v210_perfect',
   './manifest.json',
-  './css/style.css?v=20261121_v205',
-  './js/app.js?v=20261121_v205',
-  './data/tanzir_data.js?v=20261121_v205',
-  './data/tanzir_quotes.js?v=20261121_v205',
+  './css/style.css?v=20261121_v210_perfect',
+  './js/app.js?v=20261121_v210_perfect',
+  './data/tanzir_data.js?v=20261121_v210_perfect',
+  './data/tanzir_quotes.js?v=20261121_v210_perfect',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',

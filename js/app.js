@@ -415,8 +415,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!sub) return;
 
     if (state.layer === 'layer3') {
-      heroCard.style.display = 'none';
-      readerContainer.style.display = 'block';
+      if (heroCard) heroCard.style.display = 'none';
+      if (readerContainer) readerContainer.style.display = 'block';
 
       document.getElementById('chBadgePill').textContent = '💎 KOLEKSI EMAS DAKWAH';
       document.getElementById('chArabicTitle').textContent = 'درر الحكمة والدعوة';
@@ -434,8 +434,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Hide hero after navigation or show meta
-    heroCard.style.display = (state.currentChapter === 0 && state.currentSubtopic === 0) ? 'block' : 'none';
-    readerContainer.style.display = 'block';
+    if (heroCard) heroCard.style.display = (state.currentChapter === 0 && state.currentSubtopic === 0) ? 'block' : 'none';
+    if (readerContainer) readerContainer.style.display = 'block';
 
     // Banner metadata
     document.getElementById('chBadgePill').textContent = ch.number;
@@ -1525,27 +1525,24 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Open / Close Tarbiah Spotlight Modal
-  function toggleTarbiahModal(show) {
+  function togglePeradabanModal(show) {
     if (!modalPeradabanSpotlight) return;
     modalPeradabanSpotlight.style.display = show ? 'flex' : 'none';
     if (show && state.mobileNavOpen) {
       toggleMobileNav(false);
     }
   }
-  window.openTarbiahSpotlightModal = () => toggleTarbiahModal(true);
+  window.openTarbiahSpotlightModal = () => togglePeradabanModal(true);
 
   if (sidebarPeradabanBtn) {
-    sidebarPeradabanBtn.addEventListener('click', () => toggleTarbiahModal(true));
+    sidebarPeradabanBtn.addEventListener('click', () => togglePeradabanModal(true));
   }
   if (btnClosePeradabanModal) {
-    btnClosePeradabanModal.addEventListener('click', () => toggleTarbiahModal(false));
-  }
-  if (btnTarbiahModalCloseFooter) {
-    btnTarbiahModalCloseFooter.addEventListener('click', () => toggleTarbiahModal(false));
+    btnClosePeradabanModal.addEventListener('click', () => togglePeradabanModal(false));
   }
   if (modalPeradabanSpotlight) {
     modalPeradabanSpotlight.addEventListener('click', (e) => {
-      if (e.target === modalPeradabanSpotlight) toggleTarbiahModal(false);
+      if (e.target === modalPeradabanSpotlight) togglePeradabanModal(false);
     });
   }
 
