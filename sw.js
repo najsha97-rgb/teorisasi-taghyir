@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tanzir-v210-perfect-render';
+﻿const CACHE_NAME = 'tanzir-v220-desktop-pwa-layout';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v210_perfect',

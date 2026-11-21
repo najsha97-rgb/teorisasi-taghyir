@@ -26,7 +26,7 @@
   <link rel="icon" type="image/jpeg" href="./images/cover_revitalized_vibrant_tanzir.jpg">
   <link rel="apple-touch-icon" href="./images/cover_revitalized_vibrant_tanzir.jpg">
   <link rel="manifest" href="./manifest.json">
-  <link rel="stylesheet" href="./css/style.css?v=20261121_v210_perfect">
+  <link rel="stylesheet" href="./css/style.css?v=20261121_v220_final">
 
   <!-- Google Fonts: Premium Manuscript Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <style>
-    /* Curved Pill Button & Capsule Styles - Tanẓīr al-Taghyīr Royal Sapphire Theme */
+    /* Curved Pill Button & Capsule Styles - Al-Raqaiq Royal Sapphire Theme */
     .hikmah-action-btn {
       border-radius: 9999px !important;
       padding: 10px 24px !important;
@@ -252,7 +252,7 @@ window.togglePeradabanModal = function(show) {
   <!-- ================= APP HEADER ================= -->
   <header class="app-header">
     <div class="brand-wrapper" id="brandHomeBtn">
-      <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Buka Menu Kandungan Tanẓīr al-Taghyīr" title="Buka Menu Kandungan (13 Bab & Subtajuk)">
+      <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Buka Menu Kandungan Al-Raqaiq" title="Buka Menu Kandungan (13 Bab & Subtajuk)">
         <svg class="menu-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <line x1="3" y1="6" x2="21" y2="6"></line>
           <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -310,19 +310,32 @@ window.togglePeradabanModal = function(show) {
           <span class="hikmah-promo-sub">(Hadis Nabi SAW + Tokoh & Da'i)</span>
         </div>
         <span class="hikmah-promo-badge">Rawak</span>
+      </div><!-- Quick Access: Ummah Fadhilah & PBI (Teori Perubahan & Kuasa) -->
+      <div class="sidebar-peradaban-promo" id="sidebarPeradabanBtn" role="button" tabindex="0" title="Buka Wawasan Ummah Fadhilah &amp; Peradaban Baru Islam (PBI)" onclick="openPeradabanModal()">
+        <div class="peradaban-promo-icon">🌍</div>
+        <div class="peradaban-promo-info">
+          <span class="peradaban-promo-title">Ummah Fadhilah &amp; PBI</span>
+          <span class="peradaban-promo-sub">(Teori Perubahan & Kuasa)</span>
+        </div>
+        <span class="peradaban-promo-badge">Wawasan</span>
       </div>
 
-      <!-- Quick Access: Sekilas Teras Fiqh Perubahan -->
-      
-      </div>
+      <!-- Navigation Tree -->
+      <ul class="chapter-nav-list" id="chapterNavList">
+        <!-- Generated Dynamically -->
+      </ul>
+    </aside>
 
-            <!-- Hero / Introduction Card -->
+    <!-- Main Content Area -->
+    <main class="app-content" id="mainContent">
+
+      <!-- Hero / Introduction Card -->
       <div class="hero-card" id="heroCard">
-        <span class="hero-badge">— SIRI IHYA' FIQH AL-DA'WAH (Teori Siasah Syar'iyyah) —</span>
+        <span class="hero-badge">— SIRI IHYA' FIQH AL-DA'WAH (Teori Siasah Syar'iyyah & Perubahan Politik Islam) —</span>
         <h2 class="hero-title">TANẒĪR AL-TAGHYĪR <span class="hero-ar-title">(تَنْظِيرُ التَّغْيِيرِ)</span></h2>
         <div style="font-size: 1.15rem; font-weight: 700; color: var(--gold-light); margin: -4px 0 10px 0; letter-spacing: 0.5px;">Membina Teori Integrasi Perubahan Politik Islam</div>
         <p class="hero-desc">
-          Karya agung Asy-Syeikh Muhammad Ahmad ar-Rasyid (رحمه الله) yang menghuraikan Fiqh Siyasah Syar'iyyah, Falsafah Ketamadunan, Kuasa Massa Sivil &amp; Teori Integrasi Perubahan Politik Islam demi pembinaan Ummah Fadhilah &amp; Kuasa Nasional.
+          Karya agung Asy-Syeikh Muhammad Ahmad ar-Rasyid (رحمه الله) yang menghuraikan Fiqh Siyasah Syar'iyyah, Falsafah Ketamadunan, Kuasa Massa Sivil & Teori Integrasi Perubahan Politik Islam demi pembinaan Ummah Fadhilah & Kuasa Nasional.
         </p>
         <div class="hero-stats">
           <div class="stat-item">
@@ -460,11 +473,10 @@ window.togglePeradabanModal = function(show) {
   </div>
 
   <!-- Data Scripts (Offline Direct Access) -->
-  <script src="./data/tanzir_quotes.js?v=20261121_v210_perfect"></script>
-  <script src="./data/tanzir_data.js?v=20261121_v210_perfect"></script>
+  <script src="./data/tanzir_quotes.js?v=20261121_v220_final"></script>
+  <script src="./data/tanzir_data.js?v=20261121_v220_final"></script>
   <!-- Application Core Script -->
-  <script src="./js/app.js?v=20261121_v210_perfect"></script>
-  <!-- ================= MODAL UMMAH FADHILAH & PBI (SUMBANGAN TANZIR AL-TAGHYIR) ================= -->
+  <script src="./js/app.js?v=20261121_v220_final"></script><!-- ================= MODAL UMMAH FADHILAH & PBI (SUMBANGAN AL-RAQAIQ) ================= -->
   <div class="tarbiah-modal-overlay peradaban-modal-overlay" id="modalPeradabanSpotlight" style="display: none !important;" onclick="if(event.target===this)closePeradabanModal()">
     <div class="tarbiah-modal-box peradaban-modal-box">
       <div class="tarbiah-modal-header peradaban-modal-header">
@@ -486,7 +498,7 @@ window.togglePeradabanModal = function(show) {
               <span class="doc-sub-text">Gagasan Ummah Fadhilah (886 KB)</span>
             </div>
           </a>
-          <a href="./SUMBANGAN_TANZIR_AL_TAGHYIR_DALAM_UMMAH_FADHILAH_DAN_PBI.pdf" target="_blank" class="peradaban-doc-btn pdf-btn">
+          <a href="./Sumbangan_Al_Raqaiq_Dalam_Ummah_Fadhilah_Kuasa_Nasional_dan_PBI.pdf" target="_blank" class="peradaban-doc-btn pdf-btn">
             <span class="doc-icon">📕</span>
             <div class="doc-info">
               <span class="doc-main-text">Dokumen Khas PDF (.pdf)</span>
@@ -514,7 +526,7 @@ window.togglePeradabanModal = function(show) {
           </p>
         </div>
 
-        <!-- 2. Enam Pilar Tanẓīr al-Taghyīr -->
+        <!-- 2. Enam Pilar Al-Raqaiq -->
         <h4 style="color:var(--gold-light); margin:0.5rem 0 0.25rem 0; font-size:1rem; display:flex; align-items:center; gap:6px;">
           <span>📌</span> <span>Enam Teras Sumbangan Al-Raqā'iq dalam Kuasa Nasional</span>
         </h4>
@@ -656,9 +668,3 @@ window.togglePeradabanModal = function(show) {
 
 </body>
 </html>
-      <!-- Navigation Tree -->
-      <ul class="chapter-nav-list" id="chapterNavList">
-        <!-- Generated Dynamically -->
-      </ul>
-    
-    
