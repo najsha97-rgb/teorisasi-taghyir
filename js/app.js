@@ -1524,56 +1524,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Open / Close Tarbiah Spotlight Modal
-  function togglePeradabanModal(show) {
-    if (!modalPeradabanSpotlight) return;
-    modalPeradabanSpotlight.style.display = show ? 'flex' : 'none';
-    if (show && state.mobileNavOpen) {
-      toggleMobileNav(false);
-    }
-  }
-  window.openTarbiahSpotlightModal = () => togglePeradabanModal(true);
-
-  if (sidebarPeradabanBtn) {
-    sidebarPeradabanBtn.addEventListener('click', () => togglePeradabanModal(true));
-  }
-  if (btnClosePeradabanModal) {
-    btnClosePeradabanModal.addEventListener('click', () => togglePeradabanModal(false));
-  }
-  if (modalPeradabanSpotlight) {
-    modalPeradabanSpotlight.addEventListener('click', (e) => {
-      if (e.target === modalPeradabanSpotlight) togglePeradabanModal(false);
-    });
-  }
-
-  // Open / Close Peradaban Spotlight Modal (Ummah Fadhilah & PBI)
-  function togglePeradabanModal(show) {
-    if (!modalPeradabanSpotlight) return;
-    modalPeradabanSpotlight.style.display = show ? 'flex' : 'none';
-    if (show && state.mobileNavOpen) {
-      toggleMobileNav(false);
-    }
-  }
-  window.openPeradabanModal = () => togglePeradabanModal(true);
-
-  if (sidebarPeradabanBtn) {
-    sidebarPeradabanBtn.addEventListener('click', () => togglePeradabanModal(true));
-  }
-  if (btnHeaderPeradaban) {
-    btnHeaderPeradaban.addEventListener('click', () => togglePeradabanModal(true));
-  }
-  if (btnClosePeradabanModal) {
-    btnClosePeradabanModal.addEventListener('click', () => togglePeradabanModal(false));
-  }
-  if (btnPeradabanModalCloseFooter) {
-    btnPeradabanModalCloseFooter.addEventListener('click', () => togglePeradabanModal(false));
-  }
-  if (modalPeradabanSpotlight) {
-    modalPeradabanSpotlight.addEventListener('click', (e) => {
-      if (e.target === modalPeradabanSpotlight) togglePeradabanModal(false);
-    });
-  }
-
   // 9. Theme Switching
   function updateThemeIcon() {
     themeToggleBtn.innerHTML = state.theme === 'dark' ? '☀️' : '🌙';

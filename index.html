@@ -26,7 +26,7 @@
   <link rel="icon" type="image/jpeg" href="./images/cover_revitalized_vibrant_tanzir.jpg">
   <link rel="apple-touch-icon" href="./images/cover_revitalized_vibrant_tanzir.jpg">
   <link rel="manifest" href="./manifest.json">
-  <link rel="stylesheet" href="./css/style.css?v=20261121_v230_pure_tanzir">
+  <link rel="stylesheet" href="./css/style.css?v=20261121_v240_modal_complete">
 
   <!-- Google Fonts: Premium Manuscript Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -466,26 +466,190 @@ window.togglePeradabanModal = function(show) {
     </div>
   </div>
 
-  <!-- Toast Notification -->
-  <div class="toast-notice" id="toastNotice">
-    <span id="toastIcon">ℹ️</span>
-    <span id="toastMsg">Notifikasi</span>
-  </div>
+  <!-- ================= MODAL UMMAH FADHILAH & TEORISASI PERUBAHAN (TANẒĪR AL-TAGHYĪR) ================= -->
+  <div class="tarbiah-modal-overlay peradaban-modal-overlay" id="modalPeradabanSpotlight" style="display: none !important;" onclick="if(event.target===this)closePeradabanModal()">
+    <div class="tarbiah-modal-box peradaban-modal-box">
+      <div class="tarbiah-modal-header peradaban-modal-header">
+        <div class="peradaban-modal-badge">🌍 WAWASAN TEORI PERUBAHAN &amp; UMMAH FADHILAH</div>
+        <button class="icon-btn tarbiah-modal-close" id="btnClosePeradabanModal" onclick="closePeradabanModal()" aria-label="Tutup">✕</button>
+      </div>
+      <h3 class="tarbiah-modal-title peradaban-modal-title">Ummah Fadhilah, Kuasa Nasional &amp; Teori Perubahan Politik Islam</h3>
+      <p class="tarbiah-modal-subtitle peradaban-modal-subtitle">Sumbangan Masterpiece Tanẓīr al-Taghyīr (Asy-Syeikh Muhammad Ahmad ar-Rasyid رحمه الله) Dalam Membina Kerangka Integrasi Siasah Syar'iyyah &amp; Peradaban Baru Islam</p>
 
-  <!-- Data Scripts (Offline Direct Access) -->
-  <script src="./data/tanzir_quotes.js?v=20261121_v230_pure_tanzir"></script>
-  <script src="./data/tanzir_data.js?v=20261121_v230_pure_tanzir"></script>
-  <!-- Application Core Script -->
-  <script src="./js/app.js?v=20261121_v230_pure_tanzir"></script>
+      <!-- Pautan Fail Dokumen Rasmi Sedia Digunakan -->
+      <div class="peradaban-download-panel">
+        <div class="download-panel-title">📕 Pautan Dokumen &amp; E-Buku Rasmi (Format Sedia Baca &amp; Muat Turun):</div>
+        <div class="download-buttons-group">
+          <a href="./tanzir_al_taghyir.pdf" target="_blank" class="peradaban-doc-btn pdf-btn" title="Muat turun e-Buku PDF Lengkap">
+            <span class="doc-icon">📕</span>
+            <div class="doc-info">
+              <span class="doc-main-text">E-Buku Manuskrip PDF</span>
+              <span class="doc-sub-text">Tanẓīr al-Taghyīr BM (2.3 MB)</span>
+            </div>
+          </a>
+          <a href="./tanzir_al_taghyir.docx" target="_blank" class="peradaban-doc-btn word-btn" title="Muat turun Dokumen Word Lengkap">
+            <span class="doc-icon">📘</span>
+            <div class="doc-info">
+              <span class="doc-main-text">Dokumen Suntingan Word</span>
+              <span class="doc-sub-text">Format .docx Lengkap (2.5 MB)</span>
+            </div>
+          </a>
+          <a href="./tanzir_al_taghyir_arab.pdf" target="_blank" class="peradaban-doc-btn arab-btn" title="Muat turun Kitab Asal Bahasa Arab">
+            <span class="doc-icon">📗</span>
+            <div class="doc-info">
+              <span class="doc-main-text">Naskhah Asal Bahasa Arab</span>
+              <span class="doc-sub-text">تنظير التغيير PDF (9.5 MB)</span>
+            </div>
+          </a>
+        </div>
+      </div>
 
-        <!-- 4. Harmonisasi Tetralogi Syeikh Muhammad Ahmad al-Rasyid -->
+      <div class="tarbiah-modal-body peradaban-modal-body">
+        <!-- 1. Kedudukan Strategik -->
+        <div class="peradaban-card-highlight">
+          <div class="peradaban-card-header">
+            <span class="peradaban-card-icon">🧭</span>
+            <div>
+              <h4 style="margin:0; font-size:1.05rem; color:var(--gold-light);">Kedudukan Tanẓīr al-Taghyīr dalam Kitaran Perubahan Politik Islam</h4>
+              <span style="font-size:0.75rem; color:#93c5fd;">Kerangka Fiqh Siyasah Syar'iyyah &amp; Integrasi Kuasa Massa Sivil</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Kitab <strong>Tanẓīr al-Taghyīr</strong> (Membina Teori Perubahan Politik Islam) adalah kemuncak formulasi intelektual dan fiqh pergerakan Asy-Syeikh Muhammad Ahmad ar-Rasyid. Ia merumuskan <strong>teori integrasi perubahan politik</strong> yang menggabungkan kesedaran massa sivil, keabsahan perlembagaan, dan prinsip syariah ke arah merealisasikan Kuasa Nasional.
+          </p>
+          <p class="peradaban-desc-text" style="color:#cbd5e1; margin-top:0.5rem;">
+            Karya ini memandu gerakan Islam merentasi fasa 100 Tahun Kedua: <strong>menolak ketergesaan revolusi mentah (isti'jal) dan menolak kompromi akidah sekular</strong>. Tanẓīr al-Taghyīr membina landasan realistik berperingkat (<em>tadarruj</em>) bagi menegakkan keadilan, mempertahankan kedaulatan watan, dan membina Ummah Fadhilah.
+          </p>
+        </div>
+
+        <!-- 2. Enam Teras Teorisasi Perubahan -->
+        <h4 style="color:var(--gold-light); margin:0.8rem 0 0.4rem 0; font-size:1rem; display:flex; align-items:center; gap:6px;">
+          <span>📌</span> <span>Enam Teras Operasi Tanẓīr al-Taghyīr Menuju Kuasa Watan &amp; Ummah Fadhilah</span>
+        </h4>
+
+        <!-- Teras 1 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">⚖️</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>1. Fiqh Siyasah Syar'iyyah &amp; Realisme Dakwah (Bab 1)</h4>
+              <span class="tarbiah-pillar-tag">Pertimbangan Maslahah &amp; Menolak Utopia Khayalan</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Menegaskan politik Islam sebagai sains tindakan yang bertunjangkan neraca maqasid syariah, fiqh aulawiyyat (keutamaan), dan pertimbangan maslahah ammah, bukannya retorik emosi atau slogan kosong.
+          </p>
+        </div>
+
+        <!-- Teras 2 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">👥</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>2. Mobilisasi Massa Sivil &amp; Kuasa Rakyat (Bab 2)</h4>
+              <span class="tarbiah-pillar-tag">Menghubungkan Kepimpinan Haraki dengan Denyut Nadi Rakyat</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Kekuatan politik Islam tidak boleh terasing di menara gading. Ia wajib berakar umbi dalam masyarakat sivil melalui khidmat kebajikan, pembelaan hak asasi, dan pencerahan minda rakyat terbanyak.
+          </p>
+        </div>
+
+        <!-- Teras 3 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">📈</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>3. Fiqh Tadarruj (Gradualisme Berperingkat) (Bab 3)</h4>
+              <span class="tarbiah-pillar-tag">Menolak Ketergesaan Bersenjata &amp; Radikalisme Melulu</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Perubahan sistemik memerlukan pentahapan sunnatullah: fasa pembinaan kefahaman, pengukuhan institusi, dan pembentukan budaya integriti sebelum penguatkuasaan perundangan secara menyeluruh.
+          </p>
+        </div>
+
+        <!-- Teras 4 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">🏛️</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>4. Tadbir Urus Berintegriti &amp; Institusi Syura (Bab 4)</h4>
+              <span class="tarbiah-pillar-tag">Amanah Kuasa &amp; Memerangi Rasuah Politik</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Kuasa adalah taklif (tanggungjawab), bukan tasyrif (kemuliaan diri). Pemimpin wajib mengamalkan prinsip musyawarah telus, kompetensi teknokratik, dan keadilan tanpa pilih kasih.
+          </p>
+        </div>
+
+        <!-- Teras 5 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">🛡️</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>5. Ketahanan Kedaulatan &amp; Keselamatan Watan (Bab 5 &amp; 6)</h4>
+              <span class="tarbiah-pillar-tag">Pertahanan Menyeluruh Melawan Konspirasi &amp; Hegemoni</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Membina daya tahan negara merangkumi kemandirian ekonomi, keselamatan sempadan, perpaduan pelbagai kaum, dan benteng perisikan bagi mematahkan sebarang cubaan subversif luar dan dalam.
+          </p>
+        </div>
+
+        <!-- Teras 6 -->
+        <div class="tarbiah-pillar-card peradaban-pillar-card">
+          <div class="tarbiah-pillar-header">
+            <span class="tarbiah-pillar-icon">🌟</span>
+            <div class="tarbiah-pillar-titles">
+              <h4>6. Puncak Wawasan: Ummah Fadhilah Menuju PBI (Khatimah)</h4>
+              <span class="tarbiah-pillar-tag">Peradaban Baru Islam Sebagai Alternatif Kemanusiaan Sejagat</span>
+            </div>
+          </div>
+          <p class="peradaban-desc-text">
+            Menzahirkan masyarakat mithali (Ummah Fadhilah) yang berakhlak mulia, berilmu, dan makmur, yang seterusnya menjadi obor pembebasan bagi dunia daripada krisis ketamadunan moden.
+          </p>
+        </div>
+
+        <!-- 3. Rantaian Simbiotik Segi Tiga -->
+        <div class="peradaban-card-highlight" style="border-color: rgba(16, 185, 129, 0.4); background: linear-gradient(135deg, rgba(6, 35, 21, 0.8) 0%, rgba(15, 23, 42, 0.9) 100%);">
+          <div class="peradaban-card-header">
+            <span class="peradaban-card-icon">🔄</span>
+            <div>
+              <h4 style="margin:0; font-size:1.05rem; color:var(--gold-light);">Hubungan Simbiotik Segi Tiga Peradaban</h4>
+              <span style="font-size:0.75rem; color:#6ee7b7;">Rantaian Strategik Tanẓīr al-Taghyīr Menuju 100 Tahun Kedua</span>
+            </div>
+          </div>
+          <div class="simbiotik-chain-grid">
+            <div class="chain-box">
+              <div class="chain-badge">1. ASAS &amp; JIWA</div>
+              <strong style="color:#7dd3fc; font-size:0.88rem;">Ummah Fadhilah</strong>
+              <p style="font-size:0.75rem; color:#cbd5e1; margin-top:4px;">Masyarakat bertakwa, berakhlak mulia, berpendidikan, dan mandiri di peringkat akar umbi.</p>
+            </div>
+            <div class="chain-arrow">➔</div>
+            <div class="chain-box">
+              <div class="chain-badge">2. KUASA &amp; STRUKTUR</div>
+              <strong style="color:#fde047; font-size:0.88rem;">Kuasa Nasional</strong>
+              <p style="font-size:0.75rem; color:#cbd5e1; margin-top:4px;">Kedaulatan institusi berteraskan syura, keadilan undang-undang syarak, dan pertahanan watan.</p>
+            </div>
+            <div class="chain-arrow">➔</div>
+            <div class="chain-box">
+              <div class="chain-badge">3. KEMUNCAK SEJAGAT</div>
+              <strong style="color:#6ee7b7; font-size:0.88rem;">Peradaban Baru Islam (PBI)</strong>
+              <p style="font-size:0.75rem; color:#cbd5e1; margin-top:4px;">Prototaip sistem alternatif sejagat yang adil, makmur, dan rahmat untuk seluruh alam.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Harmonisasi Tetralogi & Siri Ihya' Fiqh al-Da'wah -->
         <div class="tetralogi-summary-box">
-          <h4 style="margin:0 0 0.5rem 0; color:var(--gold-light); font-size:0.95rem;">📚 Harmonisasi 4 Karya Tetralogi Syeikh Muhammad Ahmad al-Rasyid:</h4>
+          <h4 style="margin:0 0 0.5rem 0; color:var(--gold-light); font-size:0.95rem;">📚 Harmonisasi Karya Asy-Syeikh Muhammad Ahmad ar-Rasyid (رحمه الله):</h4>
           <ul class="tetralogi-list">
             <li><strong>Al-Muntalaq:</strong> Menetapkan titik mula kesedaran, memurnikan tauhid, dan membentuk minda dakwah komprehensif.</li>
             <li><strong>Al-‘Awā’iq:</strong> Mengesan ranjau nafsu, halangan keperibadian, dan penyakit fitnah di jalan dakwah.</li>
             <li><strong>Al-Raqā'iq:</strong> Menyiram roh pejuang dengan tazkiyah, ukhuwah, dan tawaduk demi mengelakkan ghuluw siasah.</li>
             <li><strong>Al-Masār:</strong> Merangka seni bina perancangan, polisi pentadbiran, dan strategi peradaban watan.</li>
+            <li><strong>Tanẓīr al-Taghyīr:</strong> Kemuncak formulasi teori perubahan politik bersepadu bagi membina Kuasa Nasional dan Ummah Fadhilah.</li>
           </ul>
         </div>
       </div>
@@ -496,5 +660,16 @@ window.togglePeradabanModal = function(show) {
     </div>
   </div>
 
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toastNotice">
+    <span id="toastIcon">ℹ️</span>
+    <span id="toastMsg">Notifikasi</span>
+  </div>
+
+  <!-- Data Scripts (Offline Direct Access) -->
+  <script src="./data/tanzir_quotes.js?v=20261121_v240_modal_complete"></script>
+  <script src="./data/tanzir_data.js?v=20261121_v240_modal_complete"></script>
+  <!-- Application Core Script -->
+  <script src="./js/app.js?v=20261121_v240_modal_complete"></script>
 </body>
 </html>

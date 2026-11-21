@@ -4422,7 +4422,7 @@ i .arabic-text-amiri-gold,
 
 .download-buttons-group {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 12px;
 }
 
@@ -4444,13 +4444,15 @@ i .arabic-text-amiri-gold,
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.peradaban-doc-btn.docx-btn {
+.peradaban-doc-btn.docx-btn,
+.peradaban-doc-btn.word-btn {
   background: linear-gradient(135deg, rgba(37, 99, 235, 0.25) 0%, rgba(30, 64, 175, 0.35) 100%);
   border: 1px solid rgba(59, 130, 246, 0.5);
   color: #bfdbfe;
 }
 
-.peradaban-doc-btn.docx-btn:hover {
+.peradaban-doc-btn.docx-btn:hover,
+.peradaban-doc-btn.word-btn:hover {
   background: linear-gradient(135deg, rgba(37, 99, 235, 0.45) 0%, rgba(30, 64, 175, 0.55) 100%);
   border-color: #60a5fa;
   transform: translateY(-2px);
@@ -4469,6 +4471,20 @@ i .arabic-text-amiri-gold,
   border-color: #fb7185;
   transform: translateY(-2px);
   box-shadow: 0 4px 14px rgba(225, 29, 72, 0.35);
+  color: #ffffff;
+}
+
+.peradaban-doc-btn.arab-btn {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.25) 0%, rgba(5, 150, 105, 0.35) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.5);
+  color: #a7f3d0;
+}
+
+.peradaban-doc-btn.arab-btn:hover {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.45) 0%, rgba(5, 150, 105, 0.55) 100%);
+  border-color: #34d399;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
   color: #ffffff;
 }
 

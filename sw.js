@@ -1,12 +1,12 @@
-﻿const CACHE_NAME = 'tanzir-v230-pure-tanzir-modal';
+﻿const CACHE_NAME = 'tanzir-v240-modal-complete';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v230_pure_tanzir',
+  './index.html?v=20261121_v240_modal_complete',
   './manifest.json',
-  './css/style.css?v=20261121_v230_pure_tanzir',
-  './js/app.js?v=20261121_v230_pure_tanzir',
-  './data/tanzir_data.js?v=20261121_v230_pure_tanzir',
-  './data/tanzir_quotes.js?v=20261121_v230_pure_tanzir',
+  './css/style.css?v=20261121_v240_modal_complete',
+  './js/app.js?v=20261121_v240_modal_complete',
+  './data/tanzir_data.js?v=20261121_v240_modal_complete',
+  './data/tanzir_quotes.js?v=20261121_v240_modal_complete',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
