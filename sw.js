@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v350-bab6-rumusan-teori';
+const CACHE_NAME = 'tanzir-v360-khatimah-wasiat-penutup';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v350_bab6_rumusan_teori',
+  './index.html?v=20261121_v360_khatimah_wasiat_penutup',
   './manifest.json',
-  './css/style.css?v=20261121_v350_bab6_rumusan_teori',
-  './js/app.js?v=20261121_v350_bab6_rumusan_teori',
-  './data/tanzir_data.js?v=20261121_v350_bab6_rumusan_teori',
-  './data/tanzir_quotes.js?v=20261121_v350_bab6_rumusan_teori',
+  './css/style.css?v=20261121_v360_khatimah_wasiat_penutup',
+  './js/app.js?v=20261121_v360_khatimah_wasiat_penutup',
+  './data/tanzir_data.js?v=20261121_v360_khatimah_wasiat_penutup',
+  './data/tanzir_quotes.js?v=20261121_v360_khatimah_wasiat_penutup',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
