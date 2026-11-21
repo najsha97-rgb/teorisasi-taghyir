@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const state = {
     currentChapter: 0,
     currentSubtopic: 0,
-    layer: localStorage.getItem('tanzir_layer') || 'layer1', // 'layer1' = Lengkap, 'layer2' = Ringkasan, 'layer3' = Mutiara Hikmah
+    layer: 'layer1', // 'layer1' = Lengkap, 'layer2' = Ringkasan, 'layer3' = Mutiara Hikmah
     summaryScope: localStorage.getItem('tanzir_summary_scope') || 'subtopic', // 'subtopic' (ringkasan subtajuk sahaja) atau 'chapter' (ringkasan keseluruhan bab)
     theme: localStorage.getItem('tanzir_theme') || 'dark',
     fontSize: parseFloat(localStorage.getItem('tanzir_fontsize') || '1.05'),
@@ -2244,14 +2244,10 @@ document.addEventListener('DOMContentLoaded', () => {
     return out;
   }
 
-  // Initial Boot
+  // Initial Boot - Sentiasa buka Versi Penuh (Layer 1) & Bab Pembuka
   renderSidebar();
-  if (state.layer === 'layer3') {
-    setLayer('layer3');
-  } else {
-    setLayer(state.layer);
-    navigateTo(0, 0);
-  }
+  setLayer('layer1');
+  navigateTo(0, 0);
 
 
   
