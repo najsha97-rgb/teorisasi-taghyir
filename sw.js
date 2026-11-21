@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v250-imej2-exact';
+const CACHE_NAME = 'tanzir-v290-mukadimah-factors';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v280_epigraf_trio',
+  './index.html?v=20261121_v290_mukadimah_factors',
   './manifest.json',
-  './css/style.css?v=20261121_v280_epigraf_trio',
-  './js/app.js?v=20261121_v280_epigraf_trio',
-  './data/tanzir_data.js?v=20261121_v280_epigraf_trio',
-  './data/tanzir_quotes.js?v=20261121_v280_epigraf_trio',
+  './css/style.css?v=20261121_v290_mukadimah_factors',
+  './js/app.js?v=20261121_v290_mukadimah_factors',
+  './data/tanzir_data.js?v=20261121_v290_mukadimah_factors',
+  './data/tanzir_quotes.js?v=20261121_v290_mukadimah_factors',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
