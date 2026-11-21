@@ -510,7 +510,8 @@ document.addEventListener('DOMContentLoaded', () => {
           modeBadge.textContent = `Versi Lengkap (${sub.paragraphs ? sub.paragraphs.length : 0} Perenggan)`;
         }
       } else {
-        modeBadge.textContent = `Versi Lengkap (${sub.paragraphs ? sub.paragraphs.length : 0} Perenggan${subFnCount > 0 ? ` & ${subFnCount} Nota Kaki` : ''})`;
+        const subParas = (sub.paragraphs && sub.paragraphs.length > 0) ? sub.paragraphs : (sub.content ? sub.content.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean) : []);
+        modeBadge.textContent = `Versi Lengkap (${subParas.length} Perenggan${subFnCount > 0 ? ` & ${subFnCount} Nota Kaki` : ''})`;
       }
     } else {
       if (state.summaryScope === 'chapter') {
@@ -915,6 +916,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // --- BAB-BAB LAIN (MUKADIMAH, BAB 1–6, KHATIMAH, EPILOG) ---
         if (sub.paragraphs && sub.paragraphs.length > 0) {
           renderParasInto(sub.paragraphs, contentBody);
+        } else if (sub.content) {
+          const splitParas = sub.content.split(/\n\s*\n/).map(s => s.trim()).filter(Boolean);
+          renderParasInto(splitParas, contentBody);
         } else {
           contentBody.innerHTML = '<p class="text-muted">Tiada teks lanjutan bagi bahagian ini.</p>';
         }
@@ -1051,13 +1055,12 @@ document.addEventListener('DOMContentLoaded', () => {
       let summaryRaw = '';
 
       if (isSubScope) {
-        summaryRaw = (sub && sub.summary && sub.summary.trim() !== '')
-          ? sub.summary
-          : (ch && ch.summary && ch.summary.trim() !== '' ? ch.summary : '');
+        summaryRaw = (sub && ((sub.summary && sub.summary.trim() !== '') ? sub.summary : sub.ringkasan))
+          || (ch && ch.summary && ch.summary.trim() !== '' ? ch.summary : '');
       } else {
         summaryRaw = (ch && ch.summary && ch.summary.trim() !== '')
           ? ch.summary
-          : (sub && sub.summary && sub.summary.trim() !== '' ? sub.summary : '');
+          : (sub && ((sub.summary && sub.summary.trim() !== '') ? sub.summary : sub.ringkasan) || '');
       }
 
       // Prepend Scope Switcher Toolbar

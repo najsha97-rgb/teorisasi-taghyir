@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v330-bab4-pergerakan-kehidupan';
+const CACHE_NAME = 'tanzir-v331-bab4-perenggan-lengkap';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v330_bab4_pergerakan_kehidupan',
+  './index.html?v=20261121_v331_bab4_perenggan_lengkap',
   './manifest.json',
-  './css/style.css?v=20261121_v330_bab4_pergerakan_kehidupan',
-  './js/app.js?v=20261121_v330_bab4_pergerakan_kehidupan',
-  './data/tanzir_data.js?v=20261121_v330_bab4_pergerakan_kehidupan',
-  './data/tanzir_quotes.js?v=20261121_v330_bab4_pergerakan_kehidupan',
+  './css/style.css?v=20261121_v331_bab4_perenggan_lengkap',
+  './js/app.js?v=20261121_v331_bab4_perenggan_lengkap',
+  './data/tanzir_data.js?v=20261121_v331_bab4_perenggan_lengkap',
+  './data/tanzir_quotes.js?v=20261121_v331_bab4_perenggan_lengkap',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
