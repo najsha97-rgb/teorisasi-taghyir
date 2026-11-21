@@ -238,8 +238,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       let badgeHtml = ch.number.replace('BAB ', '').replace('Bab ', 'B');
       let displayTitle = ch.title;
-      if (ch.number.includes('EPILOG') || ch.number.includes('EPIGRAF')) {
-        badgeHtml = '🖼️';
+      if (ch.number.includes('EPIGRAF')) {
+        badgeHtml = '🎨';
+        displayTitle = 'Epigraf: ' + ch.title;
+      } else if (ch.number.includes('EPILOG')) {
+        badgeHtml = '🧭';
         displayTitle = 'Epilog: ' + ch.title;
       } else if (ch.number === 'MUKADIMAH') {
         badgeHtml = 'M';
@@ -433,8 +436,8 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Hide hero after navigation or show meta
-    if (heroCard) heroCard.style.display = (state.currentChapter === 0 && state.currentSubtopic === 0) ? 'block' : 'none';
+    // Hide hero after navigation to keep reader area focused and clean
+    if (heroCard) heroCard.style.display = 'none';
     if (readerContainer) readerContainer.style.display = 'block';
 
     // Banner metadata
@@ -449,8 +452,16 @@ document.addEventListener('DOMContentLoaded', () => {
         arTitleEl.style.display = 'none';
       }
     }
-    if (state.currentChapter === 0 && (state.currentSubtopic === 2 || state.currentSubtopic === 3)) {
-      document.getElementById('subtopicMainTitle').textContent = 'Teks Asal Bahasa Arab & Terjemahan Puitis Sastera Tinggi';
+    if (state.currentChapter === 0) {
+      if (state.currentSubtopic === 0) {
+        document.getElementById('subtopicMainTitle').textContent = 'Pengenalan & Permulaan Epigraf / Kulit';
+      } else if (state.currentSubtopic === 1) {
+        document.getElementById('subtopicMainTitle').textContent = 'Teks Puisi Untuk Epigraf';
+      } else if (state.currentSubtopic === 2) {
+        document.getElementById('subtopicMainTitle').textContent = 'Huraian Makna & Falsafah Simbolisme Epigraf';
+      } else {
+        document.getElementById('subtopicMainTitle').textContent = sub.title;
+      }
     } else {
       document.getElementById('subtopicMainTitle').textContent = sub.title;
     }
@@ -488,8 +499,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const shortBadgeSubTitle = cleanSubTitleForBadge.length > 32 ? cleanSubTitleForBadge.substring(0, 30) + '...' : cleanSubTitleForBadge;
 
     if (state.layer === 'layer1') {
-      if (state.currentChapter === 0 && (state.currentSubtopic === 2 || state.currentSubtopic === 3)) {
-        modeBadge.textContent = 'Versi Dwi-Bahasa: Sebaris Arab di Atas + Terjemahan di Bawah (12 Bait Puisi)';
+      if (state.currentChapter === 0) {
+        if (state.currentSubtopic === 0) {
+          modeBadge.textContent = 'Falsafah Seni Kulit Buku: Fajar Kebebasan';
+        } else if (state.currentSubtopic === 1) {
+          modeBadge.textContent = 'Versi Dwi-Bahasa: Sebaris Arab di Atas + Terjemahan di Bawah (12 Bait Puisi)';
+        } else if (state.currentSubtopic === 2) {
+          modeBadge.textContent = 'Versi Lengkap: 7 Simbolisme Utama Perubahan Politik Islam';
+        } else {
+          modeBadge.textContent = `Versi Lengkap (${sub.paragraphs ? sub.paragraphs.length : 0} Perenggan)`;
+        }
       } else {
         modeBadge.textContent = `Versi Lengkap (${sub.paragraphs ? sub.paragraphs.length : 0} Perenggan${subFnCount > 0 ? ` & ${subFnCount} Nota Kaki` : ''})`;
       }
@@ -509,44 +528,6 @@ document.addEventListener('DOMContentLoaded', () => {
     contentBody.innerHTML = '';
 
     if (state.layer === 'layer1') {
-
-      // ============================================================
-      // BILINGUAL REDIRECT: Jika subtopik ini ialah [Terjemahan Puitis...],
-      // lompat ke subtopik Arab sebelumnya agar paparan bilingual penuh.
-      // ============================================================
-      const isTerjemahan = sub.title && sub.title.includes('Terjemahan Puitis');
-      if (isTerjemahan && state.currentSubtopic > 0) {
-        const arabSub = ch.subtopics[state.currentSubtopic - 1];
-        if (arabSub && arabSub.title && arabSub.title.includes('Teks Asal Bahasa Arab')) {
-          // Redirect diam-diam ke subtopik Arab
-          state.currentSubtopic = state.currentSubtopic - 1;
-          // Kemas kini sidebar aktif
-          document.querySelectorAll('.subtopic-nav-btn').forEach(btn => btn.classList.remove('active-sub'));
-          const activeChElem2 = document.getElementById(`nav-ch-${state.currentChapter}`);
-          if (activeChElem2) {
-            const newActiveBtn = activeChElem2.querySelectorAll('.subtopic-nav-btn')[state.currentSubtopic];
-            if (newActiveBtn) newActiveBtn.classList.add('active-sub');
-          }
-          // Render semula dengan subtopik Arab
-          renderContent();
-          return;
-        }
-      }
-
-      // ============================================================
-      // BILINGUAL RENDER: Jika subtopik ini ialah [Teks Asal Bahasa Arab],
-      // render Arab + Terjemahan dalam satu paparan gabungan.
-      // ============================================================
-      const isArabicText = sub.title && sub.title.includes('Teks Asal Bahasa Arab');
-      let subToRender = sub;
-      let translationSub = null;
-      if (isArabicText && state.currentSubtopic + 1 < ch.subtopics.length) {
-        const nextSub = ch.subtopics[state.currentSubtopic + 1];
-        if (nextSub && nextSub.title && nextSub.title.includes('Terjemahan Puitis')) {
-          translationSub = nextSub;
-        }
-      }
-
       // Fungsi pembantu: render satu senarai paragraf ke dalam bekas
       function renderParasInto(paraList, container) {
         paraList.forEach(para => {
@@ -680,166 +661,258 @@ document.addEventListener('DOMContentLoaded', () => {
       } // akhir renderParasInto()
 
       // ==================== RENDER KANDUNGAN LAYER 1 ====================
-      if (isArabicText && translationSub) {
-        // --- PAPARAN DWI-BAHASA INTERLINEAR (SEBARIS TEKS ARAB DI ATAS, TERJEMAHAN DI BAWAH) ---
-        const banner = document.createElement('div');
-        banner.className = 'bilingual-notice-card';
-        banner.innerHTML = `
-          <div class="bilingual-notice-icon">✨</div>
-          <div class="bilingual-notice-content">
-            <h4 class="bilingual-notice-title">Paparan Dwi-Bahasa Sebaris demi Sebaris (Sastera & Makna)</h4>
-            <p class="bilingual-notice-desc">Teks asal Bahasa Arab di baris atas (kanan) • Terjemahan puitis sastera tinggi tepat di bawahnya (kiri) untuk memudahkan perbandingan makna dan pemahaman segera.</p>
-          </div>
-        `;
-        contentBody.appendChild(banner);
+      if (state.currentChapter === 0) {
+        // ============================================================
+        // KHUSUS BAHAGIAN EPIGRAF / KULIT: 3 SUBTOPIK TEPAT
+        // ============================================================
 
-        const listWrap = document.createElement('div');
-        listWrap.className = 'bilingual-interlinear-wrapper';
+        if (state.currentSubtopic === 0) {
+          // --- SUBTOPIK 1: Pengenalan & Permulaan Epigraf / Kulit (Gambar Kulit di Sebelah Kanan) ---
+          const heroWrap = document.createElement('div');
+          heroWrap.className = 'epigraf-hero-layout';
+          heroWrap.innerHTML = `
+            <div class="epigraf-text-col">
+              <div class="epigraf-badge-row">
+                <span class="epigraf-badge-gold">🎨 FALSAFAH SENI KULIT BUKU</span>
+              </div>
+              <h2 class="epigraf-title">Falsafah Seni Kulit Buku: <em>Fajar Kebebasan</em></h2>
+              <div class="epigraf-title-ar" dir="rtl">غِلاَفُ الكِتَابِ وَفَلْسَفَةُ اللَّوْحَةِ التَّجْرِيدِيَّة</div>
 
-        // Pasangan terjemahan baris ke baris bagi Epigraf / Falsafah Kulit Buku
-        const epigrafVerses = [
-          {
-            type: 'basmalah',
-            ar: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
-            ms: 'Dengan nama Allah, Maha Pemurah, Maha Penyayang.'
-          },
-          {
-            type: 'lead',
-            tag: 'Latar Belakang Karya',
-            ar: 'الغِلاَفُ مِنْ فَنِّ الرَّاشِد . . عَلَى خَلْفِيَّةٍ تَجْرِيدِيَّة',
-            ms: 'Rekaan kulit buku ini merupakan sentuhan seni ciptaan al-Rasyid . . berlatarbelakangkan kanvas abstrak,'
-          },
-          {
-            type: 'lead',
-            tag: 'Isyarat Perlambangan',
-            ar: 'وَالإِيمَاءُ يَكْمُنُ فِي أَنَّ :',
-            ms: 'Dan isyarat perlambangannya tersurat pada hakikat bahawa:'
-          },
-          {
-            num: 1,
-            tag: 'Bait 1',
-            ar: 'شَمْسَ الحُرِّيَّةِ تَرْتَفِعُ . .',
-            ms: 'Mentari kebebasan kian meninggi di ufuk nan luas . .'
-          },
-          {
-            num: 2,
-            tag: 'Bait 2',
-            ar: 'بَعْدَ أَنْ أَدَّتِ الثَّمَنَ الأَحْمَرَ . .',
-            ms: 'Sesudah dilunaskan tebusan merah darah pengorbanan . .'
-          },
-          {
-            num: 3,
-            tag: 'Bait 3',
-            ar: 'فَبَدَتْ بَهْجَةُ الغَدِ الأَخْضَرِ . .',
-            ms: 'Maka merekahlah keindahan hari esok yang menghijau mekar . .'
-          },
-          {
-            num: 4,
-            tag: 'Bait 4',
-            ar: 'تُنْسِينَا أَيَّامَ القَاعِ الدَّاكِنِ . .',
-            ms: 'Memadamkan ingatan derita hari-hari kelam di dasar jurang kezaliman . .'
-          },
-          {
-            num: 5,
-            tag: 'Bait 5',
-            ar: 'وَحُشُودُ الشَّبَابِ الحُرِّ تَدْفَعُ قَدَرَ السُّوءِ بِقَدَرِ الخَيْرِ . .',
-            ms: 'Dan gelombang angkatan pemuda yang merdeka, mara menolak takdir keburukan dengan takdir kebaikan . .'
-          },
-          {
-            num: 6,
-            tag: 'Bait 6',
-            ar: 'وَمُفْرَدَاتٌ كَثِيرَةٌ أَظْهَرَهَا الزَّمَانُ أَوِ المَكَانُ تَشَابَكَتْ . .',
-            ms: 'Serta himpunan faktor yang dizahirkan oleh putaran masa dan ruang saling bertaut padu . .'
-          },
-          {
-            num: 7,
-            tag: 'Bait 7',
-            ar: 'فَكَانَتِ العَاصِفَةُ . . وَمَا تَزَالُ مُسْتَمِرَّةً',
-            ms: 'Maka meletuslah taufan kebangkitan . . yang badainya masih terus bergelora!'
-          },
-          {
-            num: 8,
-            tag: 'Bait 8',
-            ar: 'وَالحَاكِمُ الفَاشِلُ يَجْلِسُ عَلَى كُرْسِيٍّ انْكَسَرَتْ قَوَائِمُهُ غَيْرَ وَاحِدَةٍ . .',
-            ms: 'Sedang sang penguasa yang gagal, masih terduduk kaku di atas takhta yang telah patah kakinya, bukan hanya satu . .'
-          },
-          {
-            num: 9,
-            tag: 'Bait 9',
-            ar: 'فَهُوَ يَتَشَبَّثُ ، وَكَانَ قَدْ عَتَّمَ نَوَافِذَهُ لَا يُرِيدُ أَنْ يَرَى الوَاقِعَ . .',
-            ms: 'Dia terus berpaut cemas dalam ketakutan, padahal dialah dahulu yang sengaja menggelapkan jendela istananya, kerana enggan menatap kenyataan realiti . .'
-          },
-          {
-            num: 10,
-            tag: 'Bait 10',
-            ar: 'فَفَجَأَهُ ارْتِفَاعُ البَدْرِ وَالفَرَاشَاتُ السِّلْمِيَّةُ . .',
-            ms: 'Lalu tiba-tiba dia dikejutkan oleh terbitnya purnama gemilang, dan kepakan lembut rama-rama putih kedamaian . .'
-          },
-          {
-            num: 11,
-            tag: 'Bait 11',
-            ar: 'وَسَطَعَ النَّجْمُ . .',
-            ms: 'Serta benderangnya sinaran bintang kejora di langit malam . .'
-          },
-          {
-            num: 12,
-            tag: 'Bait 12',
-            ar: 'فَفَغَرَ الخَاسِرُ فَاهُ . . وَلَاتَ سَاعَةَ مَنْدَمٍ',
-            ms: 'Maka terngangalah mulut sang pecundang dalam kekufuran dan kelu . . tatkala saat itu sudah bukan lagi masa untuk menyesal!'
-          }
-        ];
+              <div class="epigraf-info-card">
+                <div class="info-row"><span class="info-lbl">Karya Agung:</span> <span class="info-val"><strong>Tanẓīr al-Taghyīr</strong> (تَنْظِيرُ التَّغْيِيرِ)</span></div>
+                <div class="info-row"><span class="info-lbl">Pengarang Asal:</span> <span class="info-val">Asy-Syeikh Muhammad Ahmad ar-Rasyid (رحمه الله)</span></div>
+                <div class="info-row"><span class="info-lbl">Sentuhan Seni:</span> <span class="info-val">Lukisan Kanvas Abstrak Ciptaan Al-Rasyid Sendiri</span></div>
+                <div class="info-row"><span class="info-lbl">Wawasan Siyasah:</span> <span class="info-val">Membina Teori Integrasi Perubahan Politik Islam</span></div>
+              </div>
 
-        epigrafVerses.forEach(item => {
-          const card = document.createElement('div');
-          card.className = `bilingual-verse-card ${item.type ? item.type + '-card' : ''}`;
+              <div class="epigraf-description">
+                <p>Kulit buku <em>Tanẓīr al-Taghyīr</em> bukanlah sekadar hiasan grafik biasa, sebaliknya merupakan <strong>sentuhan seni dan lukisan kanvas abstrak ciptaan tangan Asy-Syeikh Muhammad Ahmad ar-Rasyid rahimahullah sendiri</strong> bagi menzahirkan teori integrasi perubahan politik Islam secara visual.</p>
+                
+                <p>Lukisan ini sarat dengan simbolisme perjuangan: pertembungan antara kegelapan rejim tirani (<em>Al-Qā' al-Dākin</em>) dengan fajar kebebasan nan menghijau (<em>Bahjat al-Ghad al-Akhḍar</em>), yang ditebus dengan darah pengorbanan (<em>Al-Thaman al-Aḥmar</em>) dan digerakkan oleh angkatan pemuda merdeka melalui pendekatan damai berakhlak (<em>Al-Farāsyāt al-Silmiyyah</em>).</p>
+                
+                <p>Bagi menghuraikan makna di sebalik lukisan ini, Syeikh al-Rasyid telah mengalunkan <strong>12 bait puisi epigraf</strong> berima tinggi dan membongkar <strong>8 falsafah simbolisme</strong> kebangkitan umat.</p>
+              </div>
 
-          let tagHtml = '';
-          if (item.tag) {
-            tagHtml = `<div class="bilingual-verse-badge-row"><span class="bilingual-verse-badge">${item.tag}</span></div>`;
-          }
-
-          card.innerHTML = `
-            ${tagHtml}
-            <div class="bilingual-arabic-row" dir="rtl">
-              <span class="bilingual-lang-tag ar-tag">AR</span>
-              <p class="bilingual-text-arabic">${item.ar}</p>
+              <div class="epigraf-btn-group">
+                <button type="button" class="epigraf-jump-btn btn-primary" id="btnGoToPuisi1">
+                  <span>📜 2. Teks Puisi Untuk Epigraf (Dwi-Bahasa)</span>
+                  <span class="jump-arrow">→</span>
+                </button>
+                <button type="button" class="epigraf-jump-btn btn-secondary" id="btnGoToFalsafah1">
+                  <span>🔍 3. Huraian Falsafah Simbolisme</span>
+                  <span class="jump-arrow">→</span>
+                </button>
+              </div>
             </div>
-            <div class="bilingual-interlinear-divider"></div>
-            <div class="bilingual-malay-row">
-              <span class="bilingual-lang-tag ms-tag">BM</span>
-              <p class="bilingual-text-malay">${item.ms}</p>
+
+            <div class="epigraf-image-col">
+              <div class="epigraf-cover-frame">
+                <img src="./images/cover_revitalized_vibrant_tanzir.jpg" alt="Kulit Rasmi Tanẓīr al-Taghyīr - Lukisan Abstrak Syeikh al-Rasyid" class="epigraf-cover-img" />
+                <div class="epigraf-cover-caption">
+                  <span class="caption-badge">KULIT RASMI MANUSKRIP</span>
+                  <div class="caption-title">Fajar Kebebasan (شمس الحرية)</div>
+                  <p class="caption-desc">Lukisan kanvas abstrak ciptaan tangan Asy-Syeikh Muhammad Ahmad ar-Rasyid (رحمه الله)</p>
+                </div>
+              </div>
             </div>
           `;
-          listWrap.appendChild(card);
-        });
+          contentBody.appendChild(heroWrap);
 
-        contentBody.appendChild(listWrap);
+          // Pautan klik pantas ke subtopik 2 dan 3
+          const b1 = heroWrap.querySelector('#btnGoToPuisi1');
+          if (b1) b1.addEventListener('click', () => navigateTo(0, 1));
+          const b2 = heroWrap.querySelector('#btnGoToFalsafah1');
+          if (b2) b2.addEventListener('click', () => navigateTo(0, 2));
 
-        // Kad Navigasi ke Huraian Falsafah Simbolisme
-        const nextNavCard = document.createElement('div');
-        nextNavCard.className = 'bilingual-next-jump-card';
-        nextNavCard.innerHTML = `
-          <div class="next-jump-info">
-            <span class="next-jump-label">Seterusnya Dalam Bab Ini</span>
-            <h4 class="next-jump-title">5. [Huraian Makna & Falsafah Simbolisme Epigraf]</h4>
-            <p class="next-jump-desc">Ketahui 8 perlambangan falsafah mendalam di sebalik Fajar Kebebasan, Rama-rama Putih, dan Runtuhnya Takhta Taghut.</p>
-          </div>
-          <button type="button" class="next-jump-btn" id="btnJumpToFalsafah">
-            <span>Buka Huraian Falsafah</span>
-            <span class="jump-arrow">→</span>
-          </button>
-        `;
-        contentBody.appendChild(nextNavCard);
+        } else if (state.currentSubtopic === 1) {
+          // --- SUBTOPIK 2: Teks Puisi Untuk Epigraf (Interlinear Dwi-Bahasa Arab & Terjemahan) ---
+          const banner = document.createElement('div');
+          banner.className = 'bilingual-notice-card';
+          banner.innerHTML = `
+            <div class="bilingual-notice-icon">✨</div>
+            <div class="bilingual-notice-content">
+              <h4 class="bilingual-notice-title">Teks Puisi Untuk Epigraf (Dwi-Bahasa Sebaris demi Sebaris)</h4>
+              <p class="bilingual-notice-desc">Teks asal Bahasa Arab di baris atas (kanan) • Terjemahan puitis sastera tinggi tepat di bawahnya (kiri) untuk memudahkan perbandingan makna dan pemahaman segera.</p>
+            </div>
+          `;
+          contentBody.appendChild(banner);
 
-        const btnJump = nextNavCard.querySelector('#btnJumpToFalsafah');
-        if (btnJump) {
-          btnJump.addEventListener('click', () => {
-            navigateTo(0, 4); // Subtopic 5 (index 4)
+          const listWrap = document.createElement('div');
+          listWrap.className = 'bilingual-interlinear-wrapper';
+
+          const epigrafVerses = [
+            {
+              type: 'basmalah',
+              ar: 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ',
+              ms: 'Dengan nama Allah, Maha Pemurah, Maha Penyayang.'
+            },
+            {
+              type: 'lead',
+              tag: 'Latar Belakang Karya',
+              ar: 'الغِلاَفُ مِنْ فَنِّ الرَّاشِد . . عَلَى خَلْفِيَّةٍ تَجْرِيدِيَّة',
+              ms: 'Rekaan kulit buku ini merupakan sentuhan seni ciptaan al-Rasyid . . berlatarbelakangkan kanvas abstrak,'
+            },
+            {
+              type: 'lead',
+              tag: 'Isyarat Perlambangan',
+              ar: 'وَالإِيمَاءُ يَكْمُنُ فِي أَنَّ :',
+              ms: 'Dan isyarat perlambangannya tersurat pada hakikat bahawa:'
+            },
+            {
+              num: 1,
+              tag: 'Bait 1',
+              ar: 'شَمْسَ الحُرِّيَّةِ تَرْتَفِعُ . .',
+              ms: 'Mentari kebebasan kian meninggi di ufuk nan luas . .'
+            },
+            {
+              num: 2,
+              tag: 'Bait 2',
+              ar: 'بَعْدَ أَنْ أَدَّتِ الثَّمَنَ الأَحْمَرَ . .',
+              ms: 'Sesudah dilunaskan tebusan merah darah pengorbanan . .'
+            },
+            {
+              num: 3,
+              tag: 'Bait 3',
+              ar: 'فَبَدَتْ بَهْجَةُ الغَدِ الأَخْضَرِ . .',
+              ms: 'Maka merekahlah keindahan hari esok yang menghijau mekar . .'
+            },
+            {
+              num: 4,
+              tag: 'Bait 4',
+              ar: 'تُنْسِينَا أَيَّامَ القَاعِ الدَّاكِنِ . .',
+              ms: 'Memadamkan ingatan derita hari-hari kelam di dasar jurang kezaliman . .'
+            },
+            {
+              num: 5,
+              tag: 'Bait 5',
+              ar: 'وَحُشُودُ الشَّبَابِ الحُرِّ تَدْفَعُ قَدَرَ السُّوءِ بِقَدَرِ الخَيْرِ . .',
+              ms: 'Dan gelombang angkatan pemuda yang merdeka, mara menolak takdir keburukan dengan takdir kebaikan . .'
+            },
+            {
+              num: 6,
+              tag: 'Bait 6',
+              ar: 'وَمُفْرَدَاتٌ كَثِيرَةٌ أَظْهَرَهَا الزَّمَانُ أَوِ المَكَانُ تَشَابَكَتْ . .',
+              ms: 'Serta himpunan faktor yang dizahirkan oleh putaran masa dan ruang saling bertaut padu . .'
+            },
+            {
+              num: 7,
+              tag: 'Bait 7',
+              ar: 'فَكَانَتِ العَاصِفَةُ . . وَمَا تَزَالُ مُسْتَمِرَّةً',
+              ms: 'Maka meletuslah taufan kebangkitan . . yang badainya masih terus bergelora!'
+            },
+            {
+              num: 8,
+              tag: 'Bait 8',
+              ar: 'وَالحَاكِمُ الفَاشِلُ يَجْلِسُ عَلَى كُرْسِيٍّ انْكَسَرَتْ قَوَائِمُهُ غَيْرَ وَاحِدَةٍ . .',
+              ms: 'Sedang sang penguasa yang gagal, masih terduduk kaku di atas takhta yang telah patah kakinya, bukan hanya satu . .'
+            },
+            {
+              num: 9,
+              tag: 'Bait 9',
+              ar: 'فَهُوَ يَتَشَبَّثُ ، وَكَانَ قَدْ عَتَّمَ نَوَافِذَهُ لَا يُرِيدُ أَنْ يَرَى الوَاقِعَ . .',
+              ms: 'Dia terus berpaut cemas dalam ketakutan, padahal dialah dahulu yang sengaja menggelapkan jendela istananya, kerana enggan menatap kenyataan realiti . .'
+            },
+            {
+              num: 10,
+              tag: 'Bait 10',
+              ar: 'فَفَجَأَهُ ارْتِفَاعُ البَدْرِ وَالفَرَاشَاتُ السِّلْمِيَّةُ . .',
+              ms: 'Lalu tiba-tiba dia dikejutkan oleh terbitnya purnama gemilang, dan kepakan lembut rama-rama putih kedamaian . .'
+            },
+            {
+              num: 11,
+              tag: 'Bait 11',
+              ar: 'وَسَطَعَ النَّجْمُ . .',
+              ms: 'Serta benderangnya sinaran bintang kejora di langit malam . .'
+            },
+            {
+              num: 12,
+              tag: 'Bait 12',
+              ar: 'فَفَغَرَ الخَاسِرُ فَاهُ . . وَلَاتَ سَاعَةَ مَنْدَمٍ',
+              ms: 'Maka terngangalah mulut sang pecundang dalam kekufuran dan kelu . . tatkala saat itu sudah bukan lagi masa untuk menyesal!'
+            }
+          ];
+
+          epigrafVerses.forEach(item => {
+            const card = document.createElement('div');
+            card.className = `bilingual-verse-card ${item.type ? item.type + '-card' : ''}`;
+
+            let tagHtml = '';
+            if (item.tag) {
+              tagHtml = `<div class="bilingual-verse-badge-row"><span class="bilingual-verse-badge">${item.tag}</span></div>`;
+            }
+
+            card.innerHTML = `
+              ${tagHtml}
+              <div class="bilingual-arabic-row" dir="rtl">
+                <span class="bilingual-lang-tag ar-tag">AR</span>
+                <p class="bilingual-text-arabic">${item.ar}</p>
+              </div>
+              <div class="bilingual-interlinear-divider"></div>
+              <div class="bilingual-malay-row">
+                <span class="bilingual-lang-tag ms-tag">BM</span>
+                <p class="bilingual-text-malay">${item.ms}</p>
+              </div>
+            `;
+            listWrap.appendChild(card);
           });
+
+          contentBody.appendChild(listWrap);
+
+          // Kad Navigasi ke Huraian Falsafah Simbolisme (Subtopik 3)
+          const nextNavCard = document.createElement('div');
+          nextNavCard.className = 'bilingual-next-jump-card';
+          nextNavCard.innerHTML = `
+            <div class="next-jump-info">
+              <span class="next-jump-label">Seterusnya Dalam Bahagian Ini</span>
+              <h4 class="next-jump-title">3. Huraian Makna & Falsafah Simbolisme Epigraf</h4>
+              <p class="next-jump-desc">Ketahui 7 perlambangan falsafah mendalam di sebalik Fajar Kebebasan, Rama-rama Putih, dan Runtuhnya Takhta Taghut.</p>
+            </div>
+            <button type="button" class="next-jump-btn" id="btnJumpToFalsafah">
+              <span>Buka Huraian Falsafah</span>
+              <span class="jump-arrow">→</span>
+            </button>
+          `;
+          contentBody.appendChild(nextNavCard);
+
+          const btnJump = nextNavCard.querySelector('#btnJumpToFalsafah');
+          if (btnJump) {
+            btnJump.addEventListener('click', () => {
+              navigateTo(0, 2); // Subtopik 3 (index 2)
+            });
+          }
+
+        } else if (state.currentSubtopic === 2) {
+          // --- SUBTOPIK 3: Huraian Makna & Falsafah Simbolisme Epigraf ---
+          if (sub.paragraphs && sub.paragraphs.length > 0) {
+            renderParasInto(sub.paragraphs, contentBody);
+          }
+
+          // Kad Navigasi ke Bab Seterusnya: Mukadimah
+          const nextChCard = document.createElement('div');
+          nextChCard.className = 'bilingual-next-jump-card';
+          nextChCard.innerHTML = `
+            <div class="next-jump-info">
+              <span class="next-jump-label">Selesai Bahagian Epigraf</span>
+              <h4 class="next-jump-title">Teruskan Membaca: MUKADIMAH KITAB</h4>
+              <p class="next-jump-desc">Masuki wacana ilmiah induk Asy-Syeikh Muhammad Ahmad ar-Rasyid mengenai Teori Integrasi Perubahan Politik Islam.</p>
+            </div>
+            <button type="button" class="next-jump-btn" id="btnJumpToMukadimah">
+              <span>Buka Mukadimah</span>
+              <span class="jump-arrow">→</span>
+            </button>
+          `;
+          contentBody.appendChild(nextChCard);
+
+          const btnMukadimah = nextChCard.querySelector('#btnJumpToMukadimah');
+          if (btnMukadimah) {
+            btnMukadimah.addEventListener('click', () => {
+              navigateTo(1, 0); // Mukadimah (Ch 1, Sub 0)
+            });
+          }
         }
 
       } else {
-        // --- PAPARAN BIASA (bukan bilingual) ---
+        // --- BAB-BAB LAIN (MUKADIMAH, BAB 1–6, KHATIMAH, EPILOG) ---
         if (sub.paragraphs && sub.paragraphs.length > 0) {
           renderParasInto(sub.paragraphs, contentBody);
         } else {

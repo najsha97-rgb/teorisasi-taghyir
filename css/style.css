@@ -5393,3 +5393,237 @@ i .arabic-text-amiri-gold,
 .next-jump-btn:hover .jump-arrow {
   transform: translateX(4px);
 }
+
+/* ============================================================
+   EPIGRAF COVER & INTRO LAYOUT (Subtopik 1: Pengenalan & Permulaan)
+   v280_epigraf_trio
+   ============================================================ */
+
+.epigraf-hero-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 2.2rem;
+  align-items: start;
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.7) 100%);
+  border: 1px solid rgba(253, 224, 71, 0.2);
+  border-radius: 16px;
+  padding: 2rem 2.2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+  .epigraf-hero-layout {
+    grid-template-columns: 1fr;
+    padding: 1.5rem 1.25rem;
+    gap: 1.8rem;
+  }
+}
+
+/* Kolum Teks Kiri */
+.epigraf-text-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.epigraf-badge-row {
+  margin-bottom: 0.85rem;
+}
+
+.epigraf-badge-gold {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.22rem 0.75rem;
+  border-radius: 9999px;
+  background: rgba(253, 224, 71, 0.12);
+  color: var(--gold-light, #fde047);
+  border: 1px solid rgba(253, 224, 71, 0.3);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.epigraf-title {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.epigraf-title em {
+  color: var(--gold-light, #fde047);
+  font-style: normal;
+}
+
+.epigraf-title-ar {
+  font-family: 'Amiri', serif !important;
+  font-size: 1.35rem;
+  color: var(--gold-light, #fde047);
+  direction: rtl;
+  text-align: right;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+}
+
+.epigraf-info-card {
+  background: rgba(15, 23, 42, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.epigraf-info-card .info-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.06);
+  padding-bottom: 0.35rem;
+}
+
+.epigraf-info-card .info-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.epigraf-info-card .info-lbl {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.82rem;
+  flex-shrink: 0;
+}
+
+.epigraf-info-card .info-val {
+  color: #cbd5e1;
+  text-align: right;
+}
+
+.epigraf-description {
+  font-size: 0.98rem;
+  line-height: 1.8;
+  color: #e2e8f0;
+  margin-bottom: 1.5rem;
+}
+
+.epigraf-description p {
+  margin: 0 0 0.9rem 0;
+}
+
+.epigraf-description p:last-child {
+  margin-bottom: 0;
+}
+
+.epigraf-btn-group {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.epigraf-jump-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.22s ease;
+  border: 1px solid transparent;
+}
+
+.epigraf-jump-btn.btn-primary {
+  background: linear-gradient(135deg, var(--gold-primary, #eab308) 0%, var(--gold-dark, #ca8a04) 100%);
+  color: #0b1120;
+  border-color: var(--gold-light, #fde047);
+  box-shadow: 0 4px 14px rgba(234, 179, 8, 0.3);
+}
+
+.epigraf-jump-btn.btn-primary:hover {
+  background: linear-gradient(135deg, #fde047 0%, #eab308 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(234, 179, 8, 0.45);
+}
+
+.epigraf-jump-btn.btn-secondary {
+  background: rgba(30, 41, 59, 0.8);
+  color: #38bdf8;
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
+.epigraf-jump-btn.btn-secondary:hover {
+  background: rgba(56, 189, 248, 0.15);
+  color: #fff;
+  border-color: #38bdf8;
+  transform: translateY(-2px);
+}
+
+/* Kolum Gambar Kanan */
+.epigraf-image-col {
+  display: flex;
+  justify-content: center;
+}
+
+.epigraf-cover-frame {
+  width: 100%;
+  max-width: 340px;
+  background: linear-gradient(145deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 41, 59, 0.8) 100%);
+  border: 2px solid rgba(253, 224, 71, 0.35);
+  border-radius: 14px;
+  padding: 0.9rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45), 0 0 25px rgba(253, 224, 71, 0.12);
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.epigraf-cover-frame:hover {
+  border-color: rgba(253, 224, 71, 0.6);
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.55), 0 0 35px rgba(253, 224, 71, 0.2);
+  transform: translateY(-3px);
+}
+
+.epigraf-cover-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1.45;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  display: block;
+  margin-bottom: 0.85rem;
+}
+
+.epigraf-cover-caption {
+  text-align: center;
+}
+
+.epigraf-cover-caption .caption-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  background: rgba(253, 224, 71, 0.15);
+  color: var(--gold-light, #fde047);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4rem;
+}
+
+.epigraf-cover-caption .caption-title {
+  margin: 0 0 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.epigraf-cover-caption .caption-desc {
+  margin: 0;
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.4;
+}
