@@ -866,16 +866,8 @@ window.tanzirData = {
       "subtopics": [
         {
           "id": "c3_s1",
-          "title": "(*Manṭiq Fiqh al-Taghyīr*)",
-          "paragraphs": [
-            "---"
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c3_s2",
-          "title": "[MUKA SURAT CETAKAN 39]",
+          "title": "Tawanan Syariat (Asrā al-Syar') & Hikmah Kemudahan Ijtihad [Muka Surat Cetakan 39]",
+          "menu_title": "Tawanan Syariat & Hikmah Ijtihad [MS 39]",
           "paragraphs": [
             "Tanda pertama yang membezakan teori perubahan kita — dan ia merupakan ciri yang paling penting serta paling jauh pengaruhnya dalam menentukan pendirian kita, menggubal manhaj kita, dan memilih intipati ungkapan-ungkapan kita: ialah **bahawa kita adalah suatu kaum yang menjadi 'tawanan syariat' (*asra al-syar'*)**, tawanan fikh halal dan haram, kaedah-kaedah keimanan, serta tuntutan tauhid.",
             "Kita adalah orang-orang Islam yang berazam teguh untuk tunduk patuh kepada bimbingan agama Islam. Kita berpegang dengan panduan fatwa, namun kita tidak bertaqlid secara membabi-buta; sebaliknya kita berijtihad dan mengistinbatkan hukum-hakam yang bersesuaian dengan tuntutan dan keperluan zaman. Tindakan politik kita berlandaskan Islam, dan revolusi perjuangan kita adalah revolusi Islam yang dikawal rapi oleh kriteria-kriteria fikh yang tegas. Kita hanyalah menuntut kelonggaran (*al-murunah*) dalam keadaan-keadaan sempit dan terdesak (*al-haraj wa al-dhiq*) berasaskan pertimbangan maslahah yang lebih kuat (*al-masalih al-rajihah*), menutup pintu kemudaratan dan kepayahan yang melampau (*sadd al-dhari'ah ila al-'anat wa al-irhaq*), serta mencari kemudahan (*al-taysir*) melalui penta'wilan darurat yang diiktiraf syarak.",
@@ -910,11 +902,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 39: Kita Adalah \"Tawanan Syariat\"\n- **Ciri Paling Membezakan:** Gerakan dakwah adalah 'tawanan syariat' (*asrā al-syar'*), terikat ketat dengan neraca halal, haram, dan tauhid — bukan pemusnah anarki.\n- **Hikmah Kemudahan (*Ḥikmat al-Taysīr*):** Mengutamakan kelonggaran fiqh berasaskan maslahah yang kuat dalam situasi darurat dan genting.\n- **Menolak Fatwa Kaku:** Menolak fatwa jumud yang hanya tahu menyusahkan rakyat dan menyalakan api fitnah perpecahan dalam saf perjuangan."
         },
         {
-          "id": "c3_s3",
-          "title": "[MUKA SURAT CETAKAN 40]",
+          "id": "c3_s2",
+          "title": "Akal Merdeka Berwasatiah & Keutamaan Perubahan Damai (Al-Silmī) [Muka Surat Cetakan 40]",
+          "menu_title": "Akal Merdeka & Perubahan Damai [MS 40]",
           "paragraphs": [
             "> **عَقَـلَ العُقْلَى يُنَاجِي نِيتْشَهْ أَبْدَعَا ... مَـنّ مَنُوناً دَوْلَةً أَوْ زَمَنَا**",
             "> *'Aqala al-'uqlā yunājī Nītsyah abda'ā ... man manūnan dawlatan aw zamanā*",
@@ -947,11 +940,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 40: Akal Merdeka & Keutamaan Damai Mutlak\n- **Akal Merdeka Berdialog:** Generasi muda diajak berdialog dengan falsafah moden (seperti Friedrich Nietzsche) tanpa rasa rendah diri, berpaksikan wasatiah Islam.\n- **Prinsip Disiplin Syarak:** Perbezaan hakiki antara Islam dan revolusioner sekular/marxis yang berpegang kepada 'matlamat menghalalkan cara'.\n- **Asal Hukum Damai (*Al-Taghyīr al-Silmī*):** Haram mengangkat senjata selagi jalan damai, penerangan, dan bantahan sivil masih terbuka."
         },
         {
-          "id": "c3_s4",
-          "title": "[MUKA SURAT CETAKAN 41]",
+          "id": "c3_s3",
+          "title": "Mazhab Salaf Menentang Diktator & Ketetapan Hasan al-Banna [Muka Surat Cetakan 41]",
+          "menu_title": "Mazhab Salaf Menentang Diktator [MS 41]",
           "paragraphs": [
             "...penceroboh.",
             "* **Kenyataan Al-Imam Hasan al-Banna (1934)**",
@@ -969,11 +963,12 @@ window.tanzirData = {
             "[1] *Al-Masār*, hlm. 403, Bab 17 (edisi Dar al-Muntalaq); dan penegasan Al-Hafiz Ibnu Hajar al-Asqalani dalam *Tahdhīb al-Tahdhīb*, jld. 2, hlm. 288.",
             "[1] *Al-Masār*, hlm. 403, Bab 17 (edisi Dar al-Muntalaq); dan penegasan Al-Hafiz Ibnu Hajar al-Asqalani dalam *Tahdhīb al-Tahdhīb*, jld. 2, hlm. 288."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 41: Mazhab Salaf & Prinsip Penyingkiran Diktator\n- **Kenyataan Al-Imam Hasan al-Banna (1934):** Pemimpin yang tidak lagi berkesan dengan nasihat: maka tindakannya adalah dicabut dan disingkirkan daripada takhta!\n- **Hujah Ibnu Hajar al-Asqalani:** Menentang penguasa zalim adalah satu 'mazhab yang masyhur di sisi para salaf terdahulu' (*mazhabun ma'ruf li al-salaf*).\n- **Sebab Larangan Muta'akhkhirin:** Larangan sebahagian ulama muta'akhkhirin hanyalah faktor luaran kerana bimbang tumpah darah sia-sia tatkala kekuatan belum cukup."
         },
         {
-          "id": "c3_s5",
-          "title": "[MUKA SURAT CETAKAN 42]",
+          "id": "c3_s4",
+          "title": "Tiga Tangga Kekuatan Hasan al-Banna: Aqidah, Ukhuwah & Kesiapsiagaan [Muka Surat Cetakan 42]",
+          "menu_title": "Tiga Tangga Kekuatan Hasan al-Banna [MS 42]",
           "paragraphs": [
             "...dan pada ketika itu ditanggung mafsadah yang kecil demi menolak mafsadah yang lebih besar. Adapun memperbetulkan kezaliman pemerintah fasiq dengan fatwa para ulama yang adil — sekiranya ia tidak membawa kepada mafsadah yang lebih besar — maka itulah mazhab para salaf terdahulu yang disimpulkan daripada himpunan ayat-ayat al-Quran dan hadis-hadis Nabi SAW..)`",
             "Dan saya telah menegaskan dalam kitab *Al-Masār* mengenai keperluan:",
@@ -994,11 +989,12 @@ window.tanzirData = {
           "footnotes": [
             "[2] *Al-Masār*, hlm. 284, Bab 16."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 42: Tiga Tangga Hierarki Kekuatan Al-Banna\n- **Tangga 1: Kekuatan Aqidah & Keimanan:** Teras rohani paling kukuh yang mendasari seluruh gerak kerja perjuangan.\n- **Tangga 2: Kekuatan Perpaduan & Ukhuwah:** Ikatan hati dan disiplin saf yang tidak boleh ditembusi oleh musuh.\n- **Tangga 3: Kekuatan Fizikal & Senjata:** Hanya diambil selepas Tangga 1 dan 2 sempurna, sebagai benteng perlindungan hak dan keadilan."
         },
         {
-          "id": "c3_s6",
-          "title": "[MUKA SURAT CETAKAN 43]",
+          "id": "c3_s5",
+          "title": "Menolak Momokan Ketakutan Firaun & Mandat Penentangan [Muka Surat Cetakan 43]",
+          "menu_title": "Menolak Momokan Firaun [MS 43]",
           "paragraphs": [
             "...kepada 'revolusi'. Lalu timbullah salah faham dalam kalangan sebahagian orang terhadap kenyataan beliau itu, seolah-olah beliau melarang penggunaan kekuatan dalam setiap keadaan! Padahal hakikatnya bukanlah begitu, dan konteks perbincangan tidak sesekali mengizinkan kesimpulan dangkal tersebut. Sebaliknya apa yang dimaksudkan oleh beliau ialah: menolak revolusi mengikut acuan anarki yang merosakkan, mencetuskan huru-hara, membakar harta benda awam, merobohkan kestabilan, dan kegilaan semberono sepertimana yang pernah diamalkan oleh parti-parti Komunis!",
             "Adapun pembinaan teori penggunaan kekuatan (*tanzir isti'mal al-quwwah*): ia kekal sahih dan diiktiraf di dalam fikh klasik mahupun fikh dakwah kontemporari. Kenyataan Al-Imam Hasan al-Banna dalam Muktamar Kelima itulah dalil utamanya, dan ia menjadi asas kepada ijtihad Dr. Yusuf al-Qaradawi dalam persoalan ini sepertimana yang telah kita sebutkan, serta ijtihad saya dalam kitab *Al-Masār* dan karya-karya lain, begitu juga ijtihad kelompok ilmuwan dakwah yang luas, antaranya Al-Marhum Syeikh Manna' al-Qattan *rahimahullah* dalam seminar emas yang saya rakamkan perinciannya dalam kitab saya *Uṣūl al-Iftā' wa al-Ijtihād fī Naẓariyyāt Fiqh al-Da'wah* (Prinsip-Prinsip Fatwa dan Ijtihad dalam Teori Fikh Dakwah), Syeikh Dr. Ali Jurayshah, dan ramai lagi.",
@@ -1011,11 +1007,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 43: Membongkar Taktik Momokan Firaun\n- **Akal Berat, Ketakutan Ringan:** Diktator memerintah dengan memperbodohkan rakyat melalui momokan ketakutan (*fastakhaffa qawmahu fa-atā'ūh*).\n- **Runtuhnya Kontrak Mandat (*'Aqd al-Tafwīḍ*):** Tiada siapa memberi mandat kepada penguasa untuk bertindak sewenang-wenangnya menindas rakyat.\n- **Hak Mempertahankan Diri:** Akal fitrah dan syarak mengiktiraf hak rakyat menolak kezaliman apabila batas keadilan dicabuli secara melampau."
         },
         {
-          "id": "c3_s7",
-          "title": "[MUKA SURAT CETAKAN 44]",
+          "id": "c3_s6",
+          "title": "Tragedi Penjara Abu Salim & Dua Syarat Penentuan Kuasa (Al-Ḥasm) [Muka Surat Cetakan 44]",
+          "menu_title": "Dua Syarat Penentuan Kuasa (Al-Ḥasm) [MS 44]",
           "paragraphs": [
             "> *...berhasrat agar ada pihak yang memimpin mereka demi menegakkan sebuah pemerintahan Islam. Namun mereka selama ini masih terbiar tanpa pimpinan dan belum sampai tangan dakwah kita kepada mereka — bukan kerana kecacatan pada keperibadian para pendakwah, tetapi disebabkan lorong yang sempit dan keterbatasan wasilah yang terpaksa diambil oleh gerakan-gerakan Islam pada fasa permulaan yang tidak berdaya merangkul mereka. Mereka sentiasa menanti kehadiran kita, dan mereka pasti akan berduyun-duyun menyertai kita sebaik sahaja kita turun beraksi ke medan politik terbuka!”)*",
             "> *(“Dan lonjakan pertambahan ahli jemaah yang berlaku secara mendadak dan pantas selepas tempoh singkat penglibatan politik terbuka adalah merupakan sebaik-baik perisai perlindungan keselamatan bagi jemaah tersebut...”)* [3]",
@@ -1037,11 +1034,12 @@ window.tanzirData = {
             "[3] *Al-Masār*, hlm. 280, Bab 16.",
             "[4] *Al-Masār*, hlm. 260, Bab 15."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 44: Tragedi Abu Salim & Dua Syarat Penentuan Kuasa\n- **Menjawab Falasi Pasif:** Gaddafi membunuh 650 tahanan politik di Penjara Abu Salim dalam masa satu jam; bersabar di bawah kasut zalim meragut lebih banyak nyawa!\n- **Syarat 1 — Kecukupan Kekuatan (*Kifāyat al-Quwwah*):** Memiliki keupayaan taktikal dan bilangan saf padu yang menjana sangkaan kukuh akan kejayaan.\n- **Syarat 2 — Kesesuaian Suasana (*Mulā'amat al-Ẓurūf*):** Rakyat terbanyak telah sedar, benci akan penindasan, dan bersedia mendokong perubahan."
         },
         {
-          "id": "c3_s8",
-          "title": "[MUKA SURAT CETAKAN 45]",
+          "id": "c3_s7",
+          "title": "Kuasa Revolusi Putih: Media Satelit, Siber & Tekanan Massa Damai [Muka Surat Cetakan 45]",
+          "menu_title": "Kuasa Revolusi Putih & Media [MS 45]",
           "paragraphs": [
             "...berlakunya krisis pertentangan pemikiran. Dan sebarang peningkatan gelombang penentangan yang mengabaikan salah satu daripada kedua-dua syarat ini tidak lebih hanyalah sekadar letusan emosi yang meluap yang tidak berdaya untuk bertahan lama! Dan dalam banyak keadaan, adalah menjadi kewajipan ke atas kita untuk mengambil kira dalam perkiraan ini kebarangkalian sang musuh dibantu oleh negara luar!) [5]",
             "Contohnya seperti bantuan yang dihulurkan oleh Iran, Hizbullah Lubnan, dan militia Jaysh al-Mahdi Iraq kepada pemerintah Syria tatkala Revolusi Syria berkembang menjadi ancaman sebenar yang menggugat kelangsungan rejim Nushairiyyah (Bashar al-Assad)!",
@@ -1057,11 +1055,12 @@ window.tanzirData = {
           "footnotes": [
             "[5] *Al-Masār*, hlm. 229, Bab 13."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 45: Kuasa Media Siber Mengatasi Bom Atom\n- **Revolusi Putih (*Al-Dhaghṭ al-Thawrī al-Abyaḍ*):** Tekanan sivil tanpa senjata melalui bantahan massa, mogok, dan pendedahan maklumat.\n- **Telefon Pintar & Satelit:** Rakaman video kekejaman polis di lorong terpencil tersebar ke seluruh dunia dalam saat — menembusi tembok sensor rejim.\n- **Kuasa Maklumat Moden:** Senjata era digital membuktikan takhta kezaliman boleh digulingkan tanpa perlu melepaskan walau sebutir peluru."
         },
         {
-          "id": "c3_s9",
-          "title": "[MUKA SURAT CETAKAN 46]",
+          "id": "c3_s8",
+          "title": "Kuasa Balaghah Bahasa Dakwah & Dalil Praktikal Kesiapsiagaan [Muka Surat Cetakan 46]",
+          "menu_title": "Kuasa Bahasa Dakwah & Kesiapsiagaan [MS 46]",
           "paragraphs": [
             "...kaya dengan metafora (*majaz*), perumpamaan (*tasybih*), dan ungkapan balaghah yang memukau. Dengan kelebihan ini, terbentuklah pada diri kita suatu 'kuasa himpunan bahasa' (*kutlah lughawiyyah*) yang memberikan kita kemampuan luar biasa untuk menyalakan hati-hati manusia, menggerakkan jiwa mereka, meniupkan bara semangat, menumbuhkan kerinduan mendalam kepada syurga, serta menyemarakkan cinta kepada kebebasan!",
             "Oleh sebab itulah, pada dasarnya kita langsung tidak memerlukan kekuatan senjata! Apa yang kita perkatakan ini hanyalah satu ketetapan perancangan secara andaian (*iqrar takhtiti iftiradhi*) bahawa sekiranya kita mendapati laluan-laluan damai telah ditutup rapat — sepertimana yang telah berlaku di Libya — maka sesungguhnya jalan kekuatan senjata itulah penggantinya!",
@@ -1081,11 +1080,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 46: Kuasa Bahasa Dakwah (*Kutlah Lughawiyyah*)\n- **Kuasa Himpunan Bahasa:** Penguasaan balaghah, sastera tinggi, dan metafora al-Quran menyalakan nurani rakyat dan meniupkan keberanian moral.\n- **Bukan Sekadar Teori Kering:** Sirah perjuangan Al-Imam Hasan al-Banna membuktikan wujudnya qarinah praktikal kesiapsiagaan menghadapi musuh.\n- **Keseimbangan Hikmah & Ketegasan:** Menolak kepasrahan buta sambil mengekalkan disiplin syarak yang ketat."
         },
         {
-          "id": "c3_s10",
-          "title": "[MUKA SURAT CETAKAN 47]",
+          "id": "c3_s9",
+          "title": "Qarīnah Praktikal Hasan al-Banna: Senjata El Alamein & Pegawai Bebas [Muka Surat Cetakan 47]",
+          "menu_title": "Senjata El Alamein & Pegawai Bebas [MS 47]",
           "paragraphs": [
             "...bahkan kita mahu darah manusia tidak ditumpahkan sama sekali, lantas kita pasrah tunduk menyerah kalah dan menggadaikan hak-hak asasi manusia!..",
             "Dan ini merupakan satu falasi yang songsang (*mughalatah*)! Kerana Muammar al-Gaddafi telah membunuh seramai enam ratus lima puluh orang pejuang kemerdekaan dalam pembunuhan beramai-ramai di Penjara Abu Salim dalam tempoh satu jam sahaja! Dan dalam kebanyakan keadaan: andai kata kita menghitung bilangan nyawa yang dibunuh oleh sang diktator secara langsung mahupun tidak langsung sepanjang tempoh pemerintahannya: nescaya kita akan mendapati bahawa jumlah mangsa kezalimannya adalah jauh lebih ramai daripada jumlah para syuhada' dalam mana-mana revolusi!..",
@@ -1100,11 +1100,12 @@ window.tanzirData = {
           "footnotes": [
             "[6] Perang El Alamein (1942) di pesisir utara Mesir antara Tentera Bersekutu pimpinan Montgomery dan Tentera Paksi pimpinan Rommel, yang meninggalkan ribuan senjata dan peluru yang dikumpulkan oleh pemuda Ikhwan atas arahan Al-Imam Hasan al-Banna."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 47: Dua Bukti Sejarah Kesiapsiagaan Al-Banna\n- **Bukti 1 (Senjata Perang El Alamein 1942):** Ikhwan mengumpulkan sisa senjata Perang Dunia Kedua untuk persiapan Jihad Palestin 1948 dan Revolusi 1952.\n- **Bukti 2 (Sel Pegawai Bebas):** Menugaskan Mejar Mahmud Labib menyusupkan kefahaman Islam ke dalam kor pegawai tentera demi membebaskan Mesir daripada monarki boneka.\n- **Strategi Menyeluruh:** Perjuangan dakwah merangkumi tarbiah masyarakat dan perancangan strategik institusi kenegaraan."
         },
         {
-          "id": "c3_s11",
-          "title": "[MUKA SURAT CETAKAN 48]",
+          "id": "c3_s10",
+          "title": "Tanzim Khas & Tamsil Kuku Singa di Jambatan Qasr al-Nil [Muka Surat Cetakan 48]",
+          "menu_title": "Tanzim Khas & Kuku Singa [MS 48]",
           "paragraphs": [
             "...Revolusi Julai 1952 meletus selama enam bulan. Lalu Gamal Abdel Nasser mengambil alih tempat beliau dalam satu peristiwa yang penuh liku, dan Abdel Nasser dibantu oleh krisis ujian (*mihnah*) yang menimpa jemaah ketika itu serta perselisihan dalaman.",
             "3. **Qarīnah Ketiga (Sel Polis, Tanzim Khas, dan Sokongan Revolusi Yaman):**",
@@ -1121,11 +1122,12 @@ window.tanzirData = {
           "footnotes": [
             "[7] Kebangkitan Revolusi Perlembagaan Yaman 1948 (*Thawrah al-Dustur*) pimpinan Abdullah bin Ahmad al-Wazir menentang pemerintahan kuku besi Imam Yahya Hamid al-Din."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 48: Tanzim Khas & Kisah Kuku Singa\n- **Tanzim Khas (*Al-Jihāz al-Sirrī*):** Sayap pertahanan terlatih mendepani keganasan zionis dan komplot penjajah British.\n- **Kisah Jambatan Qasr al-Nil (1948):** Angin meniup kain patung singa menampakkan kukunya — Al-Banna mengumpamakan Jihad Palestin membongkar kuku kekuatan Ikhwan kepada kuasa Barat.\n- **Komplot Antarabangsa:** Kuasa imperialis mendesak rejim tempatan menghapuskan gerakan dakwah sebaik sahaja menyedari kekuatan mereka."
         },
         {
-          "id": "c3_s12",
-          "title": "[MUKA SURAT CETAKAN 49]",
+          "id": "c3_s11",
+          "title": "Ketetapan Sayyid Qutb & Analisis Kritis Prof. Ja'far Sheikh Idris [Muka Surat Cetakan 49]",
+          "menu_title": "Sayyid Qutb & Prof. Ja'far Idris [MS 49]",
           "paragraphs": [
             "...dan agensi-agensi perisikan antarabangsa sedang giat mendesak perisikan Mesir agar menghapuskan Ikhwanul Muslimin. Dan sememangnya perkara itulah yang benar-benar berlaku: Al-Imam Hasan al-Banna dibunuh syahid *rahimahullah*, dan jemaah melangkah masuk ke dalam kancah ujian (*mihnah*) yang dahsyat!..",
             "* **Pandangan Fuqaha' Ikhwan Selepas Era Hasan al-Banna**",
@@ -1145,11 +1147,12 @@ window.tanzirData = {
           "footnotes": [
             "[8] Prof. Dr. Ja'far Sheikh Idris (1931–2020), pemikir Islam, ahli falsafah dan faqih terkemuka dari Sudan yang berkhidmat di Universiti Riyadh dan Institut Pemikiran Islam Antarabangsa (IIIT)."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 49: Fiqh Fuqaha' Ikhwan Pasca-Al-Banna\n- **Ketetapan Asy-Syahid Sayyid Qutb:** Kekuatan fizikal diharuskan sebagai perisai apabila laluan dakwah disekat secara zalim oleh rejim kuku besi.\n- **Analisis Kritis Prof. Dr. Ja'far Sheikh Idris:** Membedah kegagalan undang-undang sekular dan kemestian umat kembali kepada kedaulatan syariat.\n- **Kesinambungan Pemikiran:** Fiqh perubahan harakah berkembang secara dinamik mendepani cabaran setiap fasa sejarah."
         },
         {
-          "id": "c3_s13",
-          "title": "[MUKA SURAT CETAKAN 50]",
+          "id": "c3_s12",
+          "title": "Kearifan Umar al-Tilmisani: Mengutamakan Damai & Kesabaran Dakwah [Muka Surat Cetakan 50]",
+          "menu_title": "Kearifan Umar al-Tilmisani [MS 50]",
           "paragraphs": [
             "> *(“...kesungguhan bermati-matian mereka dalam menggubal undang-undang sekular, serta slogan mereka: 'Tiada agama dalam politik dan tiada politik dalam agama!'. Ini bermakna mereka menafikan sebarang hubungan antara Islam dengan pemerintahan. Dan apabila perkara ini telah sampai ke tahap ini, maka ia adalah satu kekufuran yang nyata, dan hidup di bawah naungannya menjadikan seluruh umat Islam berdosa, lantas kewajipan fardhu kifayah menyeru kita untuk menentang mereka! Kerana urusan pemerintahan adalah sebahagian daripada teras aqidah; dan sekiranya pemerintah itu tidak dipaksa atau tidak berada dalam keadaan darurat yang memaksanya untuk tidak berhukum dengan Islam, maka kekufurannya adalah kufur aqidah (*kufr i'tiqadi*). Inilah pegangan Ahlus Sunnah wal Jamaah dan apa yang dinyatakan oleh nas-nas syarak!”)*",
             "> *(“Namun kita membezakan antara prinsip aqidah ini dengan pelan gerak kerja (*khittat al-'amal*). Pelan gerak kerja kita tidak bermula dari puncak kuasa — yakni kita tidak bermula dengan terus menentang para pemerintah! Pensyariatan jihad itu sendiri diturunkan secara bertahap (*bi al-tadarruj*), maka oleh sebab itu kita juga bergerak secara bertahap dan membahagikan gerak kerja kita kepada beberapa fasa: kita bermula dengan bimbingan (*al-taujih*), tarbiah, dan persediaan (*al-i'dad*)!”)*",
@@ -1163,11 +1166,12 @@ window.tanzirData = {
             "[9] *Uṣūl al-Iftā' wa al-Ijtihād fī Naẓariyyāt Fiqh al-Da'wah*, Bab 63.",
             "[10] Al-Ustaz Umar al-Tilmisani *rahimahullah* (1904–1986), Mursyid 'Am Ikhwanul Muslimin ke-3 yang memimpin gerakan melalui fasa pemulihan dan keterbukaan undang-undang pada era Presiden Anwar Sadat dan Hosni Mubarak."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 50: Kearifan Murshid Ketiga, Umar al-Tilmisani\n- **Kepimpinan Penuh Hikmah:** Al-Ustaz Umar al-Tilmisani memilih pendekatan damai berterusan bagi membina semula saf dakwah pasca-mihnah Nasser.\n- **Mengelakkan Tumpah Darah Sia-sia:** Menahan generasi muda daripada terjerumus ke dalam perangkap provokasi keselamatan rejim.\n- **Kesabaran Strategik:** Ketenangan membolehkan dakwah menembusi universiti, persatuan profesional, dan parlimen secara sah."
         },
         {
-          "id": "c3_s14",
-          "title": "[MUKA SURAT CETAKAN 51]",
+          "id": "c3_s13",
+          "title": "Iktibar Tragedi Kebangkitan Syria & Ijtihad Yusuf al-Qaradawi [Muka Surat Cetakan 51]",
+          "menu_title": "Tragedi Syria & Fatwa Al-Qaradawi [MS 51]",
           "paragraphs": [
             "...dan memiliki alasan yang amat kukuh! Kerana tindakan-tindakan terburu-buru yang membabi-buta telah berulang kali berlaku dalam sejarah dakwah kita; lantas menjadi kemestian untuk mengawal luapan gelora para pemuda dengan kebijaksanaan pengalaman para tokoh veteran (*al-mukhadhramin*) serta bimbingan panduan mereka.",
             "* **Pengajaran Tragedi Kebangkitan Syria Menentang Hafez al-Assad (1979–1982)**",
@@ -1186,11 +1190,12 @@ window.tanzirData = {
           "footnotes": [
             "[11] Peristiwa kebangkitan bersenjata Ikhwanul Muslimin dan gerakan Islam Syria menentang kezaliman rejim Hafez al-Assad (1979–1982) yang berakhir dengan peristiwa berdarah Pembunuhan Beramai-ramai Hama (*Majzarat Hamah*) pada Februari 1982."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 51: Iktibar Syria (1982) & Fatwa Al-Qaradawi\n- **Iktibar Pahit Syria (1979–1982):** Tindakan bersenjata terburu-buru (*isti'jāl*) tanpa persediaan massa membawa kepada tragedi pembantaian Hama 1982.\n- **Fatwa Syeikh Yusuf al-Qaradawi:** Merompak kebebasan, memanipulasi pilihan raya, dan menindas maruah rakyat adalah SEBESAR-BESAR KEMUNGKARAN.\n- **Kewajipan Syarie Menentang:** Membisu terhadap kemungkaran politik adalah haram mengikut ijmak, dan menuntut keadilan adalah fardhu kifayah."
         },
         {
-          "id": "c3_s15",
-          "title": "[MUKA SURAT CETAKAN 52]",
+          "id": "c3_s14",
+          "title": "Fatwa Revolusioner Imam al-Haramain Al-Juwaini (Kitab Al-Ghiyāthī) [Muka Surat Cetakan 52]",
+          "menu_title": "Fatwa Al-Juwaini (Al-Ghiyāthī) [MS 52]",
           "paragraphs": [
             "> *(“Dan enggan keluar mengundi memberikan kesaksian dalam pilihan raya: adalah sebesar-besar kemungkaran, kerana ia merupakan perbuatan menyembunyikan kesaksian (*kitmān al-syahādah*)!*",
             "> *Dan menyerahkan urusan kepimpinan kepada orang yang bukan ahlinya: adalah sebesar-besar kemungkaran!*",
@@ -1215,11 +1220,12 @@ window.tanzirData = {
             "[13] Merujuk kepada sebahagian aliran Salafi tradisional (khususnya kecenderungan Madkhaliyyah) yang mengharamkan sebarang bentuk bantahan awam atau penentangan terhadap pemerintah secara mutlak dan mewajibkan ketaatan tanpa syarat walau sezalim mana pun sang penguasa.",
             "[14] Imam al-Haramain Abu al-Ma'ali Abdul Malik bin Abdullah al-Juwaini (419–478 H), *Ghiyāth al-Umam fī Iltiyāth al-Ẓulam* (Al-Ghiyāthī), karya ensiklopedik agung dalam teori siasah syar'iyyah mazhab Syafi'i."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 52: Hujah Imam al-Haramain Al-Juwaini (*Al-Ghiyāthī*)\n- **Gugurnya Ketaatan Pemimpin Lemah:** Sekiranya khalifah/pemimpin hilang wibawa dan lemah mentadbir maslahah rakyat: gugurlah hak ketaatan ke atasnya!\n- **Kewajipan Menyelamatkan Umat:** Umat Islam wajib melantik pentadbir berwibawa demi menyelamatkan negara daripada kehancuran.\n- **Legitimasi Syarak:** Hujah autoritatif mazhab Syafi'i membuktikan penyingkiran pemimpin korup/lemah berasaskan maslahah adalah sah di sisi syarak."
         },
         {
-          "id": "c3_s16",
-          "title": "[MUKA SURAT CETAKAN 53]",
+          "id": "c3_s15",
+          "title": "Penyelamatan Kuasa & Falsafah \"Keindahan Menyelamatkan Dunia\" [Muka Surat Cetakan 53]",
+          "menu_title": "Keindahan Menyelamatkan Dunia [MS 53]",
           "paragraphs": [
             "...seorang yang lemah dan maslahah umat Islam terabai. Manakala di pihak Kesultanan Saljuk pula terdapat seorang tokoh pentadbir yang berilmu fikh, tegas, berwibawa, dan dipercayai, iaitu Nizam al-Mulk al-Tusi (Ghiyath al-Dawlah) — pengasas rangkaian Universiti Madrasah Nizamiyyah yang masyhur! Maka Imam al-Haramain mengeluarkan fatwa kepada Nizam al-Mulk tentang kewajipan melucutkan jawatan khalifah yang lemah itu dan mengambil alih kepimpinan sebagai penggantinya demi menyelamatkan umat!",
             "Dan Al-Juwaini memulakan hujah dengan menetapkan hakikat kelemahan khalifah tersebut:",
@@ -1236,11 +1242,12 @@ window.tanzirData = {
             "[15] *Al-Ghiyāthī*, hlm. 118 & 339.",
             "[16] *Al-Ghiyāthī*, hlm. 340."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 53: Melantik Pemimpin Cekap & Falsafah Estetika\n- **Model Wazir Nizam al-Mulk:** Pengalaman sejarah mengangkat tokoh pentadbir cekap yang menyelamatkan tamadun Islam daripada huru-hara.\n- **Peralihan ke Dimensi Jiwa Positif:** Syeikh al-Rasyid memperkenalkan rahsia psikologi: *\"Keindahan akan menyelamatkan dunia\"* (*Al-Jamāl sayunqidhu al-'ālam*).\n- **Menolak Keputusasaan:** Jiwa yang terpikat dengan keindahan iman tidak akan rela hidup dalam kehinaan dan ketakutan."
         },
         {
-          "id": "c3_s17",
-          "title": "[MUKA SURAT CETAKAN 54]",
+          "id": "c3_s16",
+          "title": "Metodologi Emosi Keimanan & Kuasa Cinta Keindahan Tauhid [Muka Surat Cetakan 54]",
+          "menu_title": "Emosi Keimanan & Keindahan Tauhid [MS 54]",
           "paragraphs": [
             "...dan dengan itu terhasillah — melalui lenyapnya bisikan ragu-ragu dan ketakutan terhadap hari esok yang tidak pasti — suatu keadaan jiwa yang menghimpunkan keyakinan kukuh, kesiapsiagaan berterusan, kreativiti, kebencian terhadap kemungkaran, dan penolakan terhadap kezaliman. Kesemua sifat luhur ini mula bekerja, bertumpu, dan mengental sehinggalah dorongan jiwa untuk melancarkan perubahan, jihad, dan menumbangkan sang taghut sampai ke kemuncaknya!",
             "Ini bermakna bahawa metodologi perjalanan kita di sini merupakan **metodologi psikologi dan kesedaran emosi (*manhajiyyah nafsiyyah syu'ūriyyah*)** yang menerobos masuk ke lubuk fitrah manusiawi. Dan bahan asas fitrah manusia yang paling utama ialah: **Cinta kepada Keindahan (*hubb al-jamal*)**, menghormati keadilan, dan berazam tinggi untuk menerbangkan jiwa ke ufuk keluhuran, jauh daripada kekotoran tingkah laku yang hina!",
@@ -1260,11 +1267,12 @@ window.tanzirData = {
           "footnotes": [
             "[17] Syeikh Abduh al-Syannuhuri, pemuisi dakwah mesra rakyat dari Mesir yang terkenal dengan bahasa sastera harian yang sarat dengan mesej kesabaran, ithar, dan pengorbanan jiwa."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 54: Metodologi Psikologi & Cinta Keindahan\n- **Manhajiyyah Nafsiyyah Syu'ūriyyah:** Perubahan politik yang kukuh berakar daripada penyusunan semula emosi dan getaran jiwa manusiawi.\n- **Keindahan Tauhid & Keadilan:** Keindahan Islam merangkumi tauhid yang memerdekakan, keadilan yang membela yang lemah, dan akhlak luhur.\n- **Lenyapnya Ketakutan:** Cinta kepada keindahan syurga dan kemuliaan menghapuskan bisikan ragu-ragu dan ketakutan terhadap ancaman diktator."
         },
         {
-          "id": "c3_s18",
-          "title": "[MUKA SURAT CETAKAN 55]",
+          "id": "c3_s17",
+          "title": "Menggerakkan Kehidupan (Taḥrīk al-Ḥayāh) & Sifat Īthār Pengorbanan [Muka Surat Cetakan 55]",
+          "menu_title": "Menggerakkan Kehidupan & Sifat Īthār [MS 55]",
           "paragraphs": [
             "...Maka musim dingin yang menggigit ini menyakiti diriku.. namun aku tetap melayannya dengan ihsan.. dan kukurniakan kehangatan kepadanya..",
             "Dan aku hanya makan malam selepas tetamuku.. dan golongan yang tertindas..",
@@ -1285,11 +1293,12 @@ window.tanzirData = {
             "[18] Al-Imam Tajuddin Abu Nasr Abdul Wahhab bin Ali al-Subki (727–771 H), qadhi agung, ahli usul dan sejarawan besar mazhab Syafi'i.",
             "[19] Al-Subki, *Ṭabaqāt al-Syāfi'iyyah al-Kubrā*, jld. 2, hlm. 285."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 55: Taḥrīk al-Ḥayāh & Sifat Īthār\n- **Menggerakkan Kehidupan (*Taḥrīk al-Ḥayāh*):** Pemuda bukan penonton pasif, sebaliknya 'Titik Pusat Kepimpinan' (*Nuqṭat Qiyādah*) penggerak sejarah.\n- **Sifat Īthār (Bait Abduh al-Syannuhuri):** Mendahulukan orang lain dalam makan malam dan kebajikan, rela menanggung kepayahan demi keselesaan umat.\n- **Wasiat Tajuddin al-Subki:** Seruan kepada para agamawan agar berlemah-lembut, mempermudahkan urusan, dan meraikan fitrah generasi muda."
         },
         {
-          "id": "c3_s19",
-          "title": "[MUKA SURAT CETAKAN 56]",
+          "id": "c3_s18",
+          "title": "Estetika Tauhid Menentang Materialisme & Syair Afif Bahnasi [Muka Surat Cetakan 56]",
+          "menu_title": "Estetika Tauhid & Afif Bahnasi [MS 56]",
           "paragraphs": [
             "**“Keindahan Akan Menyelamatkan Dunia”**",
             "*(Al-Jamāl Sayunqidhu al-'Ālam)*",
@@ -1317,11 +1326,12 @@ window.tanzirData = {
           "footnotes": [
             "[20] Dr. Afif Bahnasi (1928–2017), sejarawan seni, arkitek dan pemikir kebudayaan Islam terkemuka Syria yang pernah menjabat sebagai Ketua Pengarah Antikuiti dan Muzium Syria."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 56: Estetika Tauhid vs Materialisme Barat\n- **Menentang Kehampaan Materialisme:** Nilai kebendaan Barat melahirkan jiwa kosong; keindahan tauhid mengisi jiwa dengan makna kehidupan sejati.\n- **Mengapa Keyakinan Tinggi Terhadap Keindahan?:** Kerana fitrah manusia diciptakan untuk mencintai keindahan, kebenaran, dan kemuliaan.\n- **Bait Puitis Dr. Afif Bahnasi:** Sentuhan seni sastera Islam memperhalusi jiwa pejuang agar tidak bertukar menjadi kelompok pendendam yang kasar."
         },
         {
-          "id": "c3_s20",
-          "title": "[MUKA SURAT CETAKAN 57]",
+          "id": "c3_s19",
+          "title": "Sinergi Pemikiran, Daya Cipta & Getaran Rohani Penggerak Sejarah [Muka Surat Cetakan 57]",
+          "menu_title": "Daya Cipta & Getaran Rohani Sejarah [MS 57]",
           "paragraphs": [
             "$$\\text{عَلَى مَهْـدِ الوَحْـتِ وَيَقُـصُّ قِـصَّتِي ... قَـدْ كَانَ لِي شِـعْرٌ قَـدِيمٌ صَاغَنِي}$$",
             "*Di atas buaian ilham yang menuturkan kisah perjuanganku...*",
@@ -1342,17 +1352,18 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 57: Sinergi Fikrah, Daya Cipta & Rohani\n- **Triad Penggerak Tamadun:** Gabungan harmoni antara kefahaman fikrah yang tajam, daya cipta imaginasi yang luas, dan tindak balas emosi keimanan.\n- **Getaran Seni Membina Sejarah:** Gerakan perubahan yang bertahan lama ialah gerakan yang mampu menyentuh lubuk hati rakyat melalui seni kehidupan yang mempesonakan.\n- **Penyediaan Tapak Perubahan:** Fasa pembinaan dalaman ini menyediakan tapak yang teguh sebelum melangkah ke gelanggang pertembungan massa."
         },
         {
-          "id": "c3_s21",
-          "title": "[MUKA SURAT CETAKAN 58]",
+          "id": "c3_s20",
+          "title": "Rumusan Akhir Logik Fiqh Perubahan: Menuju Gelanggang Bab 2 [Muka Surat Cetakan 58]",
+          "menu_title": "Rumusan Akhir Logik Fiqh Perubahan [MS 58]",
           "paragraphs": [
             "*(Halaman Penamat Bab 1 / Pemisah Menuju Bab 2)*",
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 58: Penamat Bab 1 & Menuju Gelanggang Bab 2\n- **Kematangan Logik Fiqh:** Bab 1 memuktamadkan bahawa gerakan Islam adalah tawanan syariat yang mengutamakan pendekatan damai dan keindahan keimanan.\n- **Gerbang Menuju Bab 2:** Bersiap melangkah ke Bab 2: *Fenomena Pemuda Penekan: Revolusi Rakyat, Bukan Kudeta Tentera*.\n- **Ketetapan Hati Pejuang:** Memasuki medan tindakan politik dengan keyakinan penuh bahawa Islam membawa keselamatan dan keadilan sejati kepada seluruh manusia."
         }
       ],
       "footnotes": [

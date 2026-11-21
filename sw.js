@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v290-mukadimah-factors';
+const CACHE_NAME = 'tanzir-v300-bab1-fiqh-damai';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v290_mukadimah_factors',
+  './index.html?v=20261121_v300_bab1_fiqh_damai',
   './manifest.json',
-  './css/style.css?v=20261121_v290_mukadimah_factors',
-  './js/app.js?v=20261121_v290_mukadimah_factors',
-  './data/tanzir_data.js?v=20261121_v290_mukadimah_factors',
-  './data/tanzir_quotes.js?v=20261121_v290_mukadimah_factors',
+  './css/style.css?v=20261121_v300_bab1_fiqh_damai',
+  './js/app.js?v=20261121_v300_bab1_fiqh_damai',
+  './data/tanzir_data.js?v=20261121_v300_bab1_fiqh_damai',
+  './data/tanzir_quotes.js?v=20261121_v300_bab1_fiqh_damai',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
