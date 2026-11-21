@@ -5852,3 +5852,439 @@ i .arabic-text-amiri-gold,
   .rukun-card { flex-direction: column; gap: 12px; padding: 14px 16px; }
   .rukun-card-icon { width: 44px; height: 44px; font-size: 1.4rem; }
 }
+
+
+/* ==========================================================================
+   INFOGRAPHIC PENTALOGI STRATEGI PERADABAN (CHAPTER 10 SUBTOPIK 1)
+   ========================================================================== */
+.pentalogi-infographic-container {
+  margin: 2.2rem 0;
+  padding: 2.4rem 2rem;
+  background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.14) 0%, rgba(6, 28, 22, 0.98) 80%);
+  border: 1px solid rgba(234, 179, 8, 0.35);
+  border-radius: 22px;
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.6), 0 0 30px rgba(234, 179, 8, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+.pentalogi-infographic-container::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 12%; right: 12%; height: 2px;
+  background: linear-gradient(90deg, transparent, #f59e0b, #10b981, transparent);
+}
+.pentalogi-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.pentalogi-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 18px;
+  border-radius: 30px;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #fde047;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.pentalogi-ar-title {
+  font-family: 'Amiri', serif !important;
+  font-size: 2.3rem;
+  color: #fde047 !important;
+  margin: 6px 0 10px 0;
+  direction: rtl;
+  line-height: 1.4;
+  text-shadow: 0 2px 14px rgba(245, 158, 11, 0.35);
+}
+.pentalogi-main-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.02em;
+}
+.pentalogi-subtitle {
+  color: #94a3b8;
+  font-size: 0.94rem;
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.tahap-section {
+  background: rgba(15, 23, 42, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 22px 20px;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.tahap-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+.tahap-1 .tahap-tag {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+}
+.tahap-2 .tahap-tag {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fde047;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+}
+.tahap-3 .tahap-tag {
+  background: rgba(14, 165, 233, 0.2);
+  color: #38bdf8;
+  border: 1px solid rgba(14, 165, 233, 0.4);
+}
+
+.tetralogi-grid-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.tetra-card {
+  background: rgba(6, 28, 22, 0.7);
+  border-radius: 12px;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  position: relative;
+}
+.tetra-card:hover {
+  transform: translateY(-2px);
+}
+.tetra-card.c-emerald { border-top: 3px solid #10b981; }
+.tetra-card.c-blue { border-top: 3px solid #0ea5e9; }
+.tetra-card.c-gold { border-top: 3px solid #f59e0b; }
+
+.tetra-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.tetra-card-icon {
+  font-size: 1.3rem;
+}
+.tetra-card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+}
+.tetra-card-ar {
+  font-family: 'Amiri', serif !important;
+  font-size: 1.15rem;
+  color: #fde047;
+  margin-left: auto;
+}
+.tetra-pill {
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.c-emerald .tetra-pill { background: rgba(16, 185, 129, 0.2); color: #6ee7b7; }
+.c-blue .tetra-pill { background: rgba(14, 165, 233, 0.2); color: #7dd3fc; }
+.c-gold .tetra-pill { background: rgba(245, 158, 11, 0.2); color: #fef08a; }
+
+.tetra-card-desc {
+  font-size: 0.84rem;
+  color: #cbd5e1;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.convergence-flow {
+  text-align: center;
+  margin: 6px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.flow-arrow-down {
+  color: #f59e0b;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+.flow-arrow-label {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.masar-card {
+  background: linear-gradient(90deg, rgba(168, 85, 247, 0.15) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  border-left: 4px solid #a855f7;
+  border-radius: 12px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.masar-icon {
+  font-size: 1.8rem;
+  background: rgba(168, 85, 247, 0.15);
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  flex-shrink: 0;
+}
+.masar-content { flex-grow: 1; }
+.masar-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+.masar-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #e9d5ff;
+  margin: 0;
+}
+.masar-ar {
+  font-family: 'Amiri', serif !important;
+  font-size: 1.25rem;
+  color: #fde047;
+}
+.masar-pill {
+  background: rgba(168, 85, 247, 0.25);
+  color: #d8b4fe;
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.masar-desc {
+  font-size: 0.88rem;
+  color: #cbd5e1;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.pipeline-bridge {
+  text-align: center;
+  margin: 1.2rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.pipeline-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 18px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, rgba(245, 158, 11, 0.2), rgba(16, 185, 129, 0.2));
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  color: #fef08a;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.15);
+}
+.pipeline-arrow {
+  font-size: 1.6rem;
+  color: #f59e0b;
+  line-height: 1;
+}
+
+.tanzir-hero-card {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(6, 28, 22, 0.95) 50%, rgba(16, 185, 129, 0.15) 100%);
+  border: 2px solid rgba(245, 158, 11, 0.5);
+  border-radius: 16px;
+  padding: 22px 24px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(245, 158, 11, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+.tanzir-hero-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: radial-gradient(circle at 50% 0%, rgba(245, 158, 11, 0.12) 0%, transparent 60%);
+  pointer-events: none;
+}
+.tanzir-hero-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.tanzir-hero-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 14px;
+  background: rgba(245, 158, 11, 0.2);
+  border: 1px solid rgba(245, 158, 11, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.25);
+  flex-shrink: 0;
+}
+.tanzir-hero-headings { flex-grow: 1; }
+.tanzir-hero-ar {
+  font-family: 'Amiri', serif !important;
+  font-size: 2rem;
+  color: #fde047 !important;
+  margin: 0;
+  direction: rtl;
+  line-height: 1.2;
+}
+.tanzir-hero-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 2px 0 0 0;
+}
+.tanzir-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.tanzir-badge-item {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #e2e8f0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 6px;
+  letter-spacing: 0.3px;
+}
+.tanzir-hero-desc {
+  font-size: 0.94rem;
+  color: #cbd5e1;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.twin-peaks-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.peak-card {
+  background: rgba(6, 28, 22, 0.75);
+  border-radius: 14px;
+  padding: 18px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.peak-card:hover {
+  transform: translateY(-2px);
+}
+.peak-card.peak-ummah {
+  border-top: 4px solid #14b8a6;
+  background: linear-gradient(180deg, rgba(20, 184, 166, 0.12) 0%, rgba(6, 28, 22, 0.8) 100%);
+}
+.peak-card.peak-pbi {
+  border-top: 4px solid #f59e0b;
+  background: linear-gradient(180deg, rgba(245, 158, 11, 0.12) 0%, rgba(6, 28, 22, 0.8) 100%);
+}
+.peak-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.peak-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+.peak-titles { flex-grow: 1; }
+.peak-ar {
+  font-family: 'Amiri', serif !important;
+  font-size: 1.3rem;
+  color: #fde047;
+  margin: 0;
+  line-height: 1.2;
+}
+.peak-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 2px 0 0 0;
+}
+.peak-pill {
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.peak-ummah .peak-pill { background: rgba(20, 184, 166, 0.25); color: #5eead4; }
+.peak-pbi .peak-pill { background: rgba(245, 158, 11, 0.25); color: #fef08a; }
+.peak-desc {
+  font-size: 0.88rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.pentalogi-footer-note {
+  margin-top: 1.8rem;
+  padding: 14px 20px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px dashed rgba(234, 179, 8, 0.35);
+  font-size: 0.88rem;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  line-height: 1.5;
+}
+.pentalogi-footer-note .note-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .pentalogi-infographic-container { padding: 1.6rem 1rem; }
+  .pentalogi-ar-title { font-size: 1.7rem; }
+  .pentalogi-main-title { font-size: 1.2rem; }
+  .tetralogi-grid-top { grid-template-columns: 1fr; }
+  .twin-peaks-grid { grid-template-columns: 1fr; }
+  .tanzir-hero-top { flex-direction: column; align-items: flex-start; }
+  .masar-card { flex-direction: column; align-items: flex-start; gap: 10px; }
+}
