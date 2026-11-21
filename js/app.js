@@ -501,9 +501,47 @@ document.addEventListener('DOMContentLoaded', () => {
     contentBody.innerHTML = '';
 
     if (state.layer === 'layer1') {
-      // LAYER 1: Full text paragraphs
-      if (sub.paragraphs && sub.paragraphs.length > 0) {
-        sub.paragraphs.forEach(para => {
+
+      // ============================================================
+      // BILINGUAL REDIRECT: Jika subtopik ini ialah [Terjemahan Puitis...],
+      // lompat ke subtopik Arab sebelumnya agar paparan bilingual penuh.
+      // ============================================================
+      const isTerjemahan = sub.title && sub.title.includes('Terjemahan Puitis');
+      if (isTerjemahan && state.currentSubtopic > 0) {
+        const arabSub = ch.subtopics[state.currentSubtopic - 1];
+        if (arabSub && arabSub.title && arabSub.title.includes('Teks Asal Bahasa Arab')) {
+          // Redirect diam-diam ke subtopik Arab
+          state.currentSubtopic = state.currentSubtopic - 1;
+          // Kemas kini sidebar aktif
+          document.querySelectorAll('.subtopic-nav-btn').forEach(btn => btn.classList.remove('active-sub'));
+          const activeChElem2 = document.getElementById(`nav-ch-${state.currentChapter}`);
+          if (activeChElem2) {
+            const newActiveBtn = activeChElem2.querySelectorAll('.subtopic-nav-btn')[state.currentSubtopic];
+            if (newActiveBtn) newActiveBtn.classList.add('active-sub');
+          }
+          // Render semula dengan subtopik Arab
+          renderContent();
+          return;
+        }
+      }
+
+      // ============================================================
+      // BILINGUAL RENDER: Jika subtopik ini ialah [Teks Asal Bahasa Arab],
+      // render Arab + Terjemahan dalam satu paparan gabungan.
+      // ============================================================
+      const isArabicText = sub.title && sub.title.includes('Teks Asal Bahasa Arab');
+      let subToRender = sub;
+      let translationSub = null;
+      if (isArabicText && state.currentSubtopic + 1 < ch.subtopics.length) {
+        const nextSub = ch.subtopics[state.currentSubtopic + 1];
+        if (nextSub && nextSub.title && nextSub.title.includes('Terjemahan Puitis')) {
+          translationSub = nextSub;
+        }
+      }
+
+      // Fungsi pembantu: render satu senarai paragraf ke dalam bekas
+      function renderParasInto(paraList, container) {
+        paraList.forEach(para => {
           const trimmed = para.trim();
           if (trimmed === '***' || trimmed === '---' || /^[\*\-]{3,}$/.test(trimmed)) {
             return;
@@ -514,7 +552,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const wrapper = document.createElement('div');
             wrapper.className = 'custom-html-block';
             wrapper.innerHTML = trimmed;
-            contentBody.appendChild(wrapper);
+            container.appendChild(wrapper);
             return;
           }
 
@@ -551,7 +589,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
               });
               p.innerHTML = innerHtml;
-              contentBody.appendChild(p);
+              container.appendChild(p);
               return;
             }
 
@@ -568,7 +606,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const formatted = cleanLines.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
                 pChild.innerHTML = formatSmartItalicHtml(formatted);
               }
-              contentBody.appendChild(pChild);
+              container.appendChild(pChild);
             });
             return;
           }
@@ -603,7 +641,7 @@ document.addEventListener('DOMContentLoaded', () => {
             pQuote.className = 'quote-highlight-box';
             const cleanQuote = para.split('\n').map(l => l.replace(/^[>\s]+/, '').trim()).filter(Boolean).join('<br>');
             pQuote.innerHTML = formatQuoteText(cleanQuote);
-            contentBody.appendChild(pQuote);
+            container.appendChild(pQuote);
             return;
           } else if (para.trim().endsWith(':')) {
             p.className = 'intro-lead-in';
@@ -629,11 +667,55 @@ document.addEventListener('DOMContentLoaded', () => {
               p.innerHTML = formatSmartItalicHtml(bolded);
             }
           }
-          contentBody.appendChild(p);
+          container.appendChild(p);
         });
+      } // akhir renderParasInto()
 
-        // ==================== SUBTOPIC FOOTNOTES SECTION (AL-MUNTALAQ DESIGN) ====================
-        if (sub.footnotes && sub.footnotes.length > 0) {
+      // ==================== RENDER KANDUNGAN LAYER 1 ====================
+      if (isArabicText && translationSub) {
+        // --- PAPARAN BILINGUAL GABUNGAN ---
+        // Panel 1: Teks Arab (kanan, RTL)
+        const arabicPanel = document.createElement('div');
+        arabicPanel.className = 'bilingual-arabic-panel';
+        arabicPanel.setAttribute('dir', 'rtl');
+        const arabicLabel = document.createElement('div');
+        arabicLabel.className = 'bilingual-panel-label bilingual-label-arabic';
+        arabicLabel.innerHTML = `<span class="bilingual-label-icon">📜</span><span class="bilingual-label-ar" dir="rtl">النَّصُّ الأَصْلِيُّ</span><span class="bilingual-label-ms">Teks Asal Bahasa Arab</span>`;
+        arabicPanel.appendChild(arabicLabel);
+        if (sub.paragraphs && sub.paragraphs.length > 0) {
+          renderParasInto(sub.paragraphs, arabicPanel);
+        }
+        contentBody.appendChild(arabicPanel);
+
+        // Pemisah bilingual
+        const divider = document.createElement('div');
+        divider.className = 'bilingual-divider';
+        divider.innerHTML = `<div class="bilingual-divider-line"></div><span class="bilingual-divider-gem">◆</span><div class="bilingual-divider-line"></div>`;
+        contentBody.appendChild(divider);
+
+        // Panel 2: Terjemahan (kiri, LTR)
+        const transPanel = document.createElement('div');
+        transPanel.className = 'bilingual-translation-panel';
+        const transLabel = document.createElement('div');
+        transLabel.className = 'bilingual-panel-label bilingual-label-translation';
+        transLabel.innerHTML = `<span class="bilingual-label-icon">🌿</span><span class="bilingual-label-ms">Terjemahan Puitis Sastera Tinggi</span>`;
+        transPanel.appendChild(transLabel);
+        if (translationSub.paragraphs && translationSub.paragraphs.length > 0) {
+          renderParasInto(translationSub.paragraphs, transPanel);
+        }
+        contentBody.appendChild(transPanel);
+
+      } else {
+        // --- PAPARAN BIASA (bukan bilingual) ---
+        if (sub.paragraphs && sub.paragraphs.length > 0) {
+          renderParasInto(sub.paragraphs, contentBody);
+        } else {
+          contentBody.innerHTML = '<p class="text-muted">Tiada teks lanjutan bagi bahagian ini.</p>';
+        }
+      }
+
+      // ==================== SUBTOPIC FOOTNOTES SECTION (AL-MUNTALAQ DESIGN) ====================
+      if (sub.footnotes && sub.footnotes.length > 0) {
           const fnSection = document.createElement('div');
           fnSection.className = 'chapter-footnotes-section';
           fnSection.id = 'chapterFootnotes';
@@ -754,9 +836,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
           });
         }
-      } else {
-        contentBody.innerHTML = '<p class="text-muted">Tiada teks lanjutan bagi bahagian ini.</p>';
-      }
     } else {
       // LAYER 2: Structured Exclusive Summary
       const summaryBox = document.createElement('div');

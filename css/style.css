@@ -5004,3 +5004,124 @@ i .arabic-text-amiri-gold,
   display: block !important;
   width: 100% !important;
 }
+
+/* ============================================================
+   BILINGUAL LAYOUT: Teks Arab + Terjemahan Dalam Satu Paparan
+   v260_bilingual_layout
+   ============================================================ */
+
+/* Panel Teks Arab (RTL) */
+.bilingual-arabic-panel {
+  direction: rtl;
+  text-align: right;
+  background: linear-gradient(135deg, rgba(253, 224, 71, 0.04) 0%, rgba(16, 24, 40, 0.0) 100%);
+  border-right: 3px solid var(--gold-light, #fde047);
+  border-radius: 0 10px 10px 0;
+  padding: 1.2rem 1.4rem 1.2rem 1rem;
+  margin-bottom: 0;
+}
+
+/* Panel Terjemahan (LTR) */
+.bilingual-translation-panel {
+  direction: ltr;
+  text-align: left;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.04) 0%, rgba(16, 24, 40, 0.0) 100%);
+  border-left: 3px solid var(--sapphire-light, #38bdf8);
+  border-radius: 10px 0 0 10px;
+  padding: 1.2rem 1rem 1.2rem 1.4rem;
+}
+
+/* Label panel */
+.bilingual-panel-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  flex-wrap: wrap;
+}
+
+.bilingual-label-arabic {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.bilingual-label-translation {
+  flex-direction: row;
+}
+
+.bilingual-label-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.bilingual-label-ar {
+  font-family: 'Amiri', serif;
+  font-size: 1.0rem;
+  color: var(--gold-light, #fde047);
+  font-weight: 700;
+  direction: rtl;
+}
+
+.bilingual-label-ms {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.45);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.bilingual-label-translation .bilingual-label-ms {
+  color: var(--sapphire-light, #38bdf8);
+  opacity: 0.75;
+}
+
+/* Pemisah antara dua panel */
+.bilingual-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  opacity: 0.4;
+}
+
+.bilingual-divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-light, #fde047), transparent);
+}
+
+.bilingual-divider-gem {
+  font-size: 0.85rem;
+  color: var(--gold-light, #fde047);
+  flex-shrink: 0;
+}
+
+/* Pastikan teks Arab dalam panel bilingual dipapar dengan betul */
+.bilingual-arabic-panel .arabic-text,
+.bilingual-arabic-panel p,
+.bilingual-arabic-panel div:not(.bilingual-panel-label):not(.ar-quote-block):not(.lat-quote-block) {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.bilingual-arabic-panel .quote-highlight-box {
+  direction: rtl;
+  text-align: right;
+}
+
+.bilingual-arabic-panel .ar-quote-block,
+.bilingual-arabic-panel .arabic-text {
+  font-family: 'Amiri', serif !important;
+  font-size: 1.3rem !important;
+  line-height: 2.2 !important;
+  color: var(--gold-light, #fde047) !important;
+}
+
+/* Panel terjemahan: pastikan LTR */
+.bilingual-translation-panel p,
+.bilingual-translation-panel div:not(.bilingual-panel-label) {
+  direction: ltr !important;
+  text-align: left !important;
+}

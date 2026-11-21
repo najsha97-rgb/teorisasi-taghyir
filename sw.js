@@ -1,12 +1,12 @@
 const CACHE_NAME = 'tanzir-v250-imej2-exact';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v250_imej2_exact',
+  './index.html?v=20261121_v260_bilingual',
   './manifest.json',
-  './css/style.css?v=20261121_v250_imej2_exact',
-  './js/app.js?v=20261121_v250_imej2_exact',
-  './data/tanzir_data.js?v=20261121_v250_imej2_exact',
-  './data/tanzir_quotes.js?v=20261121_v250_imej2_exact',
+  './css/style.css?v=20261121_v260_bilingual',
+  './js/app.js?v=20261121_v260_bilingual',
+  './data/tanzir_data.js?v=20261121_v260_bilingual',
+  './data/tanzir_quotes.js?v=20261121_v260_bilingual',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
