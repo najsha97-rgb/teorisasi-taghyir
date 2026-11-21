@@ -1765,17 +1765,8 @@ window.tanzirData = {
       "subtopics": [
         {
           "id": "c5_s1",
-          "title": "Pengenalan & Permulaan BAB 3",
-          "paragraphs": [
-            "## *(Syurūṭ Tajrībiyyah wa Ẓawāhir Ījābiyyah)*",
-            "---"
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c5_s2",
-          "title": "[MUKA SURAT CETAKAN 75]",
+          "title": "Formula Matematik Perubahan & Mitos Keperluan Majoriti [Muka Surat Cetakan 75]",
+          "menu_title": "Formula Matematik & Mitos Majoriti [MS 75]",
           "paragraphs": [
             "* **Menghitung Pintu Kebaikan & Lombong Produktiviti**",
             "Menghitung pintu-pintu kebaikan dan lombong-lombong produktiviti merupakan satu kemahiran pengalaman dan ujian amali (*khibrah wa tajrīb*). Ia menjadi sempurna dengan mengarahkan tumpuan perhatian kepadanya, meraikannya, serta mengenali tingkah laku praktikal yang wajar diambil terhadapnya. Oleh sebab itu, memahaminya menuntut kecerdasan akal di samping latihan dan kemahiran yang berterusan. Antara apa yang pernah saya nyatakan mengenai salah satu dimensi teori perubahan:",
@@ -1793,11 +1784,12 @@ window.tanzirData = {
           "footnotes": [
             "[1] Syeikh Muhammad Ahmad al-Rasyid, *Manhajiyyat al-Tarbiah al-Da'wiyyah*, hlm. 261."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 75: Formula Demografi 1/10\n- **Bancian Demografi Realistik:** Menolak ilusi bahawa kebangkitan memerlukan 51% rakyat turun ke jalanan.\n- **Kadar 1/10 Penduduk:** Selepas menolak golongan bawah umur, warga uzur, dan kelompok pasif, hanya 1/10 rakyat yang benar-benar berinteraksi aktif dengan politik.\n- **Angka Penentu Kemenangan:** Memadai beberapa puluh ribu pemuda berdisiplin memimpin ratusan ribu massa bagi melumpuhkan rejim kuku besi."
         },
         {
-          "id": "c5_s3",
-          "title": "[MUKA SURAT CETAKAN 76]",
+          "id": "c5_s2",
+          "title": "Fiqh Penapisan Anggota (Al-Tawthīq wal-Ta'dīl) Pimpinan Belakang Tabir [Muka Surat Cetakan 76]",
+          "menu_title": "Penapisan Anggota & Pimpinan [MS 76]",
           "paragraphs": [
             "> *...sembilan persepuluh daripada kaum wanita; ini kerana pengaruh dan peranan pemikiran serta politik mereka di dunia Islam masih belum sempurna dan hampir-hampir berada pada tahap yang lemah.*",
             "> *Dan engkau turut menggugurkan jutaan kanak-kanak; demikian juga warga pedalaman badwi atau mereka yang hidup terpencil; serta sejumlah besar manusia yang pengecut, bersikap pasif, dan bebal yang tidak memiliki sebarang pendirian dan tidak menganut sebarang gagasan, tidak menentang sesuatu dasar politik dan tidak pula menyokongnya.*",
@@ -1816,11 +1808,12 @@ window.tanzirData = {
           "footnotes": [
             "[2] *Al-Masār*, hlm. 65, Bab 6."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 76: Fiqh Penapisan Anggota\n- **Metodologi Hadis (*Al-Jarḥ wal-Ta'dīl*):** Mengaplikasikan kaedah saringan rawi hadis dalam memilih pimpinan organisasi belakang tabir.\n- **Bahaya Di Meja Rundingan:** Orang licik dan munafik (*al-khibb*) boleh dengan mudah memperdayakan pejuang yang lurus bendul.\n- **Kualiti Mengatasi Kuantiti:** Pimpinan teras mesti teruji integriti, kesetiaan, dan kematangan siasahnya."
         },
         {
-          "id": "c5_s4",
-          "title": "[MUKA SURAT CETAKAN 77]",
+          "id": "c5_s3",
+          "title": "Tarbiah Rohani & Kedalaman Ma'rifah Jaminan Kualiti Penapisan [Muka Surat Cetakan 77]",
+          "menu_title": "Tarbiah Rohani & Jaminan Kualiti [MS 77]",
           "paragraphs": [
             "...tidak sesekali menafikan keperluan mutlak revolusi kepada barisan orang bijaksana dan para sesepuh (*al-ḥukamā' wal-syuyūkh*).",
             "* **Tarbiah Rohani Sebagai Jaminan Kualiti Penapisan**",
@@ -1837,11 +1830,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 77: Tarbiah Rohani Pimpinan\n- **Pembersihan Hati (*Tahdhīb Madārij al-Sālikīn*):** Kekuatan luar biasa lahir daripada jiwa yang bersih daripada hasad dengki, riak, dan gila pangkat.\n- **Hubungan Intim dengan Allah SWT:** Kemenangan menuntut bekalan sujud malam, munajat, dan keikhlasan bagi meraih pertolongan langit (*madad samāwī*).\n- **Disiplin Kerohanian:** Menjadi benteng daripada godaan kebendaan tatkala pintu kuasa terbuka luas."
         },
         {
-          "id": "c5_s5",
-          "title": "[MUKA SURAT CETAKAN 78]",
+          "id": "c5_s4",
+          "title": "Tarbiah Kreativiti & Akal Merdeka: Dari Geometri ke Fizik Kuantum [Muka Surat Cetakan 78]",
+          "menu_title": "Kreativiti Akal & Fizik Kuantum [MS 78]",
           "paragraphs": [
             "* **Tarbiah Kreativiti & Kebebasan Akal Fikiran**",
             "Namun seiringan dengan keimanan: kita memerlukan tarbiah pembangunan yang kreatif (*tarbiah taṭwīriyyah ibdā'iyyah*). Matlamat induknya ialah: memindahkan pendakwah daripada belenggu taqlid kepada keluasan ijtihad; dan daripada kecenderungan rutin ilmiah yang kaku kepada menggabungkannya dengan renungan, pemikiran kritis, dan pengembaraan akal — lantas dia menjadi seorang yang mampu mengkritik realitinya dan mengenali jalan menuju kecemerlangan.",
@@ -1863,11 +1857,12 @@ window.tanzirData = {
           "footnotes": [
             "[3] Syeikh Muhammad Ahmad al-Rasyid, *Manhajiyyat al-Tarbiah al-Da'wiyyah*, hlm. 479."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 78: Akal Merdeka & Pemikiran Abstrak\n- **Logik Titik dan Garisan:** Menelaah teori sarjana silam (Qusta bin Luqa & Abu Hayyan) mengenai titik tanpa dimensi dan garisan panjang.\n- **Akar Pemodelan Sains:** Pemikiran abstrak ini menjadi asas fizik kuantum Max Planck dan algoritma komputer moden.\n- **Akal Dakwah Saintifik:** Menggabungkan kesucian rohani tauhid dengan ketajaman pemikiran sains termaju."
         },
         {
-          "id": "c5_s6",
-          "title": "[MUKA SURAT CETAKAN 79]",
+          "id": "c5_s5",
+          "title": "Sinergi Media Berkembar (Satelit + Telefon Pintar) & Hak Wanita [Muka Surat Cetakan 79]",
+          "menu_title": "Sinergi Media Berkembar & Hak Wanita [MS 79]",
           "paragraphs": [
             "...terbina di padang luas pemikiran persiapan bebas bagi kebangkitan politik; dan bahawa bait-bait imaginasi, pandangan jauh ke hadapan, serta formula-formula yang kukuh telah mendidih dan bergolak di dalam benak minda para tokoh veteran tatkala pemuda itu masih lagi seorang bayi di dalam buaian..!",
             "* **Perancangan Strategik: Bukti Bahawa Perubahan Kerja Jamaah**",
@@ -1883,11 +1878,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 79: Media Berkembar & Hak Wanita\n- **Media Satelit (Al-Jazeera):** Bertindak laksana pancaran sinar laser yang menembusi keluli padu ke peringkat antarabangsa.\n- **Media Telefon Pintar:** Rakaman video pemuda di lorong sempit menjadi saksi lapangan tanpa tapisan.\n- **Hak Wanita Pemacu Dakwah:** Wanita adalah saudara kandung lelaki (*al-nisā' syaqā'iq al-rijāl*), berhak berbakti dalam sains dan politik."
         },
         {
-          "id": "c5_s7",
-          "title": "[MUKA SURAT CETAKAN 80]",
+          "id": "c5_s6",
+          "title": "Menolak Kejumudan: Kisah Fatima Muhajiri & Visi Fizik Kuantum [Muka Surat Cetakan 80]",
+          "menu_title": "Kisah Fatima Muhajiri & Kuantum [MS 80]",
           "paragraphs": [
             "...hasil pengaruh fenomena global, dan ia juga merupakan satu syarat yang memaksakan kewujudannya secara realiti. Keprihatinan dakwah secara umum terhadap tarbiah kaum wanita telah lama wujud sejak fajar dakwah; namun pengkhususan dan penentuan kompas terhadap peranan politik dan pemikiran yang diharapkan daripada mereka telah termaktub sejak tahun 1979 di dalam buku saya *\"Al-Masār\"*, tatkala saya menegaskan: *“Sesungguhnya kaum wanita adalah saudara kandung bagi kaum lelaki.”* Kemudian saya menyatakan:",
             "> *(“Barangkali keprihatinan ini bermula daripada kewajipan memelihara mereka, mentarbiah mereka, dan menjaga akhlak serta hijab mereka; atau atas dasar menyediakan isteri-isteri yang solehah bagi kelompok pemuda dakwah yang ramai ini.*",
@@ -1904,11 +1900,12 @@ window.tanzirData = {
           "footnotes": [
             "[4] *Al-Masār*, hlm. 144, Bab 10."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 80: Fatima Muhajiri & Kuantum\n- **Menolak Sikap Sempit:** Syeikh al-Rasyid mengecam larangan ke atas Fatima Muhajiri (mahasiswi Algeria) daripada mendalami fizik kuantum.\n- **Fardhu Kifayah Sains:** Ilmu syariah telah cukup pakar; umat kini amat memerlukan pakar fizik kuantum untuk industri mikrocip dan digital.\n- **Visi Masa Depan:** Membina kemandirian teknologi negara Islam pasca-revolusi."
         },
         {
-          "id": "c5_s8",
-          "title": "*(Ḥilf al-'Uqūl wal-Fuḍūl Yudīru Tursan fa-TantaLiqu al-Ḥamāsah)*",
+          "id": "c5_s7",
+          "title": "Pakatan Akal Fikiran & Melahirkan Super Inteligensi Jamaah [Muka Surat Cetakan 81]",
+          "menu_title": "Super Inteligensi Jamaah [MS 81]",
           "paragraphs": [
             "* **Kematangan Teori Mengalir Perlahan**",
             "Teori perubahan terus melangkah tekun menelusuri lorong kematangan dan kesempurnaan secara beransur-ansur, perlahan demi perlahan; laksana seorang suri rumah yang mempunyai keluangan waktu lapang, lalu memasak hidangannya di atas api yang perlahan dan tenang, maka makanannya menjadi enak lazat dan tidak hangus dijilat api marak.",
@@ -1924,11 +1921,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 81: Super Inteligensi Jamaah\n- **Kematangan Teori Perlahan:** Teori perubahan diasah melalui pengalaman bertahun-tahun merentasi generasi.\n- **Tiada 'Superman' Tunggal:** Mustahil seorang individu memiliki kejeniusan mutlak mendepani kuasa besar dunia.\n- **Super Inteligensi (*Al-Dhakā' al-Khāriq*):** Jamaah menghimpunkan ribuan akal biasa dalam syura, melahirkan kecerdasan kolektif yang menewaskan diktator."
         },
         {
-          "id": "c5_s9",
-          "title": "[MUKA SURAT CETAKAN 82]",
+          "id": "c5_s8",
+          "title": "Analogi Supercomputer & Fizik Dakwah: Formula Kuantum Max Planck [Muka Surat Cetakan 82]",
+          "menu_title": "Analogi Supercomputer & Max Planck [MS 82]",
           "paragraphs": [
             "> *Adapun usaha membina komputer super daripada satu unit pemproses pusat tunggal: ini adalah khayalan yang tidak pernah difikirkan oleh para saintis dan tidak pernah diterokai dalam penyelidikan saintifik; kerana walau setinggi mana sekalipun kekuatan sesuatu pemproses tunggal, ia pasti akan tewas di hadapan akal kolektif pemproses-pemproses yang beroperasi secara selari!”)*",
             "* **Fizik Dakwah: Teori Kuantum Tenaga Kepimpinan**",
@@ -1944,11 +1942,12 @@ window.tanzirData = {
           "footnotes": [
             "[5] Syeikh Muhammad Ahmad al-Rasyid, *Manhajiyyat al-Tarbiah al-Da'wiyyah*, hlm. 440."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 82: Analogi Supercomputer & Fizik Dakwah\n- **Analogi Komputer Super:** Dibina daripada ribuan CPU beroperasi serentak (*parallel processing*), bukan mikropemproses tunggal.\n- **Fizik Dakwah Max Planck:** Tenaga kepimpinan dihimpunkan daripada kuanta serpihan: Gumpalan Keberanian (*Kutlat Syajā'ah*) dan Gumpalan Kecerdasan (*Kutlat Dhakā'*).\n- **Menepis Dakwaan Aksi Spontan:** Kejayaan revolusi memerlukan enjin kepimpinan strategik."
         },
         {
-          "id": "c5_s10",
-          "title": "[MUKA SURAT CETAKAN 83]",
+          "id": "c5_s9",
+          "title": "Menepis Ego Komputer Riba di Dataran Tahrir & Tiga Faktor Kemenangan [Muka Surat Cetakan 83]",
+          "menu_title": "Menepis Ego Tahrir & Tiga Faktor [MS 83]",
           "paragraphs": [
             "Di samping itu, wujud aktiviti organisasi terkumpul yang disumbangkan oleh gerakan dakwah yang menjadi faktor kedua terbesar dalam kejayaan revolusi. Tindakan individu sememangnya sebahagian daripada revolusi, tetapi ia adalah bahagian yang paling lemah. Oleh sebab itulah saya pernah menegaskan dalam bait-bait syair *Nūniyyah* saya:",
             "$$\\text{ناقِدَ \"الإخوانِ\" مَيِّز سَمْتَنا ... قَدِّم الإنصافَ والزِمْ رُكْنَنا}$$",
@@ -1980,11 +1979,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 83: Tiga Faktor Kemenangan Dataran Tahrir\n- **Teguran Kepada Pemuda Ego:** Menempelak dakwaan bahawa Revolusi Tahrir (2011) menang semata-mata kerana individu tanpa organisasi.\n- **Tiga Faktor Kemenangan Hakiki:** (1) Keberanian pemuda; (2) Mobilisasi jutaan anggota harakah; (3) Pendirian tentera enggan menembak rakyat.\n- **Kematangan Analisis:** Jangan terkeliru antara percikan fius dengan enjin penggerak massa."
         },
         {
-          "id": "c5_s11",
-          "title": "[MUKA SURAT CETAKAN 84]",
+          "id": "c5_s10",
+          "title": "Etika Organisasi Jamaah Lebah Madu vs Kepartian Sempit [Muka Surat Cetakan 84]",
+          "menu_title": "Etika Koloni Lebah Madu [MS 84]",
           "paragraphs": [
             "* **Watak Sederhana Tanzim Dakwah vs Kepartian Sempit**",
             "Murid saya, **Mustafa Safa' al-Wuhaib**, telah menyedari kesederhanaan watak organisasi Ikhwan dan ketiadaan penglibatannya dalam kelemahan-kelemahan yang mencemari parti-parti politik yang sempit; serta bagaimana tarbiah keilmuan dan keimanan yang dimiliki oleh Ikhwan mengangkat kedudukan mereka tatkala berlakunya perselisihan daripada tingkah laku persaingan yang keji.",
@@ -1999,11 +1999,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 84: Etika Koloni Lebah Madu\n- **Karektor Koloni Lebah Madu:** Menghisap nektar bunga, memberi manfaat kepada alam, dan menghasilkan madu penyembuh.\n- **Kaedah Emas Hasan al-Banna:** Bekerjasama dalam perkara disepakati, berlapang dada dalam perkara diperselisihkan.\n- **Menjauhi Celaan:** Harakah tidak membuang masa mencerca jemaah lain; martabat dinilai pada khidmat bakti kepada umat."
         },
         {
-          "id": "c5_s12",
-          "title": "[MUKA SURAT CETAKAN 85]",
+          "id": "c5_s11",
+          "title": "Kuasa Rakyat Marhaen (Al-Ghawghā'): Ombak Tekanan Massa [Muka Surat Cetakan 85]",
+          "menu_title": "Kuasa Rakyat Marhaen (Al-Ghawghā') [MS 85]",
           "paragraphs": [
             "> *...alasan maaf tatkala berlakunya perselisihan, menolak perpecahan, serta bersangka baik tatkala wujudnya kepelbagaian suara.*",
             "> *Gerakan Ikhwan melakarkan satu garis piawaian yang tinggi yang bertajuk: berkhidmat kepada masyarakat dan mencurahkan bakti; mengorbankan akal, jiwa, dan wang ringgit demi kemajuan dan pembangunan. Persaingan mestilah berasaskan garisan ini; sesebuah parti itu hanya akan meningkat martabatnya atau merosot mengikut kadar khidmat baktinya kepada masyarakat, rakyat, dan watannya.*",
@@ -2021,11 +2022,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 85: Kuasa Rakyat Marhaen\n- **Peranan Kaum Marhaen:** Petani, tukang roti, dan buruh kasar adalah ombak tekanan sivil yang menggoncang istana tirani.\n- **Keberanian Fitrah:** Walaupun serba kekurangan dari segi akademik, mereka memiliki fitrah jujur dan kerelaan berkorban.\n- **Pimpinan Bijaksana:** Harakah membela kebajikan mereka dan mendidik mereka tanpa menyerahkan keputusan strategik kepada emosi massa."
         },
         {
-          "id": "c5_s13",
-          "title": "[MUKA SURAT CETAKAN 86]",
+          "id": "c5_s12",
+          "title": "Penglibatan Sektor Industri & Tarbiah Disiplin Ketepatan [Muka Surat Cetakan 86]",
+          "menu_title": "Penglibatan Sektor Industri [MS 86]",
           "paragraphs": [
             "> *...kesatuan sekerja mereka, kelab-kelab mereka, persatuan-persatuan mereka, dan sekolah-sekolah mereka.”)*",
             ">",
@@ -2047,11 +2049,12 @@ window.tanzirData = {
           "footnotes": [
             "[6] *Ibid.*, hlm. 472."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 86: Disiplin Sektor Industri\n- **Tarbiah Industri Pembuatan:** Sektor pembuatan melatih aktivis menjadi teliti, berdisiplin tinggi, dan menghargai sukatan hisab persis.\n- **Penyelarasan Disiplin:** Menepis sikap acuh tak acuh dan membina etos kerja bertaraf antarabangsa.\n- **Peralihan ke Dunia Profesional:** Kader dakwah memimpin kelab buruh dan persatuan teknikal."
         },
         {
-          "id": "c5_s14",
-          "title": "[MUKA SURAT CETAKAN 87]",
+          "id": "c5_s13",
+          "title": "Dunia Digital Foton & Tiga Pilar Fiqh Haraki (Uṣūl al-Iftā') [Muka Surat Cetakan 87]",
+          "menu_title": "Dunia Foton & Tiga Pilar Fiqh [MS 87]",
           "paragraphs": [
             "...para perantau yang berhijrah ke Eropah tatkala tahap keupayaan mereka melonjak naik hasil latihan perindustrian di negara-negara maju: yang terpantul ke dalam negara-negara asal kita dalam bentuk kesedaran dan dorongan untuk menuntut hak-hak sivil dan politik, serta mencetuskan semacam mobilisasi perubahan yang menyumbang pada kadar tertentu di sebalik apa yang benar-benar berlaku dalam gelombang Kebangkitan Arab (*Al-Rabī' al-'Arabī*).",
             "Dan tidak syak lagi bahawa ledakan penggunaan komputer sepanjang dua dekad kebelakangan ini, serta telefon bimbit: telah mencetuskan kebangkitan pada tahap masyarakat yang selama ini beku dan pasif — iaitu sekadar daripada interaksi mereka dengan kecanggihan teknologi yang terkandung pada kedua-dua peranti tersebut — lantas seruan ke arah perubahan bergema dengan lebih perkasa, lebih padat, dan lebih pantas!",
@@ -2076,11 +2079,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 87: Dunia Digital Foton & Pilar Fiqh\n- **Syair Dunia Foton Digital:** Penguasaan teknologi fotonik membolehkan tamkin diuruskan secara damai tanpa tumpah darah.\n- **Pilar 1 — Ijtihad Meneliti Perbezaan Halus (*Al-Furūq*):** Tidak bertaklid buta, cerdas melihat nuansa nas mengikut realiti.\n- **Pilar 2 — Neraca Maslahah vs Mafsadah:** Kaedah Al-'Izz bin Abdissalam dan Ibnu Taimiyyah mengawal tafsiran makasid."
         },
         {
-          "id": "c5_s15",
-          "title": "[MUKA SURAT CETAKAN 88]",
+          "id": "c5_s14",
+          "title": "Pilar Ketiga: Fuqaha Haraki di Medan & Kepimpinan Al-Qaradawi [Muka Surat Cetakan 88]",
+          "menu_title": "Fuqaha Haraki & Syeikh Al-Qaradawi [MS 88]",
           "paragraphs": [
             "Dan dalam dendangan lantang seorang pendakwah yang berpesan:",
             "$$\\text{قد نَمَا الفقهُ وتجريبُ الذكيْ ... باجتهادٍ في نصوصٍ أَمْعَنَا}$$",
@@ -2098,11 +2102,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 88: Fuqaha Haraki di Medan\n- **Pilar 3 — Kehadiran Fuqaha Haraki:** Perubahan dikawal oleh ulama yang faham medan (Dr. Sayyid Nuh, Dr. Ali al-Sallabi, Dr. Bayanuni).\n- **Rujukan Agung Yusufiah:** Al-Imam Yusuf al-Qaradawi memimpin fatwa revolusi dari mimbar dan Dataran Tahrir.\n- **Memandu Fatwa Lapangan:** Memastikan setiap langkah politik mematuhi maqasid syariah."
         },
         {
-          "id": "c5_s16",
-          "title": "[MUKA SURAT CETAKAN 89]",
+          "id": "c5_s15",
+          "title": "Pengaruh Buku Uṣūl al-Iftā' & Persediaan Fuqaha Menghadapi Krisis [Muka Surat Cetakan 89]",
+          "menu_title": "Uṣūl al-Iftā' & Persediaan Krisis [MS 89]",
           "paragraphs": [
             "...usuliah yang sah, **tetapi hanya setelah meletakkan pandangan maslahah sebagai pengawas ke atas setiap ijtihad berasaskan makasid!** Bukannya dengan kita membatalkan dan mengabaikan perbandingan maslahah; sebaliknya kita wajib mengerahkan segenap keupayaan dalam memastikan terzahirnya sifat maslahah yang tergolong dalam jenis kemaslahatan syarak, dan ilmu sebab-sebab qiyas (*'ilal qiyāsiyyah*) amat bermanfaat dalam hal ini.",
             "Maka keinginan untuk melangkaui kaedah iltizam dengan kemaslahatan usuliah merupakan satu keinginan yang salah; kerana ia boleh membawa kepada ilusi khayalan dan kelonggaran yang tersasar dalam mentafsirkan makasid syariah serta batas ruang lingkupnya.",
@@ -2121,24 +2126,17 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 89: Rujukan Uṣūl al-Iftā'\n- **Karya 4 Jilid Uṣūl al-Iftā':** Menjadi rujukan standard membimbing ijtihad gerakan dakwah dalam fasa pancaroba.\n- **Menepis Fatwa Upahan:** Mematahkan hujah agamawan istana yang memperalatkan dalil untuk mempertahankan diktator.\n- **Kearifan Memilih Keutamaan:** Meletakkan kepentingan survival umat mendahului kepentingan juz'iyyah."
         },
         {
-          "id": "c5_s17",
-          "title": "[MUKA SURAT CETAKAN 90]",
+          "id": "c5_s16",
+          "title": "Tatkala Jiwa Iraq Mabuk Asmara Menuntut Kebebasan [Muka Surat Cetakan 90]",
+          "menu_title": "Jiwa Iraq Menuntut Kebebasan [MS 90]",
           "paragraphs": [
             "...serta berjihad dan berhujah menegakkan kebenaran sepanjang setengah abad lamanya — sehinggalah jiwa perubahan itu matang, peluang keemasan terbuka, dan keadaan semasa membantu! Lantas beliau membuat diagnosis, memberi sokongan, mengarahkan tindakan, dan mendorong pergerakan; beliau menjadi duta para fuqaha ke mahkamah-mahkamah revolusi, membantu revolusi kekal di atas garis timbangan yang seimbang, serta membendung daripadanya kehinaan dan kekecewaan.",
             "Malah kebijaksanaan menuntut beliau pulang ke Mesir untuk memimpin lautan manusia di Dataran Tahrir! Kebaikan peribadi bercorak Yusufiah ini telah mengangkat martabat nama syariat ke mercu yang tinggi, serta memahat identiti Islam yang umum bagi perubahan dengan limpah kurnia Allah SWT.",
             "Namun demikian, oleh sebab perubahan ini bersifat kerakyatan dan menjadi titik kesepakatan umum: maka telah masuk mencelah ke dalam jalurnya kelompok-kelompok sekular dan anasir-anasir penyusupan asing; lantas lahirlah di dalam gambaran perubahan beberapa titik cela yang menuntut pembersihan secara perlahan-lahan dan berhemah, serta sudut-sudut gelap yang memerlukan pancaran cahaya dan pencerahan.",
-            "Kelompok ulama syariat di dalam saf perubahan berupaya melaksanakan tugas ini, serta melukiskan semula warna-warna dan garis-garis pelan perjuangan menerusi musyawarah bersama pihak rujukan (marji'iyyah) Qaradawiyyah yang penuh berkat ini."
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c5_s18",
-          "title": "*(Ḥīna Ta'syaqu al-Ḥurriyyata.. al-Rūḥu al-'Irāqiyyah)*",
-          "paragraphs": [
+            "Kelompok ulama syariat di dalam saf perubahan berupaya melaksanakan tugas ini, serta melukiskan semula warna-warna dan garis-garis pelan perjuangan menerusi musyawarah bersama pihak rujukan (marji'iyyah) Qaradawiyyah yang penuh berkat ini.",
             "* **Dua Ensiklopedia Fiqh Dakwah dari Medan Iraq**",
             "Tatkala saya pulang ke Iraq selepas pencerobohan tentera Amerika dan saya menyangka bahawa saya telah menamatkan fasa hijrah saya yang panjang: hakikat realiti telah memberi kesan besar ke atas bentuk penulisan saya. Lantas saya menyusun banyak risalah dan artikel bagi mendedahkan dasar imperialisme Amerika yang ganas, serta kekejaman agensi perisikan Iran yang bergerak aktif di bawah naungan dan kawalan tentera Marin Amerika (US Marines), berserta instrumen-instrumen mereka yang terjelma dalam Briged Badr (*Faylaq Badr*) dan Tentera Mahdi (*Jaysy al-Mahdī*).",
             "Koleksi penulisan ini kemudiannya saya kumpulkan di dalam sebuah buku yang saya namakan *\"Bawāriq al-'Irāq\"* yang diterbitkan oleh Al-Dār al-Khaldūniyyah di Algeria; lalu saya susuli dengan sebuah buku yang seumpamanya yang menghimpunkan risalah-risalah lain dalam membela jihad rakyat Iraq berserta artikel-artikel politik yang saya namakan *\"Akhbār 'Irāqiyyah\"*, yang bertindak seolah-olah jilid kedua dalam ensiklopedia pengenalan isu Iraq dari perspektif Islam.",
@@ -2147,11 +2145,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 90: Jiwa Iraq Menuntut Kebebasan\n- **Rindu Kebebasan Bumi Iraq:** Getaran jiwa rakyat Iraq yang mendambakan kemerdekaan daripada penindasan berdekad-dekad.\n- **Buku Bawāriq al-'Irāq:** Menghuraikan anatomi penderitaan dan kebangkitan bangsa di lembah Tigris dan Furat.\n- **Penyatuan Hati Menentang Diktator:** Maruah insan mengatasi segala ketakutan terhadap algojo Saddam dan penjajah."
         },
         {
-          "id": "c5_s19",
-          "title": "[MUKA SURAT CETAKAN 91]",
+          "id": "c5_s17",
+          "title": "Iktibar Imperialisme Amerika di Iraq & Fiqh Hukum Meminta Bantuan [Muka Surat Cetakan 91]",
+          "menu_title": "Imperialisme AS & Fiqh Meminta Bantuan [MS 91]",
           "paragraphs": [
             "...projek *\"Iḥyā' Fiqh al-Da'wah\"* (Menghidupkan Fiqh Dakwah), dan wacana teori ini tidak akan sempurna melainkan dengan kedua-duanya!",
             "* **Pelajaran Pertama Fiqh Perubahan: Menghadapi Hakikat Imperialisme Moden**",
@@ -2170,11 +2169,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 91: Imperialisme AS & Fiqh al-Isti'ānah\n- **Hakikat Pencerobohan AS (2003):** Memusnahkan tamadun Iraq, merompak hasil minyak, dan menyeksa tahanan di Abu Ghraib.\n- **Haram Tentera Darat Asing:** Diharamkan secara mutlak membenarkan tentera darat Amerika berpijak di atas tanah air umat Islam.\n- **Penilaian Fiqh Libya & Syria:** Bantuan udara NATO di Libya hanyalah darurat memilih mudarat lebih ringan demi mengelakkan pembantaian rakyat."
         },
         {
-          "id": "c5_s20",
-          "title": "[MUKA SURAT CETAKAN 92]",
+          "id": "c5_s18",
+          "title": "Jihad Gerakan Hamas Sebagai Rukun Pembinaan Teori Perubahan [Muka Surat Cetakan 92]",
+          "menu_title": "Jihad Gerakan Hamas & Obor Gaza [MS 92]",
           "paragraphs": [
             "...ketenteraan darat daripada pihak Amerika; di samping wujud sebahagian kebimbangan terhadap perjanjian damai dengan Israel yang bakal dipaksakan oleh Amerika selepas berlakunya perubahan. Kita wajib menghalang perkara tersebut sedaya upaya kita; kerana pengharaman berdamai dengan Israel adalah salah satu rukun dalam pemikiran perubahan yang tulen.",
             "Rejim pemerintah Syria sememangnya mendakwa kononnya mereka menentang Israel; namun kita menyaksikan bahawa rejim tersebut tidak pernah membenarkan walau sebutir peluru pun dilepaskan dari wilayahnya ke arah Israel sepanjang tempoh empat puluh tahun! Ia adalah pemerintahan yang berdamai dan berkompromi dengan Israel serta sentiasa bersedia untuk menandatangani perjanjian damai.",
@@ -2194,11 +2194,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 92: Jihad Hamas & Obor Gaza\n- **Gaza Rukun Tanẓīr al-Taghyīr:** Ketabahan Gaza mendepani Israel membuktikan kekuatan iman menundukkan teknologi moden.\n- **Wasatiah Politik Jihadiah:** Menggabungkan keteguhan aqidah dengan kepintaran diplomasi antarabangsa.\n- **Penghormatan Sejagat:** Pengorbanan mujahidin Palestin menyalakan obor keberanian di seluruh dunia Islam."
         },
         {
-          "id": "c5_s21",
-          "title": "[MUKA SURAT CETAKAN 93]",
+          "id": "c5_s19",
+          "title": "Mazhab Kemandirian (Madhhab al-Istiqlāl) Hamas & Nasihat Kepada Misy'al [Muka Surat Cetakan 93]",
+          "menu_title": "Mazhab Kemandirian Hamas & Misy'al [MS 93]",
           "paragraphs": [
             "*...Jihadiah merupakan rukun paling kukuh yang dijadikan sandaran oleh Hamas; lantas pendirian dan sikap mereka menjadi teguh lurus, dan kematangan akal fikiran (*al-ta'aqqul*) menjadi mercu tanda watak peribadi mereka!”)*",
             ">",
@@ -2221,11 +2222,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 93: Mazhab Kemandirian Hamas\n- **Mazhab Kemandirian (*Madhhab al-Istiqlāl*):** Menolak keterikatan mutlak kepada percaturan mana-mana kuasa serantau.\n- **Nasihat Kepada Khalid Misy'al:** Mempertahankan kebebasan keputusan politik jihad Palestin daripada dijadikan tebusan geopolitik pihak lain.\n- **Keseimbangan Sikap:** Menghargai bantuan tanpa menggadaikan prinsip perjuangan."
         },
         {
-          "id": "c5_s22",
-          "title": "[MUKA SURAT CETAKAN 94]",
+          "id": "c5_s20",
+          "title": "Syair Kemuliaan Pejuang Mihrab & Hakikat Keberanian Gaza [Muka Surat Cetakan 94]",
+          "menu_title": "Syair Pejuang Mihrab & Gaza [MS 94]",
           "paragraphs": [
             "> *...penuh kemuliaan (*isti'lā'*) di atas jalan yang lurus lagi luhur!”)* [7]",
             "Oleh sebab itulah tatkala melonjaknya kehangatan jihad di Iraq dan jihad di Palestin, semangat perjuangan saya turut memuncak; dan lambang-lambang keperwiraan Hamas terukir indah di dalam lubuk sanubari saya, serta jihad para fuqaha mempesonakan saya. Lantas saya menggubah beberapa bait syair revolusi yang belum pernah saya terbitkan sebelum ini, dan ini merupakan pendedahan pertama baginya...:",
@@ -2261,11 +2263,12 @@ window.tanzirData = {
           "footnotes": [
             "[7] Syeikh Muhammad Ahmad al-Rasyid, *Bawāriq al-'Irāq*, hlm. 507–519."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 94: Pejuang Mihrab & Gaza\n- **Bait Puitis Lelaki Mihrab:** *Thabatat sūratu ḥaqqin qa'qa'ah... qādahā al-fityatu ṣawban zatba'ah* (Kekal teguh surah kebenaran dilaungkan pemuda soleh).\n- **Lelaki Zikir & Medan:** Pejuang yang melazimi mihrab menuntut kesucian jiwa, memikul kepenatan jihad dengan senyuman syukur.\n- **Pengaruh Ruhani:** Kekuatan fizikal di medan perang berpunca daripada keheningan munajat kepada Allah SWT."
         },
         {
-          "id": "c5_s23",
-          "title": "[MUKA SURAT CETAKAN 95]",
+          "id": "c5_s21",
+          "title": "Waspada Bahaya Bid'ah, Syu'ubiyyah & Akar Konspirasi Safawi [Muka Surat Cetakan 95]",
+          "menu_title": "Waspada Bid'ah & Konspirasi Safawi [MS 95]",
           "paragraphs": [
             "> **شافِعٌ عَنَّا حِمَى أَوْ دالِكِ ... فَمَا عِلْمٌ نَعَمْ: انْحِلْ أَرْبَعَه**",
             "> *Syāfi'un 'annā ḥimā aw dāliki ... fa-mā 'ilmun na'am: inḥil arba'ah*",
@@ -2278,28 +2281,21 @@ window.tanzirData = {
             "> **مَنْ يُرِدْ حِصْنَ مَراقٍ أُمَّتِي ... فَلْيُواكِبْ حَشْدَ يَوْمٍ لِلجُمُعَه**",
             "> *Man yurid ḥiṣna marāqin ummatī ... fal-yuwākib ḥasyda yawmin lil-jumu'ah*",
             "> *(Sesiapa yang mendambakan benteng kemuliaan bagi umatku... maka sertailah perhimpunan raksasa pada hari Jumaat).*",
-            "* أَزَّتْ: bermakna gerakan yang tersangat kencang dan dahsyat, sepertimana susunan dalam *Al-Qāmūs al-Muḥīṭ*, hlm. 52 [8]."
-          ],
-          "footnotes": [
-            "[8] *Al-Qāmūs al-Muḥīṭ*, susunan al-Fairuzabadi, hlm. 52."
-          ],
-          "summary": ""
-        },
-        {
-          "id": "c5_s24",
-          "title": "*(Naẓariyyat al-Taghyīr Taḥtāṭu Izā'a al-Bid'ah wal-Syu'ūbiyyah wal-Fārisiyyah)*",
-          "paragraphs": [
+            "* أَزَّتْ: bermakna gerakan yang tersangat kencang dan dahsyat, sepertimana susunan dalam *Al-Qāmūs al-Muḥīṭ*, hlm. 52 [8].",
             "* **Akar Umbi Konspirasi Safawi Menikam Daulah Islamiah dari Belakang**",
             "Penyulingan hasil musyawarah kita bersama empat orang imam fikh mazhab ini hadir di sisi saya dalam konteks sejarah Shah Ismail al-Safawi: daripada bapa-bapa saudaranya di sebelah ibu yang merupakan para pemerintah kota Genoa di Itali, serta bondanya, seorang puteri bangsawan yang jelita lagi pintar yang dihantar oleh keluarganya ke Iran untuk berkahwin dengan salah seorang pembesar yang bercita-cita merebut takhta pemerintahan. Bonda tersebut melahirkan anak lelaki (Shah Ismail) dan mendidiknya agar menjadi seorang yang jauh lebih bernafsu besar berbanding nenek moyangnya; lalu menyusukannya dengan doktrin bid'ah serta kebencian yang membakar terhadap bangsa Arab di bawah jubah Syiah Rafidhah yang ganas dan melampau!",
             "Matlamat utamanya ialah: **menjalankan misi menikam Daulah Uthmaniyyah dari arah belakang dan menghentikan kemaraan bala tentera Islam di bumi Eropah**, selepas tentera Uthmaniyyah berjaya mara sehingga ke kota Udine di Itali yang pernah saya saksikan sendiri kedudukannya di lereng Banjaran Alps di atas kota Venice (*Venezia*).",
             "---"
           ],
-          "footnotes": [],
-          "summary": ""
+          "footnotes": [
+            "[8] *Al-Qāmūs al-Muḥīṭ*, susunan al-Fairuzabadi, hlm. 52."
+          ],
+          "summary": "### 📌 Intipati Halaman 95: Waspada Konspirasi Safawi\n- **Langkah Berjaga-Jaga:** Pembinaan teori perubahan menolak bidaah akidah, syu'ubiyyah, dan hegemoni Parsi.\n- **Konspirasi Shah Ismail al-Safawi:** Ditaja kuasa Eropah (Venice & Genoa) menikam Daulah Uthmaniyyah dari belakang tatkala membuka Eropah.\n- **Bait Nūniyyah Peringatan:** Menyeru umat agar berwaspada daripada racun sektarian yang memecahbelahkan perpaduan Islam."
         },
         {
-          "id": "c5_s25",
-          "title": "[MUKA SURAT CETAKAN 96]",
+          "id": "c5_s22",
+          "title": "Meneliti Seni Revolusi Khomeini & Bahaya Terpedaya Slogan Taifiah [Muka Surat Cetakan 96]",
+          "menu_title": "Revolusi Khomeini & Bahaya Slogan [MS 96]",
           "paragraphs": [
             "* **Meneliti Seni Revolusi Khomeini & Bahaya Terpedaya**",
             "Oleh sebab itu, teori perubahan sewajarnya mengkaji Revolusi Khomeini dengan teliti demi memetik manfaat dan mempelajari kemahiran teknikal pertukangannya, kaedah-kaedahnya, serta seni gerak kerjanya. Khomeini sememangnya seorang guru pakar dalam seni revolusi; beliau telah mewarisi dengan jayanya persiapan-persiapan politik yang diasaskan oleh Perdana Menteri Dr. Mohammad Mossadegh dan Ayatollah Kashani.",
@@ -2309,11 +2305,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 96: Seni Revolusi Khomeini\n- **Seni Mobilisasi Khomeini (1979):** Mengkaji kaedah mobilisasi massa jalanan menumbangkan Shah Iran.\n- **Bahaya Terpedaya:** Sebahagian tokoh dakwah (seperti Dr. Kamal Helbawy) awalnya terpesona sebelum menyedari hakikat perkauman Parsi.\n- **Kewaspadaan Akidah:** Perbezaan fiqh politik tidak boleh mengorbankan ketulenan akidah Ahli Sunnah Wal Jamaah."
         },
         {
-          "id": "c5_s26",
-          "title": "[MUKA SURAT CETAKAN 97]",
+          "id": "c5_s23",
+          "title": "Topeng Slogan Palestin & Watak Dingin Aparatus Perisikan Tehran [Muka Surat Cetakan 97]",
+          "menu_title": "Topeng Slogan & Perisikan Tehran [MS 97]",
           "paragraphs": [
             "...namun ternyata urusan akidah menuntut kewaspadaan yang jauh lebih tinggi!",
             "* **Topeng Slogan & Hakikat Matlamat Sebenar**",
@@ -2325,11 +2322,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 97: Topeng Slogan & Perisikan\n- **Retorik Palestin Sebagai Umpan:** Slogan anti-Israel digunakan Tehran untuk meluaskan pengaruh geopolitik dan mengaburi minda umat Islam.\n- **Watak Dingin Perisikan:** Aparatus perisikan tidak mempunyai belas kasihan; sanggup berpakat dengan musuh demi hegemoni serantau.\n- **Kematangan Membaca Tipu Daya:** Membezakan antara kenyataan media rasmi dengan operasi sulit lapangan."
         },
         {
-          "id": "c5_s27",
-          "title": "[MUKA SURAT CETAKAN 98]",
+          "id": "c5_s24",
+          "title": "Pengkhianatan di Bumi Syria: Topeng Taifiah Terlucut Sepenuhnya [Muka Surat Cetakan 98]",
+          "menu_title": "Topeng Terlucut di Bumi Syria [MS 98]",
           "paragraphs": [
             "* **Pengkhianatan Terbuka di Bumi Syria: Topeng Terlucut Sepenuhnya**",
             "Berasaskan kaedah keimanan: *\"Wahai orang-orang yang lalai, sesungguhnya Allah SWT sama sekali tidak pernah lalai!\"*, tatkala rasa putus asa mula menjalar ke dalam hati kita daripada mendengar suara amaran terhadap penyusupan anasir Iran ini: maka Allah SWT dengan hikmah dan tadbir-Nya telah mengambil alih urusan ini!",
@@ -2338,11 +2336,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 98: Topeng Terlucut di Syria\n- **Krisis Revolusi Syria (2011):** Topeng Tehran dan militia Hizbullah terlucut apabila menghantar tentera menyembelih rakyat Syria demi menyelamatkan rejim Bashar al-Assad.\n- **Kemuncak Pengkhianatan:** Mempertahankan dinasti kuku besi yang menumpahkan darah ratusan ribu orang awam.\n- **Titik Pemisah Sejarah:** Tiada lagi keraguan mengenai agenda sebenar puak taifiah di rantau Arab."
         },
         {
-          "id": "c5_s28",
-          "title": "[MUKA SURAT CETAKAN 99]",
+          "id": "c5_s25",
+          "title": "Bait Nūniyyah: Membela Para Sahabat & Menolak Wilāyat al-Faqīh [Muka Surat Cetakan 99]",
+          "menu_title": "Bela Sahabat & Tolak Wilāyat al-Faqīh [MS 99]",
           "paragraphs": [
             "* **Bait-Bait Nūniyyah: Menolak Bid'ah Mencerca Para Sahabat & Doktrin Khurafat**",
             "Saya pernah menegaskan di dalam bait-bait syair *Nūniyyah* saya bagi menolak bid'ah mencerca para sahabat Rasulullah SAW (*sabb al-ṣaḥābah* RA), serta menegaskan bahawa **doktrin Imamah, doktrin 'Ismah (kemaksuman imam), dan doktrin Wilāyat al-Faqīh bukanlah sama sekali sebahagian daripada akidah kita**:",
@@ -2376,11 +2375,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 99: Membela Sahabat & Menolak Wilāyat al-Faqīh\n- **Kemuliaan Para Sahabat RA:** Menolak sekeras-kerasnya bidaah mencerca para sahabat Nabi SAW dan isteri-isteri baginda.\n- **Menolak Doktrin Khurafat:** Doktrin kemaksuman imam (*'Ismah*) dan penyerahan kuasa mutlak *Wilāyat al-Faqīh* bukan daripada akidah Islam.\n- **Prinsip Syura:** Kepimpinan Islam berasaskan musyawarah umat, bukan penguasaan teokrasi mutlak."
         },
         {
-          "id": "c5_s29",
-          "title": "[MUKA SURAT CETAKAN 100]",
+          "id": "c5_s26",
+          "title": "Syarat Kejujuran Menolak Taasub Mazhab Demi Maslahah Ummah [Muka Surat Cetakan 100]",
+          "menu_title": "Syarat Kejujuran & Maslahah Ummah [MS 100]",
           "paragraphs": [
             "* **Menolak Taasub: Syarat Kejujuran Sekiranya Menjalinkan Kerjasama**",
             "Kemudian saya beralih menegaskan keterlepasan diri saya daripada sebarang sikap taasub kepartian; bahawa apa yang saya tentang tidak lain hanyalah pemikiran permusuhan (*al-syaḥnā'*), penyemaian keraguan, dan serangan ke atas akidah Ahli Sunnah.",
@@ -2401,11 +2401,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 100: Menolak Taasub & Maslahah Ummah\n- **Menolak Fanatik Buta:** Kerjasama politik menuntut kejujuran niat, bukan pengkhianatan di belakang tabir.\n- **Hak Warga Awam:** Menghormati hak masyarakat minoriti dengan syarat tidak berkomplot menindas majoriti.\n- **Keseimbangan Neraca:** Menjaga keharmonian hidup bersama tanpa menggadaikan maruah umat Islam."
         },
         {
-          "id": "c5_s30",
-          "title": "[MUKA SURAT CETAKAN 101]",
+          "id": "c5_s27",
+          "title": "Pengkhianatan Parti Taifiah Iraq & Ketetapan Muktamad Bab 3 [Muka Surat Cetakan 101]",
+          "menu_title": "Pengkhianatan Parti Taifiah & Rumusan Bab 3 [MS 101]",
           "paragraphs": [
             "* **Pengkhianatan Parti-Parti Taifiah di Iraq Bersama Penjajah Amerika**",
             "Teori perubahan menetapkan rukun siasah yang mewajibkan penolakan mutlak dan keterlepasan diri daripada ketundukan kepada Amerika Syarikat atau reda dengan kaedah imperialisme baharunya yang mereka namakan sebagai 'globalisasi'.",
@@ -2420,7 +2421,7 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 101: Pengkhianatan Taifiah & Rumusan Bab 3\n- **Pengkhianatan di Iraq (2003):** Pemimpin parti taifiah merayu Presiden Bush menceroboh Iraq disusuli fatwa melarang tentera melawan penceroboh.\n- **Haram Berpakat dengan Pengkhianat:** Ketetapan muktamad mengharamkan sebarang pakatan politik bersama kelompok yang berkomplot dengan imperialis.\n- **Rumusan Penutup Bab 3:** Menggabungkan Super Inteligensi Jamaah, sains kuantum, dan Mazhab Kemandirian menuju Bab 4."
         }
       ],
       "footnotes": [

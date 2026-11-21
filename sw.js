@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v310-bab2-pemuda-penekan';
+const CACHE_NAME = 'tanzir-v320-bab3-syarat-empirikal';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v310_bab2_pemuda_penekan',
+  './index.html?v=20261121_v320_bab3_syarat_empirikal',
   './manifest.json',
-  './css/style.css?v=20261121_v310_bab2_pemuda_penekan',
-  './js/app.js?v=20261121_v310_bab2_pemuda_penekan',
-  './data/tanzir_data.js?v=20261121_v310_bab2_pemuda_penekan',
-  './data/tanzir_quotes.js?v=20261121_v310_bab2_pemuda_penekan',
+  './css/style.css?v=20261121_v320_bab3_syarat_empirikal',
+  './js/app.js?v=20261121_v320_bab3_syarat_empirikal',
+  './data/tanzir_data.js?v=20261121_v320_bab3_syarat_empirikal',
+  './data/tanzir_quotes.js?v=20261121_v320_bab3_syarat_empirikal',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
