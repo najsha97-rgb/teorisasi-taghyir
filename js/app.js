@@ -2478,7 +2478,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     out = out.replace(/﴿([\u0600-\u06FF\s\.\,\؛\:\!«»\(\)\[\]\-\d]+)﴾/g, '<span class="arabic-inline quran-verse arabic-text-amiri-gold" dir="rtl" style="font-family: \'Amiri\', serif !important; color: var(--gold-light, #fde047) !important; font-style: normal !important;">﴿$1﴾</span>');
     out = out.replace(/«([\u0600-\u06FF\s\.\,\؛\:\!\(\)\[\]\-\d]+)»/g, '<span class="arabic-inline hadith-text arabic-text-amiri-gold" dir="rtl" style="font-family: \'Amiri\', serif !important; color: var(--gold-light, #fde047) !important; font-style: normal !important;">«$1»</span>');
-    out = out.replace(/\(([\u0600-\u06FF\s\.\,\؛\:\!]{2,})\)/g, '(<span class="arabic-inline arabic-text-amiri-gold" dir="rtl" style="font-family: \'Amiri\', serif !important; color: var(--gold-light, #fde047) !important; font-style: normal !important;">$1</span>)');
+    out = out.replace(/\(([\u0600-\u06FF\s\.\,\،\؛\:\!]{2,})\)/g, function (match, p1) {
+      const cleanAr = p1.trim();
+      if (cleanAr.length > 30) {
+        return `<span class="arabic-title-center-block" dir="rtl">(${cleanAr})</span>`;
+      }
+      return `<span class="arabic-inline-bracketed" style="display: inline !important; unicode-bidi: isolate !important; color: var(--gold-light, #fde047) !important; font-family: 'Amiri', serif !important; font-size: 1.15em !important; font-style: normal !important; white-space: nowrap !important;">(<span dir="rtl" style="unicode-bidi: isolate;">${cleanAr}</span>)</span>`;
+    });
     return out;
   }
 

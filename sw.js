@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tanzir-v370-epilog-penghormatan';
+const CACHE_NAME = 'tanzir-v372-epilog-arabic-bracket-fix';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',

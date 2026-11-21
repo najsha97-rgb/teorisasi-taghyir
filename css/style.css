@@ -3678,12 +3678,24 @@ textarea,
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15) !important;
 }
 
-.arabic-text-amiri-gold,
+.arabic-text-amiri-gold {
+  font-family: 'Amiri', 'Traditional Arabic', serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 400 !important;
+  /* Font biasa tidak tebal supaya tasykil/baris jelas */
+  line-height: 1.8 !important;
+  color: var(--gold-light, #f5c542) !important;
+  letter-spacing: normal !important;
+  direction: rtl !important;
+  text-align: inherit !important;
+  display: inline !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) !important;
+}
+
 .summary-arabic-quote-box .arabic-text-amiri-gold {
   font-family: 'Amiri', 'Traditional Arabic', serif !important;
   font-size: 1.45rem !important;
   font-weight: 400 !important;
-  /* Font biasa tidak tebal supaya tasykil/baris jelas */
   line-height: 2.2 !important;
   color: var(--gold-light, #f5c542) !important;
   letter-spacing: normal !important;
@@ -3691,6 +3703,29 @@ textarea,
   text-align: right !important;
   display: block !important;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) !important;
+}
+
+.arabic-inline-bracketed {
+  display: inline !important;
+  unicode-bidi: isolate !important;
+  color: var(--gold-light, #fde047) !important;
+  font-family: 'Amiri', serif !important;
+  font-size: 1.18em !important;
+  font-style: normal !important;
+  white-space: nowrap !important;
+}
+
+.arabic-title-center-block {
+  display: block !important;
+  text-align: center !important;
+  direction: rtl !important;
+  margin: 0.85rem auto !important;
+  font-family: 'Amiri', serif !important;
+  color: var(--gold-light, #fde047) !important;
+  font-size: 1.45rem !important;
+  line-height: 2.2 !important;
+  unicode-bidi: isolate !important;
+  font-style: normal !important;
 }
 
 [data-theme="light"] .summary-arabic-quote-box {
