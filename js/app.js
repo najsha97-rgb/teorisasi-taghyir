@@ -700,7 +700,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="epigraf-title-ar" dir="rtl">غِلاَفُ الكِتَابِ وَفَلْسَفَةُ اللَّوْحَةِ التَّجْرِيدِيَّة</div>
 
               <div class="epigraf-info-card">
-                <div class="info-row"><span class="info-lbl">Karya Agung:</span> <span class="info-val"><strong>Tanẓīr al-Taghyīr</strong> (تَنْظِيرُ التَّغْيِيرِ)</span></div>
+                <div class="info-row"><span class="info-lbl">Tajuk Karya:</span> <span class="info-val"><strong>Tanẓīr al-Taghyīr</strong> (تَنْظِيرُ التَّغْيِيرِ)</span></div>
                 <div class="info-row"><span class="info-lbl">Pengarang Asal:</span> <span class="info-val">Asy-Syeikh Muhammad Ahmad ar-Rasyid (رحمه الله)</span></div>
                 <div class="info-row"><span class="info-lbl">Sentuhan Seni:</span> <span class="info-val">Lukisan Kanvas Abstrak Ciptaan Al-Rasyid Sendiri</span></div>
                 <div class="info-row"><span class="info-lbl">Wawasan Siyasah:</span> <span class="info-val">Membina Teori Integrasi Perubahan Politik Islam</span></div>

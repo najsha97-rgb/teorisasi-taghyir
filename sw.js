@@ -1,11 +1,11 @@
-const CACHE_NAME = 'v384_kulit_belakang_khatimah';
+const CACHE_NAME = 'v385_tajuk_karya';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',
   './manifest.json',
-  './css/style.css?v=v384_kulit_belakang_khatimah',
-  './js/app.js?v=v384_kulit_belakang_khatimah',
-  './data/tanzir_data.js?v=v384_kulit_belakang_khatimah',
+  './css/style.css?v=v385_tajuk_karya',
+  './js/app.js?v=v385_tajuk_karya',
+  './data/tanzir_data.js?v=v385_tajuk_karya',
   './data/tanzir_quotes.js?v=20261121_v370_epilog_penghormatan',
   './icons/favicon.png',
   './icons/icon-192.png',
