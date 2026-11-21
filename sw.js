@@ -1,12 +1,12 @@
-﻿const CACHE_NAME = 'tanzir-v220-desktop-pwa-layout';
+﻿const CACHE_NAME = 'tanzir-v230-pure-tanzir-modal';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v210_perfect',
+  './index.html?v=20261121_v230_pure_tanzir',
   './manifest.json',
-  './css/style.css?v=20261121_v210_perfect',
-  './js/app.js?v=20261121_v210_perfect',
-  './data/tanzir_data.js?v=20261121_v210_perfect',
-  './data/tanzir_quotes.js?v=20261121_v210_perfect',
+  './css/style.css?v=20261121_v230_pure_tanzir',
+  './js/app.js?v=20261121_v230_pure_tanzir',
+  './data/tanzir_data.js?v=20261121_v230_pure_tanzir',
+  './data/tanzir_quotes.js?v=20261121_v230_pure_tanzir',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',

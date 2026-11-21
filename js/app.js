@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (newWorker) {
             newWorker.addEventListener('statechange', () => {
               if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                console.log('Versi baharu Al-Raqaiq dikesan, memuat semula...');
+                console.log('Versi baharu Tanẓīr al-Taghyīr dikesan, memuat semula...');
                 window.location.reload();
               }
             });
@@ -2193,8 +2193,8 @@ document.addEventListener('DOMContentLoaded', () => {
       `${quoteText}\n\n` +
       `📚 Sumber: ${chNum} — ${chTitle}\n` +
       `📑 Topik: ${subTitle}\n` +
-      `🌟 Kitab Al-Raqaiq — Syeikh Muhammad Ahmad Ar-Rasyid\n` +
-      `🌐 https://najsha97-rgb.github.io/al-raqaiq-pwa/`;
+      `🌟 Kitab Tanẓīr al-Taghyīr — Syeikh Muhammad Ahmad al-Rasyid\n` +
+      `🌐 https://najsha97-rgb.github.io/teorisasi-taghyir/`;
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(textToCopy).then(() => {
