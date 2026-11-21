@@ -5662,3 +5662,193 @@ i .arabic-text-amiri-gold,
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.4;
 }
+
+
+/* ==========================================================================
+   INFOGRAPHIC 5 RUKUN KONTEMPORARI (EPILOG SUBTOPIK 7)
+   ========================================================================== */
+.rukun-infographic-container {
+  margin: 2.2rem 0;
+  padding: 2.4rem 2rem;
+  background: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.12) 0%, rgba(6, 28, 22, 0.95) 75%);
+  border: 1px solid rgba(234, 179, 8, 0.35);
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 0 0 25px rgba(234, 179, 8, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+.rukun-infographic-container::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 15%; right: 15%; height: 2px;
+  background: linear-gradient(90deg, transparent, #f59e0b, transparent);
+}
+.rukun-header {
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+.rukun-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 16px;
+  border-radius: 30px;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #fde047;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.rukun-ar-title {
+  font-family: 'Amiri', serif !important;
+  font-size: 2.2rem;
+  color: #fde047 !important;
+  margin: 8px 0 10px 0;
+  direction: rtl;
+  line-height: 1.4;
+  text-shadow: 0 2px 12px rgba(245, 158, 11, 0.35);
+}
+.rukun-main-title {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.02em;
+}
+.rukun-subtitle {
+  color: #94a3b8;
+  font-size: 0.94rem;
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.rukun-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.rukun-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  background: rgba(15, 23, 42, 0.65);
+  border-radius: 14px;
+  padding: 18px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.rukun-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+.rukun-card.c-gold {
+  border-left: 4px solid #f59e0b;
+  background: linear-gradient(90deg, rgba(245, 158, 11, 0.12) 0%, rgba(15, 23, 42, 0.65) 100%);
+}
+.rukun-card.c-blue {
+  border-left: 4px solid #0ea5e9;
+  background: linear-gradient(90deg, rgba(14, 165, 233, 0.12) 0%, rgba(15, 23, 42, 0.65) 100%);
+}
+.rukun-card.c-green {
+  border-left: 4px solid #10b981;
+  background: linear-gradient(90deg, rgba(16, 185, 129, 0.12) 0%, rgba(15, 23, 42, 0.65) 100%);
+}
+.rukun-card.c-purple {
+  border-left: 4px solid #a855f7;
+  background: linear-gradient(90deg, rgba(168, 85, 247, 0.12) 0%, rgba(15, 23, 42, 0.65) 100%);
+}
+.rukun-card.c-red {
+  border-left: 4px solid #ef4444;
+  background: linear-gradient(90deg, rgba(239, 68, 68, 0.12) 0%, rgba(15, 23, 42, 0.65) 100%);
+}
+.rukun-card-icon {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+.c-gold .rukun-card-icon { border: 1px solid rgba(245, 158, 11, 0.5); }
+.c-blue .rukun-card-icon { border: 1px solid rgba(14, 165, 233, 0.5); }
+.c-green .rukun-card-icon { border: 1px solid rgba(16, 185, 129, 0.5); }
+.c-purple .rukun-card-icon { border: 1px solid rgba(168, 85, 247, 0.5); }
+.c-red .rukun-card-icon { border: 1px solid rgba(239, 68, 68, 0.5); }
+
+.rukun-card-body {
+  flex-grow: 1;
+}
+.rukun-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.rukun-tag {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 3px 10px;
+  border-radius: 6px;
+}
+.c-gold .rukun-tag { background: rgba(245, 158, 11, 0.22); color: #fde047; }
+.c-blue .rukun-tag { background: rgba(14, 165, 233, 0.22); color: #38bdf8; }
+.c-green .rukun-tag { background: rgba(16, 185, 129, 0.22); color: #34d399; }
+.c-purple .rukun-tag { background: rgba(168, 85, 247, 0.22); color: #c084fc; }
+.c-red .rukun-tag { background: rgba(239, 68, 68, 0.22); color: #f87171; }
+
+.rukun-card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.01em;
+}
+.c-gold .rukun-card-title { color: #fef08a; }
+.c-blue .rukun-card-title { color: #bae6fd; }
+.c-green .rukun-card-title { color: #a7f3d0; }
+.c-purple .rukun-card-title { color: #e9d5ff; }
+.c-red .rukun-card-title { color: #fecaca; }
+
+.rukun-card-desc {
+  font-size: 0.92rem;
+  color: #cbd5e1;
+  line-height: 1.65;
+  margin: 0;
+}
+.rukun-footer-note {
+  margin-top: 1.8rem;
+  padding: 14px 20px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px dashed rgba(234, 179, 8, 0.35);
+  font-size: 0.88rem;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  line-height: 1.5;
+}
+.rukun-footer-note .note-icon {
+  font-size: 1.35rem;
+  flex-shrink: 0;
+}
+@media (max-width: 640px) {
+  .rukun-infographic-container { padding: 1.5rem 1rem; }
+  .rukun-ar-title { font-size: 1.7rem; }
+  .rukun-main-title { font-size: 1.2rem; }
+  .rukun-card { flex-direction: column; gap: 12px; padding: 14px 16px; }
+  .rukun-card-icon { width: 44px; height: 44px; font-size: 1.4rem; }
+}

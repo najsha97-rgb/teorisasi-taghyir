@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tanzir-v374-epilog-sidebar-restructure';
+const CACHE_NAME = 'tanzir-v375-epilog-infographic-5rukun';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',
