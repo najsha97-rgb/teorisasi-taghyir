@@ -1,4 +1,4 @@
-const TANZIR_DATA = {
+window.TANZIR_DATA = {
   "metadata": {
     "title": "Tanẓīr al-Taghyīr (تنظير التغيير)",
     "subtitle": "Membina Teori Integrasi Perubahan Politik Islam",
@@ -3889,6 +3889,8 @@ const TANZIR_DATA = {
             "### 1. Menjinakkan Institusi Tentera & *Deep State*",
             "* **Teori 2012:** Syeikh mengandaikan bahawa pihak tentera boleh dineutralkan (*tahyīd al-jaysh*) dengan diplomasi yang bijak, membatasi peranan mereka hanya kepada keselamatan sempadan, dan sekiranya berlaku rampasan kuasa, gelombang demonstrasi jalanan rakyat akan membatalkannya.",
             "* **Realiti 2013–2026:** Tragedi kudeta Mesir 2013, pembunuhan beramai-ramai di Medan Rabaa, serta perang di Sudan membuktikan bahawa aparatus keselamatan dan *deep state* tidak pernah tunduk kepada demonstrasi damai. Kasta tentera sanggup membantai ribuan rakyat dan memenjarakan puluhan ribu kader demi mempertahankan kepentingan ekonomi dan monopoli kuasa mereka.",
+            "Dalam hal ini, Sheikh al-Rashid telah melakukan analisis (walaupun beliau sedang sakit) terhadap peristiwa penggulingan Presiden Dr. Muhammad Mirsi oleh Jeneral al-Sisi pada Julai 2013 dalam bukunya *\"Riddah 'an al-Hurriyah\"* (*رِدَّةٌ عَنِ الحُرِّيَّة* – Berpaling Daripada Kebebasan) yang ditulis pada 29 Julai 2013 iaitu tiga minggu selepas Sisi mengambil alih pemerintahan dan menggantung perlembagaan serta Dr. Mirsi dilucutkan jawatan pada 3hb Julai 2013.",
+            "Dalam bukunya, Sheikh al-Rashid menyatakan rasa optimisnya bahawa kudeta ini menjelaskan kepada dunia dan masyarakat Islam khasnya 15 anugerah atau hikmah daripada peristiwa tersebut. Antara lain peristiwa ini mendedahkan dengan jelas siapa yang mendokong gagasan Islam sebenar, siapa yang sekular dan munafik yang tunduk kepada Amerika yang disokong oleh Kesatuan Eropah yang pro-Israel dan negara-negara Teluk yang menyokong kudeta Sisi.",
             "* **Jurang Realiti:** Teori *Tanẓīr* tidak menyediakan **doktrin sekuriti balas (*counter-security doctrine*)** dan instrumen pencegahan (*deterrence*) yang kukuh sekiranya musuh menggunakan kekerasan melampau di luar lunas perlembagaan.",
             "### 2. Kenaifan Diplomasi dengan Imperialisme Barat",
             "* **Teori 2012:** Syeikh optimis bahawa Amerika dan Eropah boleh diyakinkan bahawa gerakan Islam tidak mengancam kepentingan minyak mereka dan komited menolak terorisme, lalu kuasa Barat akan menerima peralihan demokrasi di dunia Arab.",
