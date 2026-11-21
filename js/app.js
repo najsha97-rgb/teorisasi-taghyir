@@ -548,7 +548,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (state.layer === 'layer1') {
       // Fungsi pembantu: render satu senarai paragraf ke dalam bekas
       function renderParasInto(paraList, container) {
-        paraList.forEach(para => {
+        paraList.forEach(rawPara => {
+          // Bersihkan sebarang simbol heading markdown mentah (cth: '## ', '### ') secara automatik
+          let para = rawPara.replace(/^#{1,6}\s+/gm, '').replace(/^>\s*#{1,6}\s+/gm, '> ');
           const trimmed = para.trim();
           if (trimmed === '***' || trimmed === '---' || /^[\*\-]{3,}$/.test(trimmed)) {
             return;
