@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v340-bab5-mukjizat-pemuda';
+const CACHE_NAME = 'tanzir-v350-bab6-rumusan-teori';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v340_bab5_mukjizat_pemuda',
+  './index.html?v=20261121_v350_bab6_rumusan_teori',
   './manifest.json',
-  './css/style.css?v=20261121_v340_bab5_mukjizat_pemuda',
-  './js/app.js?v=20261121_v340_bab5_mukjizat_pemuda',
-  './data/tanzir_data.js?v=20261121_v340_bab5_mukjizat_pemuda',
-  './data/tanzir_quotes.js?v=20261121_v340_bab5_mukjizat_pemuda',
+  './css/style.css?v=20261121_v350_bab6_rumusan_teori',
+  './js/app.js?v=20261121_v350_bab6_rumusan_teori',
+  './data/tanzir_data.js?v=20261121_v350_bab6_rumusan_teori',
+  './data/tanzir_quotes.js?v=20261121_v350_bab6_rumusan_teori',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
