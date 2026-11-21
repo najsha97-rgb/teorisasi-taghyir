@@ -3818,13 +3818,14 @@ const TANZIR_DATA = {
         },
         {
           "id": "c10_s2",
-          "title": "Menilai Kembali Ijtihad Asy-Syeikh Muhammad Ahmad al-Rasyid *rahimahullah* Menuju 100 Tahun Kedua Pasca-Khilafah",
+          "title": "Penghormatan Terhadap Ijtihad Asy-Syeikh Muhammad Ahmad al-Rasyid *rahimahullah* Menuju 100 Tahun Kedua Pasca-Khilafah",
           "paragraphs": [
             "> *“Sesungguhnya menghormati para ilmuwan dan murabbi agung bukanlah dengan cara menguduskan setiap pandangan ijtihad mereka tanpa semakan; sebaliknya penghormatan hakiki adalah dengan meneliti karya mereka secara kritis, memahami konteks waqi' zamannya, serta menampal kelompongan yang terhasil akibat peredaran masa demi memastikan obor perjuangan terus menyala memimpin peradaban zaman.”*",
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "",
+          "menu_title": "Penghormatan Terhadap Ijtihad Al-Rasyid"
         },
         {
           "id": "c10_s3",

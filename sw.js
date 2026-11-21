@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v360-khatimah-wasiat-penutup';
+const CACHE_NAME = 'tanzir-v370-epilog-penghormatan';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v360_khatimah_wasiat_penutup',
+  './index.html?v=20261121_v370_epilog_penghormatan',
   './manifest.json',
-  './css/style.css?v=20261121_v360_khatimah_wasiat_penutup',
-  './js/app.js?v=20261121_v360_khatimah_wasiat_penutup',
-  './data/tanzir_data.js?v=20261121_v360_khatimah_wasiat_penutup',
-  './data/tanzir_quotes.js?v=20261121_v360_khatimah_wasiat_penutup',
+  './css/style.css?v=20261121_v370_epilog_penghormatan',
+  './js/app.js?v=20261121_v370_epilog_penghormatan',
+  './data/tanzir_data.js?v=20261121_v370_epilog_penghormatan',
+  './data/tanzir_quotes.js?v=20261121_v370_epilog_penghormatan',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
