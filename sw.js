@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v300-bab1-fiqh-damai';
+const CACHE_NAME = 'tanzir-v310-bab2-pemuda-penekan';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v300_bab1_fiqh_damai',
+  './index.html?v=20261121_v310_bab2_pemuda_penekan',
   './manifest.json',
-  './css/style.css?v=20261121_v300_bab1_fiqh_damai',
-  './js/app.js?v=20261121_v300_bab1_fiqh_damai',
-  './data/tanzir_data.js?v=20261121_v300_bab1_fiqh_damai',
-  './data/tanzir_quotes.js?v=20261121_v300_bab1_fiqh_damai',
+  './css/style.css?v=20261121_v310_bab2_pemuda_penekan',
+  './js/app.js?v=20261121_v310_bab2_pemuda_penekan',
+  './data/tanzir_data.js?v=20261121_v310_bab2_pemuda_penekan',
+  './data/tanzir_quotes.js?v=20261121_v310_bab2_pemuda_penekan',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',

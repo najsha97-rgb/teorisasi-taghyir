@@ -1401,17 +1401,8 @@ window.tanzirData = {
       "subtopics": [
         {
           "id": "c4_s1",
-          "title": "Pengenalan & Permulaan BAB 2",
-          "paragraphs": [
-            "## *(Al-Syabāb al-Ḍāghiṭ: Thawrah Sya'biyyah.. Lā Inqilāb)*",
-            "---"
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c4_s2",
-          "title": "Fenomena Pemuda Penekan (*Ẓāhirat al-Syabāb al-Ḍāghiṭ*)",
+          "title": "Fenomena Pemuda Penekan & Konsep Jisim Kritikal Fizik [Muka Surat Cetakan 59]",
+          "menu_title": "Pemuda Penekan & Jisim Kritikal [MS 59]",
           "paragraphs": [
             "* **Akumulasi Pemikiran Sebagai Bahan Bakar Revolusi Politik**",
             "Himpunan dan akumulasi *\"Revolusi Pemikiran Islam Kontemporari\"* merupakan bahan bakar penggerak utama kepada siri *\"Revolusi Politik\"* dalam gelombang kebangkitan Musim Bunga Arab (*Rabī' al-'Arab*) pada tahun 2011. Dan dengan limpah kurnia Allah SWT, huraian-huraian, ijtihad-ijtihad, dan catatan-catatan saya menerusi seluruh siri buku *\"Iḥyā' Fiqh al-Da'wah\"* merupakan sebahagian daripada arus Revolusi Pemikiran Islam am ini.",
@@ -1425,11 +1416,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 59: Fenomena Pemuda Penekan & Jisim Kritikal\n- **Bahan Bakar Revolusi Politik:** Siri revolusi Musim Bunga Arab digerakkan oleh akumulasi khazanah pemikiran *Iḥyā' Fiqh al-Da'wah* selama puluhan tahun.\n- **Hukum 'Jisim Kritikal' (*Al-Wazn al-Ḥarij*):** Seperti fizik nuklear, tenaga dakwah tidak hilang; ia mengumpul jisim kritikal secara senyap sehingga mencapai tahap kematangan untuk meledak.\n- **Peranan Pemuda Penekan (*Al-Syabāb al-Ḍāghiṭ*):** Generasi muda bertindak sebagai kuasa penekan utama yang mencabar kezaliman di ruang awam."
         },
         {
-          "id": "c4_s3",
-          "title": "Revolusi Rakyat.. Bukan Kudeta Tentera (*Thawrah Sya'biyyah.. Lā Inqilāb*)",
+          "id": "c4_s2",
+          "title": "Revolusi Rakyat Menumbangkan Kereta Kebal (Bukan Kudeta Tentera) [Muka Surat Cetakan 60]",
+          "menu_title": "Revolusi Rakyat vs Kudeta Tentera [MS 60]",
           "paragraphs": [
             "* **Mesej Pertama dalam Kitab Al-Masar (1979)**",
             "Telegram (mesej amaran) pertama yang saya utuskan kepada para pemuda termaktub di dalam buku saya *\"Al-Masār\"*, dan ia merupakan prinsip pertama dalam teori perubahan, yang menyatakan kepada mereka:",
@@ -1446,11 +1438,12 @@ window.tanzirData = {
           "footnotes": [
             "[1] *Al-Masār*, hlm. 291, Bab 16."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 60: Revolusi Rakyat Menumbangkan Kereta Kebal\n- **Kematian Era Kudeta Tentera:** Sejak 1979 dalam *Al-Masār*, Syeikh al-Rasyid menegaskan era rampasan kuasa tentera menggunakan kereta kebal sedang layu dan mati.\n- **Alternatif Sebenar: Revolusi Rakyat (*Thawrah Sya'biyyah*):** Apabila jutaan rakyat turun ke jalanan, kehendak kolektif yang sah ini melumpuhkan rejim zalim secara fitrah.\n- **Kereta Kebal Tidak Berdaya:** Kereta kebal tidak mampu menembak jutaan rakyatnya sendiri di medan terbuka tanpa mengundang keruntuhan sistem pemerintahan."
         },
         {
-          "id": "c4_s4",
-          "title": "[MUKA SURAT CETAKAN 61]",
+          "id": "c4_s3",
+          "title": "Teori Generasi Kepimpinan & Pelancaran Buku \"Ṣinā'at al-Ḥayāh\" [Muka Surat Cetakan 61]",
+          "menu_title": "Generasi Kepimpinan & Ṣinā'at al-Ḥayāh [MS 61]",
           "paragraphs": [
             "...struktur kepimpinan dakwah Islamiah, diiringi dengan usaha memperkasa mereka, memberikan keyakinan, dan menzahirkan kepercayaan kepada mereka. Saya menamakan gagasan ini sebagai **“Teori Generasi Kepimpinan” (*Naẓariyyat al-Ajyāl al-Qiyādiyyah*)**, dan dalam kandungannya saya menegaskan:",
             "> *(“Setiap generasi pendakwah yang membesar dalam suasana politik, pemikiran, dan tarbiah yang berdekatan: barangkali lebih berkelayakan untuk menangani implikasi suasana tersebut berbanding generasi yang pernah memimpin dan mentarbiah mereka — terutamanya apabila generasi terdahulu telah letih, disibukkan oleh urusan kehidupan harian, atau dilelahkan oleh tanggungjawab rumahtangga dan anak-pinak.*",
@@ -1462,27 +1455,20 @@ window.tanzirData = {
             "* **Sanad Perjuangan Generasi yang Menyambung**",
             "Dan demi memelihara peri pentingnya peranan pemuda, saya kembali semula selepas lebih dua puluh tahun mengisytiharkan hakikat ini untuk memberikan peringatan, dengan mengulang ungkapan hikmah bahawa:",
             "> *(“Keperibadian yang berwibawa tidak akan terputus hubungannya semata-mata kerana perbezaan umur”)*; dan sesungguhnya ia *(“Hanyalah satu sanad bersambung yang diwakili oleh rantaian para pejuang kebaikan merentasi pelbagai peringkat umur; pemuda dalam kalangan mereka melengkapi golongan dewasa, kemudian warga emas”)*; dan *(“Terbentuklah sebuah madrasah yang memiliki edisi-edisi kehidupannya yang dinamik sekalipun umur wakil-wakilnya berbeza.”)* [3]",
-            "Dan perkembangan dunia maklumat maya, serta kemasukan e-mel, Facebook, YouTube, dan mesej telefon pintar ke dalam medan secara meluas — sehingga menjadi medium pilihan utama pemuda untuk berkomunikasi, berutus pesanan, dan bertukar idea serta pandangan — telah menjadikan makna hak pemuda untuk menyertai proses kepimpinan semakin mendesak dan wajib! Sekiranya kita telah menyatakan hakikat ini sebelum zaman internet lagi, maka ledakan teknologi hari ini telah memperjelaskan perkara tersebut dengan lebih nyata."
+            "Dan perkembangan dunia maklumat maya, serta kemasukan e-mel, Facebook, YouTube, dan mesej telefon pintar ke dalam medan secara meluas — sehingga menjadi medium pilihan utama pemuda untuk berkomunikasi, berutus pesanan, dan bertukar idea serta pandangan — telah menjadikan makna hak pemuda untuk menyertai proses kepimpinan semakin mendesak dan wajib! Sekiranya kita telah menyatakan hakikat ini sebelum zaman internet lagi, maka ledakan teknologi hari ini telah memperjelaskan perkara tersebut dengan lebih nyata.",
+            "Dan sepuluh tahun selepas terbitnya *Al-Masār*, terbitlah buku *\"Ṣinā'at al-Ḥayāh\"* (Pembuatan Kehidupan) pada tahun 1989, dengan kulit bukunya yang bernilai seni yang memuatkan mesej tersirat yang menyamai intipati kata-kata...",
+            "---"
           ],
           "footnotes": [
             "[2] *Al-Masār*, hlm. 336, Bab 19.",
             "[3] Syeikh Muhammad Ahmad al-Rasyid, *Manhajiyyat al-Tarbiah al-Da'wiyyah*, hlm. 474."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 61: Teori Generasi Kepimpinan & Ṣinā'at al-Ḥayāh\n- **Teori Generasi Kepimpinan (*Naẓariyyat al-Ajyāl al-Qiyādiyyah*):** Pemuda membesar dalam suasana teknologi terkini dan lebih tangkas mentafsir zaman.\n- **Peralihan Peranan Veteran:** Pimpinan veteran berundur secara terhormat untuk menjadi penasihat hikmah, manakala pemuda mengemudi operasi lapangan.\n- **Gagasan Buku *Ṣinā'at al-Ḥayāh* (1989):** Membuka fasa baharu pemikiran Islam yang menyusun tangga-tangga perubahan secara realistik."
         },
         {
-          "id": "c4_s5",
-          "title": "Buku \"Sina'at al-Hayah\" Melakar Tangga-Tangga Perubahan",
-          "paragraphs": [
-            "Dan sepuluh tahun selepas terbitnya *Al-Masār*, terbitlah buku *\"Ṣinā'at al-Ḥayāh\"* (Pembuatan Kehidupan) pada tahun 1989, dengan kulit bukunya yang bernilai seni yang memuatkan mesej tersirat yang menyamai intipati kata-kata...",
-            "---"
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c4_s6",
-          "title": "[MUKA SURAT CETAKAN 62]",
+          "id": "c4_s4",
+          "title": "Gagasan Ṣinā'at al-Ḥayāh: Kaedah Al-Walā' vs Ketaatan & Bai'ah Kaku [Muka Surat Cetakan 62]",
+          "menu_title": "Kaedah Al-Walā' vs Bai'ah Kaku [MS 62]",
           "paragraphs": [
             "...di dalamnya. Buku tersebut merupakan suatu gaya baharu dalam pemikiran Islam yang menyentuh lubuk sanubari pemuda dakwah, menggoncang jiwa mereka, membuka ufuk akal fikiran, menjadikan pandangan jauh ke hadapan, serta menghapuskan saki-baki ilusi jumud (*reaksioner*). Ia merupakan buku saya yang paling kecil saiznya, namun ia adalah yang paling saya kasihi dan paling penting bagi saya.",
             "Seorang pendakwah menceritakan kepada saya bahawa beliau telah membacanya sebanyak dua puluh lima kali, dan seorang yang lain menambah lebih daripada itu; manakala mereka yang telah menelaahnya sebanyak sepuluh kali bilangannya tersangat ramai! Buku tersebut bukanlah bersifat revolusioner semata-mata, melainkan ia merupakan sebuah jendela yang menghadap ke arah makna ketamadunan dan pendedahan kepada aspek praktikal gunaan bagi falsafah perubahan.",
@@ -1501,11 +1487,12 @@ window.tanzirData = {
           "footnotes": [
             "[4] Hadis sahih riwayat Al-Bukhari (no. 6498) dan Muslim (no. 2547) daripada sahabat Abdullah bin Umar RA: كَتَبَ إِلَيَّ عَبْدُ اللَّهِ بْنُ عُمَرَ: سَمِعْتُ رَسُولَ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ يَقُولُ: «تَجِدُونَ النَّاسَ كَإِبِلٍ مِائَةٍ، لاَ تَكَادُ تَجِدُ فِيهَا رَاحِلَةً»."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 62: Kaedah Al-Walā' vs Ketaatan Bai'ah Kaku\n- **Memecah Syarat Kaku:** Ramai pimpinan menyangka perubahan hanya berlaku jika seluruh rakyat memberi bai'ah organisasi yang ketat.\n- **Hakikat Hadis 100 Ekor Unta:** Rasulullah SAW menegaskan manusia laksana seratus ekor unta, sukar menemui seekor unta tunggangan yang perkasa (*al-rāḥilah*).\n- **Kaedah Emas Al-Walā':** Cukup sekadar kumpulan teras berdisiplin (*nuqṭat al-irtikāz*), manakala bagi jutaan rakyat jelata, cukup sekadar sokongan, simpati, dan cinta mereka kepada Islam (*al-walā'*)."
         },
         {
-          "id": "c4_s7",
-          "title": "[MUKA SURAT CETAKAN 63]",
+          "id": "c4_s5",
+          "title": "Bidaah Organisasi yang Melumpuhkan Dakwah & Al-Walā' Massa [Muka Surat Cetakan 63]",
+          "menu_title": "Bidaah Organisasi & Al-Walā' Massa [MS 63]",
           "paragraphs": [
             "...daripada ketaatan dan bai'ah; dengan menggerakkan tenaga massa itu sendiri, membakar semangat mereka, dan menyelaraskan bantuan mereka kepada para pendakwah — dan untuk kelompok kedua ini, cukup sekadar adanya **\"Al-Walā'\" (Sokongan/Kesetiaan Umum)**, dokongan, dan laungan kalimah *‘Lā ilāha illallāh’*. Ia sah, memberi impak, dan membuahkan hasil positif tanpa memerlukan ketaatan organisasi, sebaliknya cukup dengan kerjasama berkala yang terbatas.",
             "* **Bidaah Organisasi yang Melumpuhkan Dakwah**",
@@ -1519,11 +1506,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 63: Bidaah Organisasi yang Melumpuhkan\n- **Bidaah Organisasi yang Melumpuhkan:** Sikap rigid menunggu seluruh rakyat menjadi ahli usrah memerangkap gerakan dalam kekecewaan berdekad-dekad.\n- **Tuduhan Lembab (*Tarahhul*):** Kekeliruan ini menyebabkan pimpinan saling menyalahkan dan putus asa daripada cita-cita pembaharuan.\n- **Al-Walā' Teras Teori Perubahan:** Menggembleng tenaga massa secara terbuka melalui sentuhan jiwa, membakar semangat kebebasan, dan meraih sokongan luas."
         },
         {
-          "id": "c4_s8",
-          "title": "[MUKA SURAT CETAKAN 64]",
+          "id": "c4_s6",
+          "title": "Memimpin Tenaga Massa Terbuka & Fiqh Martabat Syahid Pelaku Dosa [Muka Surat Cetakan 64]",
+          "menu_title": "Massa Terbuka & Fiqh Martabat Syahid [MS 64]",
           "paragraphs": [
             "...Islamiah Syria kira-kira tiga puluh tahun yang lalu [1979–1982] dalam menyedarkan rakyat Syria terhadap kewujudan fahaman sektarian dan kezaliman, meskipun terdapat kesilapan perancangan yang menyebabkannya belum berjaya menghasilkan perubahan. Kejayaan menyemai semangat revolusi di dalam hati setiap rakyat Syria merupakan satu kejayaan yang agung pada neraca timbangan; dan itulah hakikat yang menafsirkan betapa dalamnya kesabaran serta pengorbanan rakyat dalam revolusi kedua yang menyeluruh pada hari ini.",
             "Maka roh para syuhada daripada kalangan pendakwah terdahulu tidak sesekali pergi dengan sia-sia! Sebaliknya ia bersama hembusan nafas ribuan pendakwah di dalam penjara telah menjadi nasihat peringatan yang fasih lagi bergemuruh, yang menyemai ilham revolusi dalam jiwa sekalian orang merdeka di Syria dalam pusingan kedua ini.",
@@ -1552,11 +1540,12 @@ window.tanzirData = {
             "[5] Hadis sahih riwayat Al-Bukhari (no. 3062) dan Muslim (no. 111) daripada Abu Hurairah RA: إِنَّ اللَّهَ لَيُؤَيِّدُ هَذَا الدِّينَ بِالرَّجُلِ الفَاجِرِ.",
             "[6] Al-Hafiz Ibnu Hajar al-Asqalani, *Fatḥ al-Bārī bi Syarḥ Ṣaḥīḥ al-Bukhārī*, jld. 12, hlm. 302; dan hadis riwayat Ahmad dalam *Al-Musnad* (no. 17726) daripada 'Utbah bin 'Abd al-Sulami RA: السَّيْفُ مَحَّاءٌ لِلْخَطَايَا."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 64: Massa Terbuka & Fiqh Martabat Syahid\n- **Tiada Syarat Kesucian Utopia:** Perjuangan menumbangkan thaghut merangkul semua anak bangsa, termasuk mereka yang masih ada kelemahan peribadi.\n- **Hadis Sokongan Orang Berdosa:** Hadis sahih: *“Sesungguhnya Allah SWT pasti menguatkan agama ini melalui perantaraan lelaki yang banyak dosanya.”*\n- **Pedang Penghapus Dosa (*Al-Sayfu Maḥḥā'un lil-Khaṭāyā*):** Orang berdosa yang gugur menentang kezaliman demi menegakkan kebenaran tetap beroleh martabat syahid."
         },
         {
-          "id": "c4_s9",
-          "title": "[MUKA SURAT CETAKAN 65]",
+          "id": "c4_s7",
+          "title": "Impak Media Dakwah & Syair Fiqh Al-Walā' (Mutiara & Belerang Merah) [Muka Surat Cetakan 65]",
+          "menu_title": "Media Dakwah & Syair Al-Walā' [MS 65]",
           "paragraphs": [
             "> *...diluaskan dan menjadi lebih anjal serta realistik, merangkumi usaha meminta bantuan daripada anak-anak umat yang rekod keagamaan mereka mungkin terpalit dengan sebahagian keterlanjuran moral dan kefasikan — bukan kezaliman dan pengkhianatan — kerana pertempuran ini tersangat besar! Mereka adalah orang-orang beriman yang tewas oleh dorongan nafsu syahwat dan bukannya kerana syubhat akidah.*",
             "> *Dan tindakan dakwah mendakap mereka di dalam pelan perancangannya yang luas membuka ruang bagi mereka untuk menghampiri taubat, memahami Islam dengan kefahaman yang sebenar, serta membantu mereka membina keazaman dan kesucian diri melalui persahabatan yang baik, belas kasihan, dan kasih sayang; dengan memandang mereka sebagai mangsa didikan adat masyarakat (*al-tarbiah al-'urfiyyah*) dan bukannya orang yang degil menentang kebenaran.”)* [7]",
@@ -1581,11 +1570,12 @@ window.tanzirData = {
           "footnotes": [
             "[7] Syeikh Muhammad Ahmad al-Rasyid, *Uṣūl al-Iftā' wa al-Ijtihād fī Fiqh al-Da'wah*, jld. 4, hlm. 235, Bab 37."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 65: Media Dakwah & Syair Fiqh Al-Walā'\n- **Gelombang Rakaman & Media Dakwah:** Kaset ceramah, buku saku, dan media digital meresap ke dalam segenap lapisan masyarakat.\n- **Bait Syair Mutiara & Belerang Merah:** Mereka yang faham neraca fikhmu adalah 'belerang merah' (*kibrītun dhū ḥumrati*) dan mutiara kalung pimpinan; bagi orang lain, raihlah ketulenan sokongan mereka (*maḥḍa al-walā'*).\n- **Kelenturan Strategik:** Meluaskan jaringan simpati merangkumi segenap profesi dan kebolehan masyarakat."
         },
         {
-          "id": "c4_s10",
-          "title": "[MUKA SURAT CETAKAN 66]",
+          "id": "c4_s8",
+          "title": "Dua Sebab Pemuda Mendahului Organisasi & Kewaspadaan Helah CIA [Muka Surat Cetakan 66]",
+          "menu_title": "Dua Sebab Pemuda Mendahului Organisasi [MS 66]",
           "paragraphs": [
             "...oleh buku *\"Ṣinā'at al-Ḥayāh\"*, namun ia amat hampir dengannya. Perbezaannya ialah bahawa pihak dakwah tidak memiliki saluran langsung untuk menggerakkan jutaan penyokong ini; sebaliknya dakwah hanya memiliki medium tidak langsung, isyarat kiasan, dan cetusan inspirasi.",
             "Tatkala takdir ledakan revolusi tiba melalui peristiwa Mohamed Bouazizi membakar dirinya di Tunisia: para pemuda daripada kalangan penyokong ini segera memanfaatkan peristiwa tersebut di Tunisia. Kemudian gelombang itu menjalar ke Mesir, lantas para pemuda Mesir yang bersimpati kepada dakwah segera menyambut revolusi; dan inisiatif kepantasan mereka merupakan suatu tindakan yang berjaya mengikut segala neraca pertimbangan!",
@@ -1597,34 +1587,28 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 66: Dua Sebab Pemuda Mendahului Organisasi\n- **Sebab Pertama: Kepantasan Rangkaian Maya:** Pemuda bergerak pantas dengan internet tanpa birokrasi, mesyuarat, atau syura yang memakan masa.\n- **Sebab Kedua: Kewaspadaan Terhadap Campur Tangan Asing:** Pimpinan dakwah berhati-hati mengesan helah perisikan AS (CIA) dan Perancis yang mahu menaikkan boneka baharu.\n- **Penegasan Berani:** Anak muda berada di garisan hadapan memegang fius, tetapi cas tenaga rohani mereka disuntik oleh tarbiah dakwah berdekad-dekad lamanya."
         },
         {
-          "id": "c4_s11",
-          "title": "[MUKA SURAT CETAKAN 67]",
+          "id": "c4_s9",
+          "title": "Keputusan Berani Memimpin Revolusi & Peranan Organisasi Belakang Tabir [Muka Surat Cetakan 67]",
+          "menu_title": "Keputusan Berani Memimpin Revolusi [MS 67]",
           "paragraphs": [
             "...kecil selepas kemenangan revolusi. Itu hanyalah alasan rapuh yang berniat jahat agar mereka dapat menikmati perlindungan asing yang mengukuhkan kedudukan mereka dalam kerajaan pasca-revolusi; namun gerakan Islam menentang rancangan tersebut dan berjaya menghalang mereka.",
             "Inilah penjelasan mengenai ketergesaan para pemuda memulakan inisiatif revolusi berbanding kelewatan relatif daripada pihak dakwah. Kita mengakui keberanian luar biasa para pemuda ini, dan sesungguhnya mereka telah melakarkan teladan agung dalam mencintai kebebasan yang dimanfaatkan oleh sekalian manusia merdeka di seluruh dunia.",
             "Namun keberanian mereka mewajibkan mereka untuk berjabat tangan dengan para pemimpin dakwah dan tokoh-tokohnya demi melahirkan integrasi (*al-takāmul*), kesatuan rakyat, serta mengatasi cabaran pembinaan negara dan pembangunan pada masa hadapan. Kerana kelewatan relatif tersebut merupakan fenomena lumrah yang makruf dalam kehidupan organisasi dan perancangan kolektif.",
-            "Dan sesungguhnya gerakan dakwahlah yang telah membekalkan **\"Pembinaan Teori Perubahan\" (*Tanẓīr al-Taghyīr*)** dengan jayanya sepanjang lapan puluh tahun; dakwahlah yang membakar perasaan, mengajarkan umat tentang fikh amal revolusi, membukukan pemikiran Islam moden, menggetarkan sanubari dengan nasihat peringatan, menghimpunkan pengalaman, dan melahirkan barisan pakar serta ulama yang memiliki tapak kukuh dalam keikhlasan, niat yang murni, dan keindahan metodologi — sehinggakan tidak mungkin tertegak sebarang pembangunan tanpa penyertaan mereka! Rakyat jelata telah mengenali keperibadian luhur mereka ini, lantas rakyat memilih mereka ke dewan-dewan perwakilan parlimen dan berterima kasih atas permulaan baik yang telah membuahkan kejayaan yang cemerlang."
-          ],
-          "footnotes": [],
-          "summary": ""
-        },
-        {
-          "id": "c4_s12",
-          "title": "Kepentingan Organisasi Belakang Tabir (*Ahammiyyat al-Tanẓīm al-Khalfī*)",
-          "paragraphs": [
+            "Dan sesungguhnya gerakan dakwahlah yang telah membekalkan **\"Pembinaan Teori Perubahan\" (*Tanẓīr al-Taghyīr*)** dengan jayanya sepanjang lapan puluh tahun; dakwahlah yang membakar perasaan, mengajarkan umat tentang fikh amal revolusi, membukukan pemikiran Islam moden, menggetarkan sanubari dengan nasihat peringatan, menghimpunkan pengalaman, dan melahirkan barisan pakar serta ulama yang memiliki tapak kukuh dalam keikhlasan, niat yang murni, dan keindahan metodologi — sehinggakan tidak mungkin tertegak sebarang pembangunan tanpa penyertaan mereka! Rakyat jelata telah mengenali keperibadian luhur mereka ini, lantas rakyat memilih mereka ke dewan-dewan perwakilan parlimen dan berterima kasih atas permulaan baik yang telah membuahkan kejayaan yang cemerlang.",
             "Dan antara ketetapan penting yang dibawa oleh buku *\"Ṣinā'at al-Ḥayāh\"* dalam teori perubahan: ialah penegasannya terhadap kepentingan organisasi dakwah (*al-tanẓīm al-da'wī*) yang diterajui oleh barisan kepimpinan yang ditaati secara sedar oleh para ahlinya, dan menetapkan pelan perancangan yang mengikat semua pihak, yang daripadanya dicetuskan pendirian tegas yang tidak wajar diingkari oleh mana-mana pendakwah yang beriltizam.",
             "Organisasi ini memainkan peranan sebagai **\"Enjin Belakang\" (*al-muḥarrik al-khalfī*)** yang menggerakkan, menyelaras, merancang, memujuk menenangkan, menjadi hakim penentu tatkala berlaku perselisihan, berunding, menyambut hasil buah kejayaan, membina institusi aparatus negara baharu selepas berjayanya perubahan, menyambung semula proses kebangkitan sekiranya ia bergoncang atau cuba dirampas; dan mendahului kesemua peranan tersebut:...",
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 67: Keputusan Berani & Organisasi Belakang Tabir\n- **Keputusan Terjun ke Gelanggang:** Daripada membiarkan anasir imperialis mencatur masa depan watan, wajib bagi gerakan dakwah memimpin arus massa!\n- **Enjin Belakang Tabir (*Al-Muḥarrik al-Khalfī*):** Kepentingan organisasi tersusun sebagai pengemudi strategik yang menyokong keberanian pemuda di medan terbuka.\n- **Menolak Suara Penakut:** Mematahkan hujah anasir ragu-ragu yang menuduh penyertaan revolusi sebagai tindakan sia-sia."
         },
         {
-          "id": "c4_s13",
-          "title": "[MUKA SURAT CETAKAN 68]",
+          "id": "c4_s10",
+          "title": "Kelemahan Gerakan Spontan & Kritikan Terhadap Gagasan Dr. Jassim Sultan [Muka Surat Cetakan 68]",
+          "menu_title": "Gerakan Spontan & Kritik Dr. Jassim [MS 68]",
           "paragraphs": [
             "...iaitu sebagai perumus dan penghurai kepada pemikiran perubahan, falsafahnya, serta perincian halusnya; agar seluruh gelanggang medan perjuangan bergerak laksana sebuah jam yang berdetik dengan disiplin persis, di mana setiap sudutnya tidak dicemari oleh keegoan ijtihad peribadi, atau kecenderungan kepada tindakan melulu, atau berlakunya dendam anarki selepas mencapai kejayaan, atau munculnya bibit-bibit kuku besi baharu pada mana-mana sayap pergerakan.",
             "* **Kelemahan Gerakan Spontan Tanpa Organisasi**",
@@ -1640,11 +1624,12 @@ window.tanzirData = {
           "footnotes": [
             "[8] Dr. Jassim Sultan, doktor perubatan dan pemikir politik Islam kontemporari dari Qatar, perintis siri pemikiran *Al-Mashrū' al-Nahḍawī* (Projek Kebangkitan Tamadun)."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 68: Gerakan Spontan & Kritik Terhadap Dr. Jassim Sultan\n- **Bahaya Mitos Spontaniti (*'Afwiyyah*):** Gerakan massa tanpa organisasi akan mudah layu, diserap, atau dihancurkan oleh musuh politik yang licik.\n- **Kritikan Terhadap Dr. Jassim Sultan (Qatar):** Menolak khayalan kononnya memadai membentuk \"Arus Pemikiran\" (*tayyār*) tanpa memerlukan \"Organisasi\" (*tanẓīm*).\n- **Hukum Kebuk Awan (*Cloud Chamber*):** Wap air tidak memeluwap menjadi titisan hujan tanpa zarah nukleus; arus massa tidak bertahan tanpa 'Zarah Kepimpinan Strategik'."
         },
         {
-          "id": "c4_s14",
-          "title": "[MUKA SURAT CETAKAN 69]",
+          "id": "c4_s11",
+          "title": "Analogi Kebuk Awan Fizik: Keperluan Mutlak Zarah Kepimpinan Organisasi [Muka Surat Cetakan 69]",
+          "menu_title": "Analogi Fizik & Zarah Kepimpinan [MS 69]",
           "paragraphs": [
             "...yang hanya memadai dengan disiplin ketaatan ketat daripada para ahlinya juga adalah separuh benar. Adapun kebenaran yang hakiki dan sempurna: ialah wujudnya sebuah organisasi yang berdiri di atas neraca disiplin ketaatan dan bai'ah yang teguh, yang secara sengaja dan bersungguh-sungguh membina di sekelilingnya sebuah aliran massa penyokong (*tayyār muwālin*) yang menghimpunkan jumlah potensi dan tenaga yang amat besar, yang mencukupi untuk merealisasikan aspirasi revolusi dan perubahan!",
             "Dan kekuatan fizikal/senjata bukanlah syarat mutlak; bahkan ia barangkali wujud atau tidak wujud. Ini kerana tekanan damai (*al-ḍaghṭ al-silmī*) berupaya melakukan banyak perkara besar; ia merupakan satu seni yang memiliki prinsip dan wasilahnya yang tersendiri, sehinggakan pusat-pusat penyelidikan menamakannya sebagai \"Teori Tindakan Damai\" (*al-Naẓariyyah al-Silmiyyah*). Kaedah ini memenuhi langkah-langkah keselamatan yang dibimbangkan oleh Jassim Sultan, di samping mampu melahirkan impak perubahan pada masa yang sama, serta menyelamatkan gerakan Ikhwan dan Jassim Sultan daripada kancah peperangan dan pertelingkahan.",
@@ -1658,11 +1643,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 69: Analogi Kebuk Awan & Zarah Kepimpinan\n- **Zarah Kepimpinan Strategik (*Jusaym Qiyādī Khiṭaṭī*):** Organisasi dakwah bertindak sebagai nukleus yang memandu, menyelaraskan, dan menstabilkan kehendak massa.\n- **Aset Ketamadunan 80 Tahun:** Pengalaman organisasi matang (seperti Ikhwanul Muslimin) adalah modal sejarah berharga yang haram dibubarkan sewenang-wenangnya.\n- **Keseimbangan Struktur:** Fleksibiliti gerak kerja pemuda di hadapan disokong oleh keteguhan perancangan organisasi di belakang tabir."
         },
         {
-          "id": "c4_s15",
-          "title": "Ufuk Ketamadunan.. Demi Pembangunan Menyeluruh (*Āfāq Ḥaḍāriyyah.. Min Ajli Tanmiyah Syāmilah*)",
+          "id": "c4_s12",
+          "title": "Ufuk Ketamadunan: Menuju Pembangunan Menyeluruh Pasca-Revolusi [Muka Surat Cetakan 70]",
+          "menu_title": "Ufuk Ketamadunan Pasca-Revolusi [MS 70]",
           "paragraphs": [
             "Buku *\"Ṣinā'at al-Ḥayāh\"* turut tampil dengan kefahaman ketamadunan dan kemodenan sivik yang rencam; mendekati segenap cabang kehidupan yang bercabang luas, bahkan membicarakan perihal \"Keindahan\" serta impak positifnya terhadap jiwa, corak pemikiran, gaya hidup, dan pembangunan fizikal (*al-'umrān*). Demikian juga peranan pengkhususan dan prestasi profesional berfokus tahap tinggi dalam mencipta kecemerlangan serta memenangi persaingan tatkala lorong perjalanan sesak dengan pelbagai ragam manusia.",
             "Corak ketamadunan yang sarat nilai estetika ini, berserta wasilah pengkhususannya, adalah amat penting bagi menjayakan proses perubahan. Ini kerana ia merupakan jalan yang paling cermat dan mantap untuk memanfaatkan segala bentuk potensi manusiawi dan menghimpunkannya ke dalam satu hala tuju yang menghasilkan tekanan tinggi. Seterusnya, ia adalah kemestian bagi menjayakan fasa pasca-perubahan yang melibatkan gerak kerja pembangunan: meningkatkan hasil ekonomi negara, menghapuskan pengangguran, serta menjamin kebajikan rakyat yang kerananya mereka bangkit memberontak dan menuntut perubahan!",
@@ -1673,11 +1659,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 70: Ufuk Ketamadunan Menuju Pembangunan Menyeluruh\n- **Melangkaui Perebutan Takhta:** Revolusi Islam bukan sekadar memenangi kerusi parlimen, tetapi sebuah projek ketamadunan agung (*āfāq ḥaḍāriyyah*).\n- **Pembangunan Menyeluruh (*Tanmiyah Syāmilah*):** Merangkumi kedaulatan undang-undang yang adil, kebebasan bersuara, sistem syura, dan kehakiman bebas.\n- **Keluar Dari Kepompong Uzlah:** Gerakan dakwah mesti melangkah ke medan pembinaan institusi negara moden secara berwibawa."
         },
         {
-          "id": "c4_s16",
-          "title": "[MUKA SURAT CETAKAN 71]",
+          "id": "c4_s13",
+          "title": "Tuntutan Pengkhususan Profesional, Fizik Kuantum & Industri Pasir Silikon [Muka Surat Cetakan 71]",
+          "menu_title": "Profesionalisme & Industri Silikon [MS 71]",
           "paragraphs": [
             "> *...hak asasi berteraskan Islam, dan kefahaman ilmu Islam yang menumpukan kepada analisis sejarah, dalil-dalil tauhid, serta kritikan terhadap falsafah-falsafah kebendaan. Kemudian kesemua ini digandingkan dengan latihan akhlak yang luhur yang tidak terpisah daripada amalan ibadah dan sifat-sifat keimanan; mendorong mereka menuju kehidupan sosial yang saling bekerjasama menerusi paksi-paksi tertentu, persatuan, pusat khidmat, dan institut pendidikan; di samping aktiviti ekonomi yang memelihara wang ringgit agar sentiasa berada di tangan mereka yang berwuduk (bersih dan bertakwa).*",
             "> *Dan sekiranya kita menanti selama bertahun-tahun sekalipun, nescaya akan lahirlah sebuah generasi luas yang terdidik dengan acuan ini, lalu terbentuklah daripadanya satu arus padu yang memiliki momentum tekanan yang kuat. Ketika itulah jihad hanya akan campur tangan untuk menyelesaikan keadaan sekiranya pemerintah zalim enggan memberikan ruang persaingan damai yang adil — itupun selepas melalui fasa kesabaran yang panjang dan memberi peringatan berulang kali merentasi masa.*",
@@ -1694,11 +1681,12 @@ window.tanzirData = {
           "footnotes": [
             "[9] Syeikh Muhammad Ahmad al-Rasyid, *Manhajiyyat al-Tarbiah al-Da'wiyyah*, hlm. 357."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 71: Pengkhususan Profesional & Industri Silikon\n- **Pengkhususan Profesional (*Al-Iḥtirāfiyyah*):** Dakwah memerlukan pakar ekonomi, arkitek, jurutera, doktor, dan pentadbir bertaraf antarabangsa.\n- **Minyak & Pasir Silikon:** Tanah Islam kaya dengan minyak dan padang pasir kaya dengan silikon bernilai tinggi untuk pembuatan mikrocip dan teknologi digital.\n- **Kuantum & Angkasa Lepas:** Mengajak pemuda menguasai fizik kuantum dan sains termaju demi membebaskan negara daripada kebergantungan teknologi asing."
         },
         {
-          "id": "c4_s17",
-          "title": "[MUKA SURAT CETAKAN 72]",
+          "id": "c4_s14",
+          "title": "Menolak Jalan Pintas Osama Bin Laden & Agenda Islah Rohani Menyeluruh [Muka Surat Cetakan 72]",
+          "menu_title": "Menolak Jalan Pintas & Islah Rohani [MS 72]",
           "paragraphs": [
             "> *...sesuatu pengkhususan tanpa memenuhi keperluan-keperluan asasi ini!”)* [10]",
             "Dengan momentum yang bergemuruh seumpama inilah saya tampil memberi peringatan, dan saya mengulanginya dalam sebahagian besar penulisan saya. Tidak wajar untuk mengulanginya kesemuanya di sini; bahkan orang yang mahir dengan buku-buku saya pasti mengetahui tempat-tempat perbahasannya yang banyak. Apa yang saya nyatakan dalam teks terdahulu meletakkan struktur asas bagi pencapaian ketamadunan.",
@@ -1713,11 +1701,12 @@ window.tanzirData = {
           "footnotes": [
             "[10] *Ibid.*, hlm. 253 dan seterusnya."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 72: Menolak Jalan Pintas & Islah Rohani\n- **Kritikan Terhadap Al-Qaeda / Bin Laden:** Menolak jalan pintas keganasan bersenjata yang membatalkan proses ketamadunan dan berakhir dengan kehancuran.\n- **Agenda Islah Rohani Menyeluruh:** Perubahan politik wajib disertai dengan pembinaan akhlak, tauhid murni, dan kebersihan jiwa rakyat jelata.\n- **Menegakkan Integriti:** Memerangi budaya culas, rasuah, dan ponteng kerja dalam aparatus perkhidmatan awam."
         },
         {
-          "id": "c4_s18",
-          "title": "[MUKA SURAT CETAKAN 73]",
+          "id": "c4_s15",
+          "title": "Membanteras Budaya Rasuah & Perbandingan Integriti Gaza vs Ramallah [Muka Surat Cetakan 73]",
+          "menu_title": "Integriti Gaza vs Ramallah [MS 73]",
           "paragraphs": [
             "...yang tulus murni, berlepas diri daripada segala bentuk syirik kepada Allah SWT, menolak bidaah, beriltizam dengan hukum syarak dalam perkara halal dan haram, memperindahkan taubat kepada Allah SWT, kembali tunduk kepada-Nya, khusyuk dan memperbanyakkan sujud, menzahirkan kesyukuran dan pujian kepada Allah SWT, memohon keampunan-Nya, serta redha kepada-Nya.",
             "Berakhlak dengan sifat tawaduk, santun, lemah-lembut, bersangka baik terhadap sesama Muslim, saling membantu, menyambung silaturrahim, bersedekah, menolong orang yang dalam kesusahan, meninggalkan hasad dengki, mengumpat (*ghībah*), mengadu domba (*namīmah*), dan mematahkan semangat perjuangan (*takhdhīl*); menghormati orang tua dan para fuqaha', mengasihi anak yatim dan ibu tunggal, mengutamakan apa yang ada di sisi Allah SWT dan ganjaran akhirat, zuhud terhadap dunia dan kemilaunya, menyalakan niat jihad di jalan Allah SWT, serta menegakkan amar makruf dan nahi mungkar.",
@@ -1729,11 +1718,12 @@ window.tanzirData = {
             "---"
           ],
           "footnotes": [],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 73: Membanteras Rasuah & Integriti Gaza\n- **Pembersihan Budaya Rasuah:** Rasuah peringkat atasan subur kerana wujudnya budaya rasuah kecil di peringkat bawahan yang wajib dicabut.\n- **Perbandingan Empirikal Tadbir Urus:** Ketirisan 1 bilion dolar bantuan dalam Pihak Berkuasa Palestin (Ramallah) berbanding integriti kepimpinan Gaza di bawah kepungan.\n- **Keberkatan Urus Tadbir Bersih:** Integriti berteraskan amanah Islam mampu memakmurkan rakyat sekalipun berdepan sekatan ekonomi zalim."
         },
         {
-          "id": "c4_s19",
-          "title": "[MUKA SURAT CETAKAN 74]",
+          "id": "c4_s16",
+          "title": "Rumusan Bab 2: Sinergi Pemuda, Organisasi & Pembangunan Tamadun [Muka Surat Cetakan 74]",
+          "menu_title": "Rumusan Sinergi Pemuda & Organisasi [MS 74]",
           "paragraphs": [
             "...dan media. Dan menjadi kewajipan rakyat jelata untuk berterima kasih kepada gerakan dakwah atas keperibadian moralnya ini, serta berlapang dada menerima rawatan keimanannya — atas pilihan sukarela dan penuh keyakinan — tanpa mempedulikan bisikan jahat saki-baki puak komunis dan ateis yang saya saksikan sendiri memperlekehkan seruan Mursyid Dakwah mengenai kewajipan \"Membaiki Individu\" (*Iṣlāḥ al-Fard*).",
             "Mereka menulis memperlekehkan hakikat islah ini seraya mempersoalkan: adakah islah manusia itu seperti menservis mesin di bengkel mekanik?! Mereka berbuat demikian kerana mereka sedar bahawa agenda moral merekalah yang sebenarnya turut bertanggungjawab terhadap natijah buruk yang muncul dalam pelbagai rupa kerosakan — antaranya rupa rasuah pentadbiran yang menyebabkan rakyat bangkit memberontak — sedangkan kejayaan moral dakwah merupakan ancaman besar kepada keseluruhan pemikiran sekular!",
@@ -1745,7 +1735,7 @@ window.tanzirData = {
             "[11] Merujuk kepada laporan ketirisan dana awam dan bantuan antarabangsa dalam pentadbiran Pihak Berkuasa Palestin (PA) pimpinan Mahmoud Abbas di Ramallah.",
             "[12] Merujuk kepada keberkatan tadbir urus dan integriti kepimpinan kerajaan Islam di Gaza yang berupaya memakmurkan kebajikan rakyatnya di sebalik sekatan ekonomi yang zalim."
           ],
-          "summary": ""
+          "summary": "### 📌 Intipati Halaman 74: Rumusan Sinergi Pemuda & Organisasi\n- **Sinergi Tiga Dimensi:** Gabungan antara keberanian pemuda penekan di hadapan, kebijaksanaan organisasi di belakang tabir, dan sokongan padu massa (*al-walā'*).\n- **Penyelaras Menuju Bab 3:** Melangkah ke Bab 3 (*Syarat-Syarat Empirikal & Fenomena-Fenomena Positif*).\n- **Slogan Bab 2:** *“Revolusi Rakyat Memadamkan Kereta Kebal; Gabungan Pemuda & Organisasi Membina Tamadun!”*"
         }
       ],
       "footnotes": [
