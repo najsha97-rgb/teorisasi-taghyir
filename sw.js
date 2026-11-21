@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tanzir-v376-pentalogi-infographic';
+const CACHE_NAME = 'tanzir-v377-mukadimah-rumi-quote-ltr';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',

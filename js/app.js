@@ -1063,20 +1063,7 @@ document.addEventListener('DOMContentLoaded', () => {
           : (sub && ((sub.summary && sub.summary.trim() !== '') ? sub.summary : sub.ringkasan) || '');
       }
 
-      // Prepend Scope Switcher Toolbar
-      const scopeBar = document.createElement('div');
-      scopeBar.className = 'summary-scope-toggle-bar';
-      scopeBar.innerHTML = `
-        <button class="summary-scope-btn ${isSubScope ? 'active' : ''}" id="btnScopeSubtopic" type="button" title="Papar ringkasan khusus subtajuk ini sahaja">
-          <span class="scope-icon">📌</span>
-          <span class="scope-label">Ringkasan Subtajuk Ini</span>
-        </button>
-        <button class="summary-scope-btn ${!isSubScope ? 'active' : ''}" id="btnScopeChapter" type="button" title="Papar ringkasan penuh dan menyeluruh satu bab">
-          <span class="scope-icon">📚</span>
-          <span class="scope-label">Ringkasan Penuh Bab</span>
-        </button>
-      `;
-      summaryBox.appendChild(scopeBar);
+      // Scope Switcher Toolbar handled inside summaryBox.innerHTML
 
       if (summaryRaw && summaryRaw.trim() !== '') {
         // Padamkan sebarang baki Halaman Asal atau rujukan muka surat secara mutlak
@@ -1126,8 +1113,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let inOrderedList = false;
         let formattedLines = [];
 
-        for (let l of lines) {
-          let tr = l.trim();
+        for (let i = 0; i < lines.length; i++) {
+          let tr = lines[i].trim();
           // Abaikan sebarang tanda pemisah --- agar ringkasan bersih dan 'clear'
           if (!tr || tr === '---' || tr === '–' || tr === '—' || tr.startsWith('---') || /^[-_–—\s]{3,}$/.test(tr)) {
             continue;
@@ -1154,7 +1141,7 @@ document.addEventListener('DOMContentLoaded', () => {
             continue;
           }
 
-          // Handle Arabic Blockquote (Mutiara Kata Hikmah) in Amiri Gold
+          // Handle Blockquote (Petikan Kata Hikmah: Arab RTL & Ungkapan Rumi LTR)
           if (tr.startsWith('&gt;') || tr.startsWith('>')) {
             if (inList) {
               formattedLines.push('</ul>');
@@ -1164,13 +1151,61 @@ document.addEventListener('DOMContentLoaded', () => {
               formattedLines.push('</ol>');
               inOrderedList = false;
             }
-            let cleanQuote = tr.replace(/^(&gt;|>)\s*/, '').trim();
-            cleanQuote = cleanQuote.replace(/^<strong[^>]*>(.*)<\/strong>$/i, '$1');
-            formattedLines.push(`
-              <div class="summary-arabic-quote-box" dir="rtl" style="direction: rtl !important; text-align: right !important; text-align-last: right !important; -webkit-text-align-last: right !important;">
-                <span class="arabic-text-amiri-gold" dir="rtl" style="direction: rtl !important; text-align: right !important; text-align-last: right !important; -webkit-text-align-last: right !important; display: block !important; width: 100% !important;">${cleanQuote}</span>
-              </div>
-            `);
+
+            // Himpun semua baris petikan yang berurutan dalam satu blok
+            const quoteLines = [];
+            while (i < lines.length && (lines[i].trim().startsWith('&gt;') || lines[i].trim().startsWith('>'))) {
+              let cur = lines[i].trim();
+              let clean = cur.replace(/^(&gt;|>)\s*/, '').trim();
+              clean = clean.replace(/^<strong[^>]*>(.*)<\/strong>$/i, '$1');
+              if (clean) quoteLines.push(clean);
+              i++;
+            }
+            i--; // undur satu langkah untuk diselaraskan dengan i++ gelung luar
+
+            if (quoteLines.length === 0) continue;
+
+            // Semak jumlah aksara Arab vs Latin dalam keseluruhan petikan
+            let totAr = 0;
+            let totLat = 0;
+            quoteLines.forEach(line => {
+              totAr += (line.match(/[\u0600-\u06FF]/g) || []).length;
+              totLat += (line.match(/[a-zA-Z]/g) || []).length;
+            });
+
+            const isPureArabic = totAr > 10 && totLat < 5;
+
+            if (isPureArabic) {
+              formattedLines.push(`
+                <div class="summary-arabic-quote-box" dir="rtl" style="direction: rtl !important; text-align: right !important; text-align-last: right !important; -webkit-text-align-last: right !important;">
+                  <span class="arabic-text-amiri-gold" dir="rtl" style="direction: rtl !important; text-align: right !important; text-align-last: right !important; -webkit-text-align-last: right !important; display: block !important; width: 100% !important;">${quoteLines.join('<br>')}</span>
+                </div>
+              `);
+            } else {
+              // UNGKAPAN RUMI: Kotak Kuning / Gold dengan margin dari kiri ke kanan (LTR)
+              const boxParts = [];
+              quoteLines.forEach(ql => {
+                const arC = (ql.match(/[\u0600-\u06FF]/g) || []).length;
+                const latC = (ql.match(/[a-zA-Z]/g) || []).length;
+
+                if (arC > 8 && arC > latC) {
+                  // Baris bait Arab dalam petikan dwi-bahasa
+                  boxParts.push(`<div class="summary-quote-ar" dir="rtl" style="direction: rtl !important; text-align: right !important; font-family: 'Amiri', serif !important; color: var(--gold-light, #fde047) !important; font-size: 1.35rem !important; line-height: 2.2 !important; margin: 0.5rem 0 !important; font-style: normal !important; unicode-bidi: isolate !important;">${ql}</div>`);
+                } else if (ql.startsWith('—') || ql.startsWith('--') || ql.startsWith('&mdash;')) {
+                  // Baris sandaran pengarang (Attribution)
+                  boxParts.push(`<div class="summary-quote-author" style="margin-top: 0.6rem; font-style: normal !important; font-weight: 700; color: var(--gold-light, #fde047); font-size: 0.95rem; text-align: left !important; direction: ltr !important;">${ql}</div>`);
+                } else {
+                  // Baris ungkapan rumi (LTR - margin kiri ke kanan)
+                  boxParts.push(`<div class="summary-quote-rumi-line" style="margin-bottom: 0.45rem; text-align: left !important; text-align-last: left !important; direction: ltr !important; line-height: 1.75; font-style: italic;">${ql}</div>`);
+                }
+              });
+
+              formattedLines.push(`
+                <div class="summary-rumi-quote-box" dir="ltr" style="direction: ltr !important; text-align: left !important; text-align-last: left !important; -webkit-text-align-last: left !important; margin: 1.2rem 0 !important; padding: 1.1rem 1.45rem !important; border-left: 4px solid var(--gold-primary, #d4af37) !important; border-right: 1px solid rgba(212, 175, 55, 0.35) !important; border-top: 1px solid rgba(212, 175, 55, 0.35) !important; border-bottom: 1px solid rgba(212, 175, 55, 0.35) !important; background: rgba(212, 175, 55, 0.08) !important; border-radius: 10px !important; font-family: 'Plus Jakarta Sans', sans-serif !important; color: var(--text-main, #f8fafc) !important; font-size: 1.02rem !important; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25) !important;">
+                  ${boxParts.join('')}
+                </div>
+              `);
+            }
             continue;
           }
 
@@ -1240,6 +1275,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const cleanChName = ch.title.replace(/^BAB\s+\d+:\s*/i, '').replace(/^MUKADIMAH:\s*/i, '').trim();
 
         summaryBox.innerHTML = `
+          <div class="summary-scope-toggle-bar" style="margin-bottom: 1.2rem;">
+            <button class="summary-scope-btn ${isSubScope ? 'active' : ''}" id="btnScopeSubtopic" type="button" title="Papar ringkasan khusus subtajuk ini sahaja">
+              <span class="scope-icon">📌</span>
+              <span class="scope-label">Ringkasan Subtajuk Ini</span>
+            </button>
+            <button class="summary-scope-btn ${!isSubScope ? 'active' : ''}" id="btnScopeChapter" type="button" title="Papar ringkasan penuh dan menyeluruh satu bab">
+              <span class="scope-icon">📚</span>
+              <span class="scope-label">Ringkasan Penuh Bab</span>
+            </button>
+          </div>
           <div class="summary-card" style="background: rgba(5, 46, 22, 0.35); border: 1px solid rgba(16, 185, 129, 0.3); border-left: 4px solid var(--gold-primary); border-radius: 14px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.25);">
             <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 1.15rem; border-bottom: 1px solid rgba(16, 185, 129, 0.25); padding-bottom: 0.95rem;">
               <span style="font-size: 1.8rem; line-height: 1.1;">⚡</span>
