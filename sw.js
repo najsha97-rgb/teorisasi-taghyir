@@ -1,12 +1,12 @@
-const CACHE_NAME = 'tanzir-v200-force-update-fresh';
+const CACHE_NAME = 'tanzir-v205-clean-syntax';
 const ASSETS_TO_CACHE = [
   './',
-  './index.html?v=20261121_v200',
+  './index.html?v=20261121_v205',
   './manifest.json',
-  './css/style.css?v=20261121_v200',
-  './js/app.js?v=20261121_v200',
-  './data/tanzir_data.js?v=20261121_v200',
-  './data/tanzir_quotes.js?v=20261121_v200',
+  './css/style.css?v=20261121_v205',
+  './js/app.js?v=20261121_v205',
+  './data/tanzir_data.js?v=20261121_v205',
+  './data/tanzir_quotes.js?v=20261121_v205',
   './icons/favicon.png',
   './icons/icon-192.png',
   './icons/icon-512.png',
