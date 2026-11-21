@@ -1,11 +1,11 @@
-const CACHE_NAME = 'v388_kesimpulan_pemikiran_matang';
+const CACHE_NAME = 'v389_karya_hebat_epilog';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',
   './manifest.json',
-  './css/style.css?v=v388_kesimpulan_pemikiran_matang',
-  './js/app.js?v=v388_kesimpulan_pemikiran_matang',
-  './data/tanzir_data.js?v=v388_kesimpulan_pemikiran_matang',
+  './css/style.css?v=v389_karya_hebat_epilog',
+  './js/app.js?v=v389_karya_hebat_epilog',
+  './data/tanzir_data.js?v=v389_karya_hebat_epilog',
   './data/tanzir_quotes.js?v=20261121_v370_epilog_penghormatan',
   './icons/favicon.png',
   './icons/icon-192.png',

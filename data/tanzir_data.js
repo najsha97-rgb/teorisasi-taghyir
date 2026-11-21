@@ -3609,7 +3609,7 @@ window.TANZIR_DATA = {
           "id": "c10_s3",
           "title": "📌 1. MUKADIMAH ADAB KEILMUAN",
           "paragraphs": [
-            "Alhamdulillāh, dengan taufiq dan inayah Allah SWT, terjemahan lengkap naskhah agung *Tanẓīr al-Taghyīr* (تنظير التغيير: النظرية التكاملية للتغيير السياسي الإسلامي) karya al-Marhum Asy-Syeikh Muhammad Ahmad al-Rasyid *rahimahullah* berjaya disempurnakan.",
+            "Alhamdulillāh, dengan taufiq dan inayah Allah SWT, terjemahan lengkap karya hebat *Tanẓīr al-Taghyīr* (تنظير التغيير: النظرية التكاملية للتغيير السياسي الإسلامي) karya al-Marhum Asy-Syeikh Muhammad Ahmad al-Rasyid *rahimahullah* berjaya disempurnakan.",
             "Atas dasar adab keilmuan Islam, ulasan dan pembacaan kritis ini sengaja diletakkan di bahagian akhir buku—iaitu sebagai epilog selepas tamatnya seluruh teks pengarang asal sehingga Khatimah beliau. Kita enggan mendahului pengarang dengan meletakkannya sebagai prakata, agar para pembaca budiman dapat menghayati terlebih dahulu denyut nadi, keindahan sastera, dan kedalaman fiqh Syeikh al-Rasyid secara tulus daripada sumber asalnya.",
             "Setelah menelusuri keseluruhan hujah daripada Epigraf Kulit Buku, Mukadimah, Bab 1 hingga Bab 6, serta Khatimah, tibalah masanya bagi kita—selaku generasi penerus yang hidup pada dekad ketiga abad ke-21 (tahun 2026)—untuk melakukan **penilaian ilmiah yang objektif (*qirā'ah mawḍū'iyyah*)**. Naskhah ini diterbitkan sekitar tahun **2012** iaitu pada fasa awal ledakan Kebangkitan Arab (*Arab Spring*). Kini, selepas 14 tahun berlalu (2012–2026), landskap geopolitik global, teknologi, dan sosio-politik umat Islam telah mengalami anjakan tektonik yang sangat drastik."
           ],
@@ -3624,7 +3624,7 @@ window.TANZIR_DATA = {
           "id": "c10_s4",
           "title": "📌 2. PETA NAVIGASI KORPUS PEMIKIRAN SYEIKH AL-RASYID: MERAPATKAN JURANG ANTARA AL-MASĀR DENGAN TANẒĪR AL-TAGHYĪR",
           "paragraphs": [
-            "Satu hakikat penting yang perlu disedari oleh para pembaca budiman ialah bahawa *Tanẓīr al-Taghyīr* bukanlah sebuah karya yang muncul secara tiba-tiba atau berdiri di dalam ruang vakum pemikiran selepas *Al-Masār*. Sebaliknya, di antara *Al-Masār* dengan *Tanẓīr al-Taghyīr*, terdapat beberapa karya agung perantara yang menjadi anak tangga pemikiran (*intellectual stepping stones*) Syeikh al-Rasyid *rahimahullah*:",
+            "Satu hakikat penting yang perlu disedari oleh para pembaca budiman ialah bahawa *Tanẓīr al-Taghyīr* bukanlah sebuah karya yang muncul secara tiba-tiba atau berdiri di dalam ruang vakum pemikiran selepas *Al-Masār*. Sebaliknya, di antara *Al-Masār* dengan *Tanẓīr al-Taghyīr*, terdapat beberapa karya hebat perantara yang menjadi anak tangga pemikiran (*intellectual stepping stones*) Syeikh al-Rasyid *rahimahullah*:",
             "1. **Kitab *Ṣinā'at al-Ḥayāh* (صناعة الحياة) — Seni Membina Kehidupan:**",
             "Menyediakan kandungan substantif mengenai pembangunan tamadun, etika profesionalisme, kejuruteraan sosial, penguasaan sains, dan keusahawanan. Inilah jawapan praktikal kepada persoalan: *\"Bagaimanakah rupa bentuk pembinaan tamadun 90% selepas taghut ditumbangkan?\"*",
             "2. **Kitab *Manhajiyyah al-Tarbiah al-Da'wiyyah* (منهجية التربية الدعوية) — Metodologi Tarbiah Dakwah:**",
