@@ -1,11 +1,11 @@
-const CACHE_NAME = 'v391_bersih_simbol_heading_hash';
+const CACHE_NAME = 'v392_epilog_sub8_para3_korpus_73karya';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',
   './manifest.json',
-  './css/style.css?v=v391_bersih_simbol_heading_hash',
-  './js/app.js?v=v391_bersih_simbol_heading_hash',
-  './data/tanzir_data.js?v=v391_bersih_simbol_heading_hash',
+  './css/style.css?v=v392_epilog_sub8_para3_korpus_73karya',
+  './js/app.js?v=v392_epilog_sub8_para3_korpus_73karya',
+  './data/tanzir_data.js?v=v392_epilog_sub8_para3_korpus_73karya',
   './data/tanzir_quotes.js?v=20261121_v370_epilog_penghormatan',
   './icons/favicon.png',
   './icons/icon-192.png',
