@@ -3894,7 +3894,7 @@ window.TANZIR_DATA = {
           "title": "📌 5. SUMBANGAN STRATEGIK KEPADA PERADABAN BARU ISLAM (PBI)",
           "paragraphs": [
             "1. **Jambatan Penentu Dari Wacana Ke Realiti (*Operationalization of Civilization*):**",
-            "Peradaban Baru Islam (PBI) tidak akan tertegak dengan laungan slogan semata-mata. *Tanẓīr al-Taghyīr* membekalkan **pelan tindakan eksekutif**: bagaimana mengisi kekosongan kuasa selepas tumbangnya sistem zalim agar revolusi tidak dirompak oleh anasir sekular atau imperialis.",
+            "Peradaban Baru Islam (PBI)<span class=\"fn-ref\" data-fn-id=\"1\" title=\"Lihat Nota Kaki [1]\">[1]</span> tidak akan tertegak dengan laungan slogan semata-mata. *Tanẓīr al-Taghyīr* membekalkan **pelan tindakan eksekutif**: bagaimana mengisi kekosongan kuasa selepas tumbangnya sistem zalim agar revolusi tidak dirompak oleh anasir sekular atau imperialis.",
             "2. **Mendefinisikan Semula Kepahlawanan Ketamadunan:**",
             "PBI meletakkan ukuran kemuliaan tamadun bukan pada bilangan istana atau kekuatan kereta kebal, sebaliknya pada kejayaan membela orang miskin, menghapuskan pengangguran generasi muda, mendirikan sistem kehakiman yang telus, dan membina perumahan yang memelihara maruah insan.",
             "3. **Penyatuan Mihrab dan Makmal (Fizik Kuantum & Tamadun Atom):**",
@@ -3902,7 +3902,12 @@ window.TANZIR_DATA = {
             "4. **Matlamat Puncak: Pembebasan Baitulmaqdis & *Ḥayātan Ṭayyibah*:**",
             "Kekuasaan politik yang dibina oleh PBI bermatlamat akhir membebaskan Masjid al-Aqsa, mengharamkan air sungai suci umat (Nil, Furat, Dajlah) kepada entiti zionis, dan mempersembahkan model kehidupan yang makmur lagi diredai Allah (*Ḥayātan Ṭayyibah*) kepada seluruh umat manusia."
           ],
-          "footnotes": [],
+          "footnotes": [
+            {
+              "id": 1,
+              "text": "Pembangunan Peradaban Baru Islam (PBI) digariskan secara jelas sebahagian kehendaknya daripada aspek ciri-ciri seni pembangunan seni bina bangunan dan bentuk ketamadunan yang dikehendaki dalam karya Syeikh al-Rasyid iaitu *Al-'Imārah al-Da'wiyyah* (2017). Boleh didapati dalam talian di: <a href=\"https://www.ebdaafekry.com/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color: var(--gold-light); text-decoration: underline;\">https://www.ebdaafekry.com/</a>"
+            }
+          ],
           "summary": "### Intisari Haraki (Subtajuk 10: Sumbangan Kepada Peradaban Baru Islam)\n* **Operasionalisasi Ketamadunan:** Menterjemahkan wacana tamadun Islam daripada slogan retorik kepada pelan tindakan eksekutif yang berkesan di lapangan pentadbiran.\n* **Kepahlawanan Berakhlak:** Membina perumahan rakyat mengikut acuan Hassan Fathy, membasmi rasuah, dan memimpin dengan tawaduk serta keheningan sujud taubat tatkala memegang kuasa.",
           "summary_paragraphs": [
             "Menterjemahkan wacana tamadun Islam daripada slogan retorik kepada pelan tindakan eksekutif yang berkesan di lapangan pentadbiran.",
