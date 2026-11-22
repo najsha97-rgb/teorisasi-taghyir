@@ -1,11 +1,11 @@
-const CACHE_NAME = 'v393_sumbangan_sub10_footnote_imarah';
+const CACHE_NAME = 'v394_cover_syakl_and_cleanup';
 const ASSETS_TO_CACHE = [
   './',
   './index.html?v=20261121_v370_epilog_penghormatan',
   './manifest.json',
-  './css/style.css?v=v393_sumbangan_sub10_footnote_imarah',
-  './js/app.js?v=v393_sumbangan_sub10_footnote_imarah',
-  './data/tanzir_data.js?v=v393_sumbangan_sub10_footnote_imarah',
+  './css/style.css?v=v394_cover_syakl_and_cleanup',
+  './js/app.js?v=v394_cover_syakl_and_cleanup',
+  './data/tanzir_data.js?v=v394_cover_syakl_and_cleanup',
   './data/tanzir_quotes.js?v=20261121_v370_epilog_penghormatan',
   './icons/favicon.png',
   './icons/icon-192.png',
